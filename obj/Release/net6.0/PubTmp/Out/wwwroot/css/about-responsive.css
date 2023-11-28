@@ -1,0 +1,217 @@
+@media (max-width: 1023px) {
+    .time-text {
+        font-size: 24px;
+    }
+    
+    .time-number {
+        font-size: 40px;
+    }
+
+    .time-remain {
+        font-size: 24px;
+    }
+
+    .grid__column-6 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .countdown-button {
+        font-size: 26px;
+        padding: 15px;
+        padding-top: 20px;
+    }
+
+    .frame {
+        width: 322px;
+        height: 260px;
+    }
+    
+    .submission {
+        width: 249px;
+        height: 208px;
+        top: 25px;
+        left: 38px;
+    }
+
+    .img_box {
+        width: 322px;
+        height: 260px;
+    }
+
+    .submission-title {
+        margin-top: 20px;
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .competitor {
+        font-size: 18px;
+    }
+}
+
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .rule-title {
+        padding-bottom: 10px;
+        line-height: 30px;
+        border-bottom: 2px solid #000;
+    }
+
+    .grid__column-6 {
+        margin: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .img_box {
+        margin: -5px;
+    }
+}
+
+@media (max-width: 739px) {
+    .time-remain {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .time-text {
+        font-size: 20px;
+        text-transform: lowercase;
+    }
+
+    .countdown-button {
+        text-transform: lowercase;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .select-part {
+        display: none;
+    }
+
+    .stamp-list {
+        padding: 0 0 8px 5px;
+        margin-bottom: 10px;
+        justify-content: center;
+    }
+
+    .grid__column-2 {
+        width: fit-content;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid__column-10 {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid__column-6 {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 4px;
+        margin-top: 16px;
+        padding-bottom: 20px;
+    }
+
+    .grid__row {
+        margin: 0;
+    }
+
+    .stamp-item {
+        padding: 0;
+    }
+
+    .stamp-item__link {
+        font-size: 10px;
+    }
+
+    .stamp-item {
+        width: 30%;
+    }
+
+    .app__content {
+        padding-top: 10px;
+    }
+
+    .grid__row {
+        flex-direction: column;
+    }
+    
+    .time-remain {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .info-text {
+        font-size: 16px;
+    }
+
+    .rule-title {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #000;
+    }
+
+    .info__header {
+        font-size: 30px;
+    }
+
+    .grid__row {
+        padding-top: 0 !important;
+    }
+
+    .stamp-list {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .row>*{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    .img-about-stamp{
+        width: 80% !important;
+    }
+    .info-header{
+        font-size: 13px !important;
+    }
+    .info-part {
+        margin-top: 10% !important;
+    }
+    h2 {
+        font-size: 20px;
+    }
+
+    .rule-title {
+        font-size: 18px !important;
+        margin: 5% 7% !important;
+        width: 80% !important;
+    }
+
+    #rule .col-6{
+        width: 100%;
+    }
+    .padding-rule{
+        padding: 0 5% 0 0;
+    }
+    .bolder{
+        padding-left: 5%;
+    }
+    .countdown-button{
+        text-transform: uppercase;
+    }
+    .submission-title{
+        font-size: 15px;
+        line-height: 20px !important;
+    }
+    .competitor{
+        font-size: 13px !important;
+    }
+}

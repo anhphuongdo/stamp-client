@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "_BlankLayout";
+}
+<div class="container-fluid justify-content-center display-none popup" id="popup">
+    <div class="row">
+        <div class="justify-content-center col-12 popup-title-login">Bạn cần đăng nhập để tiếp tục sử dụng tính năng này</div>
+        <div class=" col-12 justify-content-center">
+            <button class="justify-content-center like-btn-login" default-color="rgb(217, 217, 217)">
+                <a class="login-btn" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+            </button>
+        </div>
+    </div>
+</div>
+<div id="overlay" class="display-none"></div>

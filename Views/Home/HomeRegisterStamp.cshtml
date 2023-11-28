@@ -1,0 +1,475 @@
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Đăng kí";
+}
+<div>
+    <!-- Banner -->
+    <div class="banner-container">
+        <img class="stamplogo" src="~/image/shared/stamplogo-big.png" alt="">
+    </div>
+    <!-- Avatar người dùng -->
+    <div class="profile-container">
+        <div class="avatar-frame">
+             <!-- Sử dụng thẻ img để hiển thị hình ảnh avatar -->
+            <img src="~/image/UserProfile/user-square.png" alt="">
+                <button class="setting-button" id="setting-button">
+                    <img src="~/image/UserProfile/setting.png">
+                </button>
+        </div>
+        <span class="account-name">
+            @User.Identity.Name
+        </span>
+    </div>
+
+    <div class="row">
+        <form class="form-inline" asp-area="" asp-controller="User" asp-action="Logout" method="post" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            @* <button id="login-button" class="login-button" type="submit">Đăng xuất</button> *@
+            <button id="login-button" class="login-button" type="submit">Đăng xuất</button>
+        </form>
+    </div>
+    
+    <!-- Các nút trang chủ,đăng kí, bảng xếp hạng -->
+    <div class="button-container row">
+
+        <button class="home-button" id="home-button">
+            <a class="nav-link item" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+        </button>
+        <button class="ranking-button" id="ranking-button">
+            <a class="nav-link item" asp-area="" asp-controller="Ranking" asp-action="Ranking">Bảng xếp hạng</a>
+        </button>
+        @* <button class="col-3 register-button" id="register-button">
+            Đăng kí
+        </button> *@
+    </div>
+    
+    
+
+     <!-- Popup thay đổi thông tin cá nhân -->
+    @* <div class="overlay" id="overlay" style="display:none"></div>
+    <div id="modalOne" class="modal" id="modal" display:none>
+        <div class="modal-content">
+            <div class="contact-form" id="contact-form">
+                <form action="/" id="myForm">
+                    <h2>THÔNG TIN CÁ NHÂN</h2>
+                    <div>
+                        <div class="modify-avatar-frame">
+                            <img src="~/image/UserProfile/user-circle-add.png" class="modify-avatar-img">
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="fullName" required />
+                            <label> Họ và tên </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="school" required />
+                            <label> Trường </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="studentID"  required />
+                            <label> MSSV </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="phoneNumber" required />
+                            <label> Số điện thoại </label>
+                        </div>
+                    </div>
+                    <div class="info-button-container">
+                        <button class="save-button" id="save-button"> Lưu thông tin </button>
+                        <button class="exit-button" id="exit-button" type="button"> Thoát </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> *@
+    <!-- 2 thẻ đăng kí tác phẩm hay talkshow -->
+    <div class="content-container d-flex justify-content-center">
+        <div class="content">
+            @* <div>
+                <a class="register-stamp"  asp-page="/HomeRegisterStamp">Đăng kí tác phẩm</a>
+            </div> *@@* 
+            <div>
+                <a class="register-talkshow" asp-area="" asp-page="/HomeRegisterTalkshow">Đăng kí Talkshow</a>
+            </div> *@
+        </div>
+    </div>
+    <!-- 2 nút load ảnh và nội dung -->
+    <div class="load-button-wrapper">
+        @* <div class="load-button-container">
+            <div class="image-button-container">
+                <div style ="margin-top: 10%">
+                    <a  href="https://forms.gle/orwdQdhBkBvacweD6"><img style="width:20%" src="~/image/userprofile/loadbutton.png" /></a>
+                </div>
+                <h4> Nhấn vào đây để tải tác phẩm lên </h4>
+            </div>
+            <h3> Tác phẩm dự thi </h3>
+        </div> *@
+        @* <div class="load-button-container">
+            <div class="decription-button-container" id="load-stamp-description" >
+                <div>
+                <button class="load-button" id="load-stamp-description"> 
+                </div>
+                <h4> Nhấn vào đây để tải nội dung lên </h4>
+            </div>
+        <h3> Mô tả tác phẩm <h3> *@
+        </div>
+    </div>
+    @* <h3 class="saved-title"> Tác phẩm đã lưu </h3> *@
+     <hr>
+    @* <div class="saved-stamp">
+        <div class="stamp-frame">
+            <img src="~/image/shared/emptystamp.png" class="stamp-img">
+        </div>
+        <div class="saved-decription-container">
+            <h3 class="saved-decription"> Mô tả tác phẩm </h3>
+            <h3 clas="saved-decription-content"></h3>
+        </div>
+    </div>
+    <div class="saved-button-container">
+        <button class="saved-button" id="saved-button"> Lưu </button>
+        <button class="saved-submit-button" id="saved-submit-button"> Nộp bài </button>
+    </div> *@
+     <!-- Popup đâng kí sản phẩm-->
+    <!-- Popup đăng kí hình  thức cá nhân hay nhóm -->
+    @* <div class="method-popup" id="register-method">
+        <h3 class="method-title"> Hình thức thi của bạn là </h3>
+        <div class="method-button-container">
+            <button class="invidual-method-button" id="invidual-method-button">
+                <div class="invidual-container">
+                    <div>
+                        <img src="~/image/UserProfile/profile.png">
+                        <h3 class="invidual-method"> Cá nhân </h3>
+                    </div>
+                </div>
+            </button>
+            <button class="people-method-button" id="people-method-button">
+                <div class="people-container">
+                    <img src="~/image/UserProfile/people.png">
+                    <h3 class="people-method"> Nhóm </h3>
+                </div>
+            </button>
+        </div>
+        <button class="exit-method-button" id="exit-method-button">
+             <img src="~/image/Index/icons/close.png" class="close-img"> 
+        </button>
+    </div> *@
+    <!-- Form đăng kí cá nhân -->
+     @* <form action="/HomeRegisterStamp" class="invidual-form" id="invidual-form">
+            <h3 class="invidual-form-title">Đăng kí</h3>
+                <div>
+                    <div class="input-box">
+                        <input class="glow" type="text" name="school" required />
+                        <label> Trường </label>
+                    </div>
+                    <div class="input-box">
+                        <input class="glow" type="text" name="studentID"  required />
+                        <label> MSSV </label>
+                    </div>
+                    <div class="input-box">
+                        <input class="glow" type="text" name="phoneNumber" required />
+                        <label> Số điện thoại </label>
+                    </div>
+                    </div>
+                    <div class="invidual-button-container">
+                        <button class="save-invidual-button" id="save-invidual-button"> Lưu </button>
+                        <button type="button" class="cancel-invidual-button" id="cancel-invidual-button"> Hủy </button>
+                </div>
+    </form> *@
+     <!-- Form đăng kí cá nhân -->
+     @* <form action="/HomeRegisterStamp" class="invidual-form" id="invidual-form">
+            <h3 class="invidual-form-title">Đăng kí</h3>
+                <div>
+                    <div class="input-box">
+                        <input class="glow" type="text" name="school" required />
+                        <label> Trường </label>
+                    </div>
+                    <div class="input-box">
+                        <input class="glow" type="text" name="studentID"  required />
+                        <label> MSSV </label>
+                    </div>
+                    <div class="input-box">
+                        <input class="glow" type="text" name="phoneNumber" required />
+                        <label> Số điện thoại </label>
+                    </div>
+                    </div>
+                    <div class="invidual-button-container">
+                        <button class="save-invidual-button" id="save-invidual-button"> Lưu </button>
+                        <button type="button" class="cancel-invidual-button" id="cancel-invidual-button"> Hủy </button>
+                </div>
+    </form> *@
+     <!-- Popup tải ảnh lên -->
+     @* <div class="stamp-popup-container d-flex justify-content-center">
+        <div class="stamp-popup" id="stamp-popup" >
+            <h3 class="load-stamp-title"> Tải ảnh mới </h3> 
+            <div>
+                <button class="load-stamp-button">
+                    <img src="~/image/UserProfile/arrow.png">
+                </button>
+            </div>
+            <h4> Nhấp hoặc kéo và thả để thêm hình ảnh </h4>
+            <button class="exit-load-stamp" id="exit-load-stamp">
+                <img src="~/image/Index/icons/close.png" class="close-img"> 
+            </button>
+        </div>
+    </div> *@
+    <!-- Popup tải nội dung lên -->
+     @* <div class="description-popup-container d-flex justify-content-center">
+        <div class="description-popup" id="description-popup" >
+            <h3 class="load-description-title"> Tải nội dung lên </h3> 
+            <div>
+                <button class="load-description-button">
+                    <img src="~/image/UserProfile/arrow.png">
+                </button>
+            </div>
+            <h4> Nhấp hoặc kéo và thả để thêm mô tả </h4>
+            <button class="exit-description-stamp" id="exit-description-stamp">
+                <img src="~/image/Index/icons/close.png" class="close-img"> 
+            </button>
+        </div>
+    </div> *@
+     <!-- Popup thông báo tải ảnh thành công lên -->
+    @* <div class="success-popup-container d-flex justify-content-center">
+        <div class="success-popup" id="success-popup">
+            <h2> ĐĂNG KÍ THÀNH CÔNG </h2>
+            <p> Bạn đã tải tác phẩm lên thành công. </p>
+            <p>Hãy chú ý theo dõi email để nhận những thông tin mới nhất nhé. </p>
+            <img src="~/image/UserProfile/greentick.png">
+            <button class="exit-success-button" id="exit-success-button">
+                <img src="~/image/Index/icons/close.png" class="close-img"> 
+            </button>
+        </div>
+    </div> *@
+    <!-- Form đăng kí theo nhóm -->
+     @* <form action="/HomeRegisterStamp" class="people-form" id="people-form">
+            <h3 class="people-form-title">Đăng kí tác phẩm nhóm</h3>
+                <div>
+                    <div class="input-box">
+                        <input class="glow" type="text" name="stamp-name" required />
+                        <label> Tên tác phẩm </label>
+                    </div>
+                <div class="member">
+                        <h3> Trưởng nhóm </h3>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="membername"  required />
+                            <label> Họ và tên </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="memberemail" required />
+                            <label> Email </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="memberstudentID" required />
+                            <label> MSSV </label>
+                        </div>
+                </div>
+                <div class="member">
+                        <h3> Thành viên 1 </h3>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="membername"  required />
+                            <label> Họ và tên </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="memberemail" required />
+                            <label> Email </label>
+                        </div>
+                          <div class="input-box">
+                            <input class="glow" type="text" name="memberstudentID" required />
+                            <label> MSSV </label>
+                        </div>
+                </div>
+                <div class="member">
+                        <h3> Thành viên 2 </h3>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="membername"  required />
+                            <label> Họ và tên </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="memberemail" required />
+                            <label> Email </label>
+                        </div>
+                          <div class="input-box">
+                            <input class="glow" type="text" name="memberstudentID" required />
+                            <label> MSSV </label>
+                        </div>
+                </div>
+                <div class="people-button-container">
+                    <button type="submit" class="save-people-button" id="save-people-button"> Lưu </button>
+                    <button type="button"  class="cancel-people-button" id="cancel-people-button"> Hủy </button>
+                </div>
+    </form> *@
+    @* </div> *@
+    @* <script>
+    // Lấy tất cả các thẻ <a> có class "register-stamp" và "register-talkshow"
+    var stampLink = document.querySelector('.register-stamp');
+    var talkshowLink = document.querySelector('.register-talkshow');
+
+    // Thêm sự kiện click cho thẻ "Register Stamp"
+    stampLink.addEventListener('click', function(event) {
+    stampLink.style.textDecoration = 'underline'; // Thêm gạch chân
+    talkshowLink.style.textDecoration = 'none'; // Loại bỏ gạch chân ở thẻ "Register Talkshow"
+    });
+
+    // Thêm sự kiện click cho thẻ "Register Talkshow"
+    talkshowLink.addEventListener('click', function(event) {
+    talkshowLink.style.textDecoration = 'underline'; // Thêm gạch chân
+    stampLink.style.textDecoration = 'none'; // Loại bỏ gạch chân ở thẻ "Register Stamp"
+    });
+    </script> *@
+    <!-- JavaScript thông báo nộp tác phẩm thành công  -->
+    @* <script>
+    var savedSubmitButton=document.getElementById("saved-submit-button"); 
+    var exitSuccessButton=document.getElementById("exit-success-button"); 
+    var successPopup=document.getElementById("success-popup"); 
+     savedSubmitButton.addEventListener("click", function() {
+            successPopup.style.display="block";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+        });
+     exitSuccessButton.addEventListener("click", function() {
+            successPopup.style.display="none";
+            document.body.style.overflow = 'auto'; 
+            overlay.style.display = 'none';
+        });
+    </script> *@
+     <!-- JavaScript điều khiển popup thay đổi thông tin cá nhân -->
+    @* <script>
+        const modalOne = document.getElementById('modalOne');
+        const settingButton = document.getElementById('setting-button');
+        const exitButton = document.querySelector(".exit-button");
+            settingButton.addEventListener('click', () => {
+                modalOne.style.display = 'block';
+                 document.body.style.overflow = 'hidden'; // Tắt cuộn
+                overlay.style.display = 'block'; // Hiển thị nền mờ
+            });
+              exitButton.addEventListener('click', () => {
+                modalOne.style.display = 'none';
+                 document.body.style.overflow = 'auto'; // Tắt cuộn
+                overlay.style.display = 'none'; // Hiển thị nền mờ
+            });
+    </script> *@
+    @* <script>
+    // JavaScript chuyển trang
+    var rankingButton = document.querySelector(".ranking-button");
+      rankingButton.addEventListener("click", function() {
+            window.location.href = "HomeRanking"; 
+        });
+    var homeButton = document.querySelector(".home-button");
+      homeButton.addEventListener("click", function() {
+            window.location.href = "HomeUser"; 
+        });
+    </script> *@
+     <!-- JavaScript điều khiển popup đăng kí  -->
+     @* <script>
+        // Sử dụng sessionStorage sau khi tắt trang thì vẫn sẻ xuất hiện lại
+        document.addEventListener("DOMContentLoaded", function () {
+        var invidualForm = document.getElementById("invidual-form");
+        var saveInvidualButton=document.getElementById("save-invidual-button");
+        var cancelInvidualButton=document.getElementById("cancel-invidual-button");
+        if (!sessionStorage.getItem("popupDisplayed")) {
+        invidualForm.style.display = "block";
+        document.body.style.overflow = 'hidden'; 
+        overlay.style.display = 'block';
+        cancelInvidualButton.addEventListener("click", function () {
+        document.body.style.overflow = 'auto'; 
+        overlay.style.display = 'none';
+        invidualForm.style.display = "none";
+        sessionStorage.setItem("popupDisplayed", "true");
+        });
+         saveInvidualButton.addEventListener("click", function() {
+           //Chỉnh sửa thêm javascipt truyền nhận dữ liệu
+        });
+    }
+    });
+    // Sử dụng localStorage sau khi tắt trang thì vẫn sẻ xuất hiện lại
+    //     document.addEventListener("DOMContentLoaded", function () {
+    //     var invidualForm = document.getElementById("invidual-form");
+    //     var saveInvidualButton=document.getElementById("save-invidual-button");
+    //     var cancelInvidualButton=document.getElementById("cancel-invidual-button");
+    //     if (!localStorage.getItem("popupDisplayed")) {
+    //     invidualForm.style.display = "block";
+    //     document.body.style.overflow = 'hidden'; 
+    //     overlay.style.display = 'block';
+    //     cancelInvidualButton.addEventListener("click", function () {
+    //     document.body.style.overflow = 'hidden'; 
+    //     overlay.style.display = 'none';
+    //     invidualForm.style.display = "none";
+    //     localStorage.setItem("popupDisplayed", "true");
+    //     });
+    //         saveInvidualButton.addEventListener("click", function() {
+           //Chỉnh sửa thêm javascipt truyền nhận dữ liệu
+    //    });
+    // }
+    // });
+     </script> *@
+     @* <script>
+        var exitLoadStampButton=document.getElementById("exit-load-stamp"); 
+        var exitLoadDescriptionButton=document.getElementById("exit-description-stamp"); 
+        var closeButton=document.getElementById("exit-method-button"); 
+        var loadImageButton = document.getElementById("load-stamp-img");
+        var loadDescriptionButton = document.getElementById("load-stamp-description");
+        var popupRegister = document.getElementById("register-method"); 
+        var invidualMethodButton=document.getElementById("invidual-method-button");
+        var peopleForm = document.getElementById("people-form");
+        var peopleMethodButton=document.getElementById("people-method-button");
+        var savePeopleButton=document.getElementById("save-people-button");
+        var cancelPeopleButton=document.getElementById("cancel-people-button");
+        var loadStampPopup= document.getElementById("stamp-popup")
+        var loadDescriptionPopup= document.getElementById("description-popup");
+        loadDescriptionButton .addEventListener("click", function() {
+            loadDescriptionPopup.style.display = "block";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+        });
+         exitLoadDescriptionButton .addEventListener("click", function() {
+            loadDescriptionPopup.style.display = "none";
+            document.body.style.overflow = 'auto'; 
+            overlay.style.display = 'none';
+        });
+        loadImageButton.addEventListener("click", function() {
+            popupRegister.style.display = "block";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+        });
+         invidualMethodButton.addEventListener("click", function() {
+            loadStampPopup.style.display = "block";
+            popupRegister.style.display = "none";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+        });
+         exitLoadStampButton.addEventListener("click", function() {
+            loadStampPopup.style.display = "none";
+            popupRegister.style.display = "block";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+        });
+         peopleMethodButton.addEventListener("click", function() {
+            peopleForm.style.display = "block";
+            popupRegister.style.display = "none";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+        });
+          cancelPeopleButton.addEventListener("click", function() {
+            popupRegister.style.display = "block";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+            peopleForm.style.display = "none";
+        });
+         savePeopleButton.addEventListener("click", function() {
+            //Chỉnh sửa thêm javascipt truyền nhận dữ liệu
+            loadStampPopup.style.display = "block";
+            peopleForm.style.display = "none";
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+           //Chỉnh sửa thêm javascipt truyền nhận dữ liệu
+        });
+        closeButton.addEventListener('click', () => {
+            popupRegister.style.display = "none";
+            document.body.style.overflow = 'auto'; // Bật lại cuộn
+            overlay.style.display = 'none'; // Ẩn nền mờ
+        });
+    </script> *@
+@section Styles {
+    <link rel="stylesheet" href="~/css/userprofile.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/homeregister.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/homeregisterstamp.css" asp-append-version="true" />
+}

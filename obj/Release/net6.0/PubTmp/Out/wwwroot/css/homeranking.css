@@ -1,0 +1,178 @@
+.ranking-button
+{
+    color: #fff; 
+    background:#286AA3;
+}
+.stamp-wrapper {
+    margin-top:10%;
+}
+.stamp-container
+{
+    width: 80%;
+    background:  #D4D7D8;
+    border-radius:30px;
+    border:1.5px solid black;
+}
+.author-container
+{
+    display:flex;
+    justify-content: space-between;
+    padding: 5% 5% 8% 5% ;
+}
+.author-stamp-container
+{
+    width:50%;
+    height:100%;
+}
+.author,.author-name
+{
+    text-align: right;
+    font-family:"JosefinSans";
+    font-weight: 700;
+}
+.ranking-container 
+{
+    height:72px;
+    border:1px solid black;
+    display:  flex;
+    border-radius:35px;
+    margin-top:8%;
+    width:50%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:5%;
+    padding:2% 5% 0 5%;
+}
+.voting,.ranking {
+    font-family:"JosefinSans";
+    font-weight: 700;
+}
+.stamp,.stamp-name
+{
+    text-align: left;
+    font-family:"JosefinSans";
+    font-weight: 700;
+}
+.stamp-name
+{
+    width:100%;
+    overflow-wrap: break-word;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Màu nền mờ với độ mờ 70% */
+    z-index: 1; /* Độ ưu tiên thấp của lớp mờ */
+}
+.voting-popup
+{
+    display:none;
+    position:fixed;
+    top: 50%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    top:5%;
+    left:20%;
+    height:90%;
+    width:60%;
+    border-radius:10px;
+    background:#fff;
+    border:1px solid black;
+    overflow: auto; /* Bật thanh cuộn khi cần thiết */
+    padding:0 2% 2% 2%;
+}
+.voting-wrapper
+{
+    position: relative;
+    border-radius:25px;
+    background-color: #D4D7D8;
+    height:96px;
+    align-items: center;
+    margin-top:2%;
+}
+.voting-container
+{ 
+    display: flex;
+    position: relative;
+    height:61px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+}
+.voting-avatar-frame
+{
+    width: 56px;
+    height: 56px;
+    margin-left: 5%;
+    align-items: center;
+}
+.voting-avatar-img
+{
+    width: 56px;
+    height: 56px;
+}
+
+.voted
+{
+    width:165px;
+    height:61px;
+    background: #286AA3;
+    color:#fff;
+    border-radius:25px;
+    font-size:32px;
+    line-height:32px;
+    font-weight:500;
+    position: absolute;
+    right: 2%;
+    display: grid;
+    place-content: center;
+}
+.voting-name
+{
+    margin-left:5%;
+    font-family: "JosefinSans";
+    font-size:32px;
+    line-height:32px;
+    font-weight:500;
+}
+.voting-number
+{
+    width:5%;
+    font-family: "JosefinSans";
+    font-size:32px;
+    line-height:32px;
+    font-weight:500;
+}
+h2
+{
+    color: #286AA3;
+    font-size:40px;
+    line-height:40px;
+    font-weight:700;
+    text-align: center;
+    margin-bottom:5%;
+    
+}
+.stamp-frame {
+    background-size: 100% 100%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.stamp-img {
+    width: 80%;
+    padding: 11% 0 12% 0;
+    /* padding-left: 1%;
+    padding-bottom: 1%; */
+    object-fit: cover;
+}
+
+

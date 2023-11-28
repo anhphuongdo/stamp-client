@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Tin Tức";
+}
+
+<header>
+    <link rel="stylesheet" href="~/css/searchbar-style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/js/common.js" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/newsdetail.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/base.css" asp-append-version="true" />
+</header>
+<body>
+    <!-- search-box -->
+    <script src="~/js/navbar.js" asp-append-version="true"></script>
+    @* Search box *@
+    <div class="search-box">
+        <div class="search">
+            <button class="search-btn" onclick="">
+                <img class="search-img" src="~/icon/search.png" />
+            </button>
+            <input type="text" id="trigger" class="search-input" placeholder="Tìm kiếm" />
+        </div>
+    </div>
+     <h1 class="title"> HEADLINE </h1>
+     <div class="dated"> Ngày đăng  </div>
+     <div class="news-container"> 
+        <div class="article"> ARTICLE </div>
+        <div class="other-news-container">
+        <h4 class="other-news-title"> Bài viết khác </h4>
+        <hr>
+            <div class="other-news">
+                <div class="stamp-frame">
+                    <img src="~/image/News/othernews.png" alt="" class="stamp-img">
+                </div>
+                <h4> Tin tức #1</h4>
+            </div>
+            <div class="other-news">
+                <div class="stamp-frame">
+                    <img src="~/image/News/othernews.png" alt="" class="stamp-img">
+                </div>
+                <h4> Tin tức #2 </h4>
+            </div>
+            <div class="other-news">
+                <div class="stamp-frame">
+                    <img src="~/image/News/othernews.png" alt="" class="stamp-img">
+                </div>
+                <h4> Tin tức #3 </h4>
+            </div>
+     </div>
+</div>
+</body>
+

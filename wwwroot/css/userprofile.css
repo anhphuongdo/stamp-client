@@ -1,0 +1,204 @@
+/* CSS chung cho trang cá nhân */
+.banner-container {
+    background-color: rgba(110, 172, 227, 0.30); 
+    margin-top:40px; 
+    padding-left:20px;
+    margin-left:35px;
+    margin-right:35px;
+    border-radius: 0 0 60px 60px;
+    height:359px;
+}
+.avatar-frame { 
+    position:relative;
+    display:flex;
+    width:173px;
+    height:173px;
+    flex-direction: row;
+}
+.avatar-img {
+    width:173px;
+    height:173px;
+}
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    height:173px;
+    width:487px;
+    margin-left:132px;
+    margin-top:-100px;
+}
+.account-name {
+    font-family:'JosefinSans';
+    font-size:32px;
+    line-height:32px;
+    font-weight:500px;
+    padding-left: 10px;
+    height:40px;
+    top: 70%;
+    margin-top:120px;
+    color:black;
+}
+.setting-button
+{
+    position:absolute;
+    left: 70%;
+    top: 70%;
+    width:43px;
+    height:43px;
+    border-radius:50%;
+}
+.button-container
+{
+    display:flex;
+    flex-direction: row;
+    height: 110px;
+    margin-top:120px;
+    margin-left:40px;
+    justify-content: center;
+    align-items: center;
+    margin-right:40px;
+}
+ .home-button, .ranking-button, .register-button {
+    flex: 1;
+    margin: 0 10px;
+    height:110px;
+    width: 350px;
+    border-radius:30px;
+    border:3px solid #286AA3;
+    color: #286AA3;
+    font-size:50px;
+    background:#fff;
+    font-weight: 1000;
+    transition: color 0.3s; 
+}
+.home-button:hover {
+    color: #fff; /* Màu chữ khi di chuột qua */
+    background:#286AA3;
+}
+.ranking-button:hover {
+    color: #fff; /* Màu chữ khi di chuột qua */
+     background:#286AA3;
+}
+.register-button:hover {
+    color: #fff; /* Màu chữ khi di chuột qua */
+     background:#286AA3;
+}
+/* CSS form */ 
+.modal-content {
+    margin: 50px auto;
+    border: 1px solid #999;
+    width: 60%;
+    margin-top:0;
+    height:859px;
+    width:50%;
+}
+
+h2
+{
+    font-family: "JosefinSans";
+    font-size:40px;
+    line-height:40px;
+    text-align: justify;
+    font-weight:700;
+    margin-top:30px;
+}
+form {
+    padding: 25px;
+    margin: 25px;
+    position:absolute;
+    height:100%;
+    width:90%;
+    text-align: left;
+}
+.modify-avatar-frame
+{
+    width:147px;
+    height:147px;
+    margin-top:40px;
+}
+.modify-avatar-img
+{
+    width:147px;
+    height:147px;
+}
+.input-box input {
+    transition:  0.3s;
+    width:100%;
+    height:70px;
+    margin-top:40px;
+    border-radius:20px;
+    border:2px solid black;
+    color:black;
+    font-size:24px;
+    font-weight:600;
+    padding-left:35px;
+    padding-top: 20px;
+}
+.input-box label {
+    position:absolute;
+    left:70px;
+    height:2%;
+    margin-top:65px;
+    pointer-events:none;
+    /* transition: top 0.3s, font-size 0.3s; */
+}
+input[type="text"] {
+  line-height: 3;
+}
+    .input-box input:valid~label,
+    .input-box input:focus~label {
+        margin-top:32px;
+        font-size:20px;
+        background:#fff;
+        padding:0 5px 0 5px;
+    }
+/* Ngăn style mặc định của chrome */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    background-color: transparent;
+  }
+.info-button-container
+{
+    margin-top:40px;
+    display: flex;
+    justify-content: flex-end
+}
+.save-button {
+    width:200px;
+    height:53px;
+    background: #2371a0;
+    border-radius:20px;
+    color:#fff;
+    border:none;
+    margin-right:30px;
+}
+.exit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:200px;
+    height:53px;
+    background: #2371a0;
+    border-radius:20px;
+    color:#fff;
+    border:none;
+    background:red;
+    text-decoration: none;
+}
+.save-button,.exit-button
+{
+    transition: opacity 0.3s ease; 
+}
+.save-button:hover {
+    opacity: 0.7; 
+}
+.exit-button:hover {
+    opacity: 0.7; 
+}
+
+@media (max-width:600px){
+    .banner-container {
+        padding-left: 0;
+        height: 250px;
+    }
+}

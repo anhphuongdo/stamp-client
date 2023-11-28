@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BIT_STAMP.props" />
+</Project>

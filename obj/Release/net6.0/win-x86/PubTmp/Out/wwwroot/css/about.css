@@ -1,0 +1,225 @@
+.app__content {
+    padding-top: 40px;
+}
+
+.stamp-choose {
+    background-color: #fff;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100%;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.stamp-list {
+    padding:0 0 8px 0;
+    list-style: none;
+    margin-bottom: 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.stamp-item {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.stamp-item__link {
+    position: relative;
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--blue-color);
+    text-decoration: none;
+    padding: 10px 0px;
+    display: block;
+    font-weight: 600;
+}
+
+.stamp-item__link:hover {
+    color: var(--light-blue);
+}
+
+.select-part {
+    font-size: 20px;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    text-align: left;
+}
+
+.select-item {
+    padding: 16px 0px 8px 0px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.select-item:hover {
+    cursor: pointer;
+}
+
+.select-part__link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.info {
+    background-color: #fff;
+    padding-top: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info-header {
+    font-size: 24px;
+}
+
+.info-text {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+.info-part {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-introduce {
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
+}
+
+.alignleft {
+    text-align: left;
+}
+
+.text-content {
+    padding: 10px;
+    line-height: 35px;
+    margin-top: 16px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.info-rule {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.rule-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin: 10px auto;
+    line-height: 50px;
+    border-bottom: 3px solid #000;
+    width: 60%;
+}
+
+.padding-rule {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.timer-box {
+    padding-top: 80px;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+.time-remain {
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.time-number {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.time-text {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.countdown-button {
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #286AA3;
+    border: 5px solid var(--blue);
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.timer-box .col-5 {
+    width: fit-content;
+}
+
+.countdown-button:hover {
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+    color:white;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row !important;
+}
+
+.submission-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+.competitor {
+    font-size: 17px;
+    color: #6EACE3;
+}
+
+.submission {
+    position: absolute;
+    top: 33px;
+    left: 43px;
+}
+
+#rule .col-6 {
+    width: 47%;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.submission-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.stamp-frame {
+    max-width: 360px;
+}

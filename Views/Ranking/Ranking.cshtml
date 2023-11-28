@@ -1,0 +1,340 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@using BIT_STAMP.ViewModel
+@model PageViewModel<Product>
+@{
+    ViewData["Title"] = "Xếp hạng";
+    List<GroupUser> group = ViewBag.Group;
+    List<UserGroupRelationship> rel = ViewBag.Members;
+    List<Product> listProduct = ViewBag.SearchProduct;
+    List<Vote> votes = ViewBag.Vote;
+    List<Product> top20 = ViewBag.Top20;
+    int rankings = ViewBag.Rankings;
+}
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/ranking-style.css" asp-append-version="true" />
+}
+@section Scripts {
+    <script src="~/js/vote.js" asp-append-version="true"></script>
+}
+
+    <div class="banner">
+        <!-- Slideshow container -->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
+            <div class="slider carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="~/image/shared/banner1.jpg" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="~/image/shared/banner2.jpg" />
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="~/image/shared/banner3.jpg" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="page-title">
+            XẾP HẠNG
+        </div>
+    </div>
+
+@* Popup product infor *@
+<div id="product-info" class="container"></div>
+<div id="overlay" class="display-none"></div>
+    
+    <!-- Top stamps -->
+    <div class="container-fluid horizontal-scrollable" style="margin-top: 40px">
+        <div class="row flex-nowrap" style="padding-bottom: 30px">
+            @{
+                var stt = 0;
+            }
+            @foreach (var item in top20)
+            {
+                <div class="col-md-4 col-lg-4 col-sm-12">
+                    <div class="info-card container">
+                        <div class="row">
+                            <p class="col-7 cus-card-title">@item.ProductName</p>
+                            <div class="col-4" style="display: flex; align-items: center;">
+                                @foreach (var gr in group)
+                                {
+                                    if (gr.ProductId == item.ProductId)
+                                    {
+                                        <p class="cus-card-author">@gr.GroupName</p>
+                                    }
+                                }                                    
+                            </div>
+                        </div>
+                    <div class="submission-box">
+                        <div class="stamp-frame" onclick="showInforRanking(@item.ProductId)">
+                            <img class="stamp-img" src="data:image /jpeg;base64,@(Convert.ToBase64String(item.ImageUrl))" alt="product-item">
+                        </div>
+                        </div>
+                        <div class="row justify-content-around" style="margin-top: 10px">
+                            @{
+                                var user = await UserManager.GetUserAsync(User);
+                                @if (user != null)
+                                {
+                                    var voted = votes.FirstOrDefault(m => m.ProductId == item.ProductId && m.UserId.Equals(user.Id));
+                                    @if (voted != null)
+                                    {
+                                        <button default-color="rgb(66, 133, 244)" class="like-btn">
+                                        @Html.AntiForgeryToken()
+                                        <p style="color:white" class="like-number number">@item.VoteAmount</p>
+                                        <img style="color:white" class="like-image" src="~/image/Ranking/like_bold.svg" />
+                                        </button>
+                                    }
+                                    else
+                                    {
+                                    <button default-color="rgb(232, 170, 66)" class="like-btn" onclick="like_action_ranking(@item.ProductId)">
+                                            @Html.AntiForgeryToken()
+                                            <p class="like-number number">@item.VoteAmount</p>
+                                            <img class="like-image" src="~/image/Ranking/like.svg" />
+                                        </button>
+                                    }
+
+                                }else
+                                {
+                                    <button default-color="rgb(232, 170, 66)" class="like-btn" onclick="loginRequired()">
+
+                                        @Html.AntiForgeryToken()
+                                    <p class="like-number number">@item.VoteAmount</p>
+                                        <img class="like-image" src="~/image/Ranking/like.svg" />
+                                    </button>
+                                }                                                                
+                            }                            
+                            <div class="stt-btn">
+                                @{
+                                    stt += 1;
+                                }
+                                <p class="number stt-number">#@stt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }            
+        </div>
+    </div>
+    
+    @* Search box *@
+    <form asp-controller="Ranking" asp-action="Ranking" method="get">
+        <div class="search-box">
+            <div class="search">
+                <button class="search-btn" onclick="">
+                    <img class="search-img" src="~/icon/search.png" />
+                </button>
+                <input type="text" id="trigger" class="search-input" placeholder="Tìm kiếm tác phẩm" name="searchString" value="@ViewData["CurrentFilter"]"/>
+            </div>
+        </div>
+    </form>
+    
+
+    <!-- Contest Stamps -->
+    <div style="margin-bottom: 40px; margin-top: 20px">
+        @if(listProduct.Count > 0)
+        {
+            List<int> SearchRank = ViewBag.SearchRank;
+            @for(int i =0; i<listProduct.Count; i++)
+            {
+                <div class="contest-container list-group-item">
+                    <p class="stt-contest-box">#@SearchRank[i]</p>
+                    <p class="contest-name">@listProduct[i].ProductName</p>
+                    @foreach (var gr in group)
+                    {
+                    if (gr.ProductId == listProduct[i].ProductId)
+                        {
+                            <p class="contest-author stamp-author">@gr.GroupName</p>
+                        }
+                    }
+                    @{
+                        var user = await UserManager.GetUserAsync(User);
+                        @if (user != null)
+                        {
+                        var voted = votes.FirstOrDefault(m => m.ProductId == listProduct[i].ProductId && m.UserId.Equals(user.Id));
+                            @if (voted != null)
+                            {
+                                <button default-color="rgb(66, 133, 244)" class="contest-like-box-voted like-btn">
+                                    @Html.AntiForgeryToken()
+                                    <p style="color:white" class="contest-like-number like-number number">@listProduct[i].VoteAmount</p>
+                                    <img style="color:white" class="like-image" src="~/image/Ranking/like_bold.svg" />
+                                </button>
+                            }
+                            else
+                            {
+                            <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="like_action_ranking(@listProduct[i].ProductId)">
+                                    @Html.AntiForgeryToken()
+                                    <p class="contest-like-number like-number number">@listProduct[i].VoteAmount</p>
+                                    <img class="like-image" src="~/image/Ranking/like.svg" />
+                                </button>
+                            }
+
+                        }
+                        else
+                        {
+                            <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="loginRequired()">
+                                @Html.AntiForgeryToken()
+                                <p class="contest-like-number like-number number">@listProduct[i].VoteAmount</p>
+                                <img class="like-image" src="~/image/Ranking/like.svg" />
+                            </button>
+                        }
+                    }                    
+                </div>
+            }
+        }
+        else
+        {
+            @foreach(var item in Model.Items)
+            {
+                <div class="contest-container list-group-item">
+                    @{
+                    var sttContest = rankings + 1;
+                    rankings += 1;
+                    }
+                    <p class="stt-contest-box">#@sttContest</p>
+                    <p class="contest-name">@item.ProductName</p>
+                    @foreach (var gr in group)
+                    {
+                        if(gr.ProductId == item.ProductId)
+                        {
+                            <p class="contest-author stamp-author">@gr.GroupName</p>
+                        }
+                    }
+                    @{
+                        var user = await UserManager.GetUserAsync(User);
+                        @if (user != null)
+                        {
+                            var voted = votes.FirstOrDefault(m => m.ProductId == item.ProductId && m.UserId.Equals(user.Id));
+                            @if (voted != null)
+                            {
+                                <button default-color="rgb(66, 133, 244)" class="contest-like-box-voted like-btn">
+                                    @Html.AntiForgeryToken()
+                                    @{
+                                        var vv = votes.Where(m => m.ProductId == item.ProductId).Count();
+                                        <p style="color:white" class="contest-like-number like-number number">@vv</p>
+                                    }
+                                    <img style="color:white" class="like-image" src="~/image/Ranking/like_bold.svg" />
+                                </button>
+                            }
+                            else
+                            {
+                            <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="like_action_ranking(@item.ProductId)">
+                                    @Html.AntiForgeryToken()
+                                    <p class="contest-like-number like-number number">@item.VoteAmount</p>
+                                    <img class="like-image" src="~/image/Ranking/like.svg" />
+                                </button>
+                            }
+
+                        }
+                        else
+                        {
+                            <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="loginRequired()">
+                                @Html.AntiForgeryToken()
+                                <p class="contest-like-number like-number number">@item.VoteAmount</p>    
+                                <img class="like-image" src="~/image/Ranking/like.svg" />
+                            </button>
+                        }
+                    }
+                </div>
+            }
+            <br />
+
+            @* Phân trang *@
+            <div id="pagination">
+                <div class="row row-page">
+                    <div class="col-md-12 col-page">
+                        <nav aria-label="Page navigation nav-page">
+                            <div class="d-flex flex-row justify-content-center ">
+                                <ul class="pagination">
+                                    <li class="prev">
+                                        <a class="page-link pag_btn" style="@(Model.PageIndex != 1  ? "" : "pointer-events: none;") color:black;" asp-controller="Ranking" asp-action="Ranking" asp-route-currentFilter="@ViewData["CurrentFilter"]" asp-route-page="@(Model.PageIndex - 1)"><img src="~/icon/arrow-left.svg" /></a>
+                                    </li>
+                                    @for (var i = 1; i <= Model.TotalPages; i++)
+                                    {
+                                        <li class="number_btns @(i == Model.PageIndex ? "active" : "") text-black">
+                                            <div>
+                                                <a class="page-link" asp-controller="Ranking" asp-action="Ranking" asp-route-currentFilter="@ViewData["CurrentFilter"]" asp-route-page="@i">@i</a>
+                                            </div>
+                                        </li>
+                                    }
+
+                                    <li class="next">
+                                        <a class="page-link pag_btn" style="@(Model.PageIndex != Model.TotalPages ? "" : "pointer-events: none;") color:black;" asp-controller="Ranking" asp-action="Ranking" asp-route-currentFilter="@ViewData["CurrentFilter"]" asp-route-page="@(Model.PageIndex + 1)"><img src="~/icon/arrow-right.svg" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        }        
+        
+    </div>
+
+@* Pop up login required *@
+<partial name="LoginRequired" />
+
+@* @section Scripts {
+    <script src="~/js/vote.js" asp-append-version="true"></script> *@
+    @* <script>
+        function like_action(val) {
+            event.stopPropagation();
+            var current = event.currentTarget
+            const default_color = current.getAttribute("default-color");
+            let current_style = window.getComputedStyle(current);
+            var like_number = current.getElementsByClassName("like-number")[0];
+            const parent = current.parentElement;
+            const name = parent.getElementsByClassName("contest-name");
+            if (current_style.backgroundColor === default_color) {
+                current.style.backgroundColor = "rgb(66, 133, 244)";
+                current.children[1].src = "../image/Ranking/like_bold.svg";
+                like_number.style.color = "white";
+                like_number.textContent = parseInt(like_number.textContent) + 1;
+                if (like_number.textContent < 10) {
+                    like_number.textContent = like_number.textContent;
+                }
+                if (name.length > 0) {
+                    name[0].style.color = "#6EACE3";
+                }
+
+                var csrfToken = $('input[name="__RequestVerificationToken"]').val();
+                $.ajax({
+                    type: "POST",
+                    url: "/Ranking/Voting",
+                    data: {
+                        id: val,
+                        __RequestVerificationToken: csrfToken
+                    },
+                    success: function (response) {
+                        //window.location.reload();
+                    },
+                    error: function (response) {
+                        console.log(response);
+                    }
+                });
+            }
+            /*else {
+                current.style.backgroundColor = default_color;
+                current.children[1].src = "../image/Ranking/like.svg";
+                like_number.style.color = "black";
+                like_number.textContent = parseInt(like_number.textContent) - 1;
+                if (like_number.textContent<10) {
+                    like_number.textContent = "0" + like_number.textContent;
+                }
+                if (name.length>0) {
+                    name[0].style.color = "#000";
+                }
+
+        @* Code request dislike ở đây *@
+            @* }*/
+        }
+    </script> *@
+@* } *@

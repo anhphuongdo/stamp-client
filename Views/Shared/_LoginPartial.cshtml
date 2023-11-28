@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav header-item">
+@if (SignInManager.IsSignedIn(User))
+{
+    @* <li class="nav-item">
+        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
+    </li> *@
+    <li class="nav-item personal-button">
+        @* <button id="notification-button" class="notification-button">
+            <img class="notify-img" src="~/image/Index/icons/notify.png" alt="">
+        </button> *@        
+        <a class="nav-link item" asp-area="" asp-controller="Home" asp-action="HomeRegisterStamp"><img class="user-img" src="~/image/Index/icons/user.png" alt=""></a>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <button id="login-button" class="login-button">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+        </button>
+    </li>
+       
+}
+</ul>

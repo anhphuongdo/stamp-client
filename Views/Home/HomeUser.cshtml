@@ -1,0 +1,306 @@
+@* @{
+    ViewData["Title"] = "Trang chủ";
+}
+<head>
+<link rel="stylesheet" href="~/css/userprofile.css" asp-append-version="true"/>
+<link rel="stylesheet" href="~/css/homeuser.css" asp-append-version="true"/>
+<link rel="stylesheet" href="~/css/base.css" asp-append-version="true"/>
+</head>
+<body>
+<script src="~/js/common.js" asp-append-version="true"></script>
+    <!-- Banner -->
+    <div class="banner-container">
+        <img class="stamplogo" src="~/image/shared/stamplogo-big.png" alt="">
+    </div>
+    <!-- Avatar người dùng -->
+    <div class="profile-container">
+        <div class="avatar-frame">
+             <!-- Sử dụng thẻ img để hiển thị hình ảnh avatar -->
+            <img src="~/image/UserProfile/user-square.png" alt="">
+                <button class="setting-button" id="setting-button">
+                    <img src="~/image/UserProfile/setting.png">
+                </button>
+        </div>
+        <span class="account-name">
+            Tên người dùng
+        </span>
+    </div>
+    <!-- Các nút trang chủ,đăng kí, bảng xếp hạng -->
+    <div class="button-container">
+        <button class="home-button" id="home-button">
+            Trang chủ
+        </button>
+        <button class="ranking-button" id="ranking-button">
+            Bảng xếp hạng
+        </button>
+        <button class="register-button" id="register-button">
+            Đăng kí
+        </button>
+    </div>
+    <!-- Tác phẩm của người dùng -->
+    <div class="contest-wrapper">
+        <div class="contest-container">
+            <div class="stamp-frame">
+                <img src="~/image/shared/stamp.png" class="stamp-img">
+            </div>
+            <div class="contest-info-container">
+                <div class="contest-name-container">
+                    <p class="contest-name" id="quiz-title">Tên tác phẩm : <p class="contest-name-content">BIT_STAMP 2023</p></p>
+                </div>
+                <div class="contest-ranking-container">
+                    <div class="contest-ranking-info">
+                        <p class="contest-rank">Hạng: <p id="contest-rank">00</p></p>
+                    </div>
+                    <div class="contest-ranking-info">
+                        <p class="contest-votes">Vote: <p id="quiz-votes">00</p></p>
+                    </div>
+                </div>
+                <div class="contest-descritption-container">
+                    <p class="contest-description">Mô tả: </p>
+                    <p class="contest-description-content" id="contest-description-content"></p>
+                </div>
+            </div>
+        </div>
+    
+
+         <div class="contest-container">
+            <div class="stamp-frame">
+                <img src="~/image/shared/stamp.png" class="stamp-img">
+            </div>
+            <div class="contest-info-container">
+                <div class="contest-name-container">
+                    <p class="contest-name" id="quiz-title">Tên tác phẩm : <p class="contest-name-content">BIT_STAMP 2023</p></p>
+                </div>
+                <div class=contest-ranking-container>
+                    <div class="contest-ranking-info">
+                        <p class="contest-rank">Hạng: <p id="contest-rank">00</p></p>
+                    </div>
+                    <div class="contest-ranking-info">
+                        <p class="contest-votes">Vote: <p id="quiz-votes">00</p></p>
+                    </div>
+                </div>
+                <div class="contest-descritption-container">
+                    <p class="contest-description">Mô tả: <p class="contest-description-content" id="contest-description-content"></p></p>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <!-- Popup thay đổi thông tin cá nhân -->
+    <div class="overlay" id="overlay"></div>
+    <div id="modalOne" class="modal" id="modal" display:none>
+        <div class="modal-content">
+            <div class="contact-form" id="contact-form">
+                <form action="/" id="myForm">
+                    <h2>THÔNG TIN CÁ NHÂN</h2>
+                    <div>
+                        <div class="modify-avatar-frame">
+                            <img src="~/image/UserProfile/user-circle-add.png" class="modify-avatar-img">
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="fullName" required />
+                            <label> Họ và tên </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="school" required />
+                            <label> Trường </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="studentID"  required />
+                            <label> MSSV </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="phoneNumber" required />
+                            <label> Số điện thoại </label>
+                        </div>
+                    </div>
+                    <div class="info-button-container">
+                        <button class="save-button" id="save-button"> Lưu thông tin </button>
+                        <button class="exit-button" id="exit-button" type="button"> Thoát </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Popup tải ảnh lên -->
+     <div class="stamp-popup-container d-flex justify-content-center">
+        <div class="stamp-popup" id="stamp-popup" >
+            <h3 class="load-stamp-title"> Tải ảnh mới </h3> 
+            <div>
+                <button class="load-stamp-button">
+                    <img src="~/image/UserProfile/arrow.png">
+                </button>
+            </div>
+            <h4> Nhấp hoặc kéo và thả để thêm hình ảnh </h4>
+            <button class="exit-load-stamp" id="exit-load-stamp">
+                <img src="~/image/Index/icons/close.png" class="close-img"> 
+            </button>
+        </div>
+    </div>
+    <!-- Popup chỉnh sửa tác phẩm -->
+    <div class="popup-modal" id="modifyModal">
+        <div id=popup class="popup-container" > 
+            <h4> Tác phẩm dự thi của bạn </h4>
+                <div class="stamp-frame">
+                    <img src="~/image/shared/stamp.png" class="stamp-img">
+                </div>
+                <div class="button-modify-wrapper d-flex justify-content-center" >
+                    <div class="button-modify-container">
+                        <button class="delete-button" id="delete-button">Xóa</button>
+                        <button class="edit-button" id="edit-button">Chỉnh sửa</button>
+                    </div>
+                </div>
+            <button class="exit-modify-button" id="exit-modify-button">
+                <img src="~/image/Index/icons/close.png" class="close-img">
+            </button>
+         </div>
+    </div>
+        <!-- Popup sau khi nhấn nút "Xóa" -->
+        <div class="delete-popup" id="deletePopup">
+            <h4 class="caution">Bạn có chắc chắn xóa tác phẩm này</h4>
+            <p class="notify">Tác phẩm sau khi xóa sẽ không thể khôi phục</p>
+            <div class="button-caution-wrapper d-flex justify-content-center">
+                <div class="button-caution-container">
+                    <button class="cancel-button" id="cancel-delete-button">Hủy</button>
+                    <button class="yes-button" id="yes-button">Có</button>
+                    <button class="exit-caution-button" id="exit-delete-button">
+                        <img src="~/image/Index/icons/close.png" class="close-img"> 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    <!-- Popup sau khi nhấn nút "Chỉnh sửa" -->
+    <div class="edit-popup" id="editPopup">
+        <h4 class="caution">Bạn có chắc chắn lưu tác phẩm này</h4>
+        <div class="button-caution-container">
+            <button class="cancel-button" id="cancel-edit-button">Hủy</button>
+            <button class="yes-button" id="yes-button">Có</button>
+            <button class="exit-caution-button" id="exit-edit-button">
+                <img src="~/image/Index/icons/close.png" class="close-img"> 
+            </button>
+        </div>
+    </div>
+    <!-- JavaScript điều khiển chuyển trang -->
+    <script>
+    var rankingButton = document.querySelector(".ranking-button");
+    var registerButton = document.querySelector(".register-button");
+      rankingButton.addEventListener("click", function() {
+            window.location.href = "HomeRanking"; 
+        });
+      registerButton.addEventListener("click", function() {
+            window.location.href = "HomeRegisterStamp"; 
+        });
+    </script>
+    <!-- JavaScript điều khiển popup thay đổi thông tin cá nhân -->
+    <script>
+        const modalOne = document.getElementById('modalOne');
+        const settingButton = document.getElementById('setting-button');
+        const exitButton = document.querySelector(".exit-button");
+            settingButton.addEventListener('click', () => {
+                modalOne.style.display = 'block';
+                 document.body.style.overflow = 'hidden'; // Tắt cuộn
+                overlay.style.display = 'block'; // Hiển thị nền mờ
+            });
+             exitButton.addEventListener('click', () => {
+                modalOne.style.display = 'none';
+                 document.body.style.overflow = 'auto'; // Tắt cuộn
+                overlay.style.display = 'none'; // Hiển thị nền mờ
+            });
+    </script>
+    <!-- JavaScript điều khiển popup chỉnh sửa tác phẩm -->
+    <script>
+        // JavaScript để hiển thị và điều khiển popup
+        const images = document.querySelectorAll('.contest-container');
+        const modal = document.getElementById('modifyModal');
+        const editButton = document.getElementById('edit-button');
+        const deleteButton = document.getElementById('delete-button');
+        const exitModifyButton = document.getElementById('exit-modify-button');
+        const deletePopup = document.getElementById('deletePopup');
+        const editPopup = document.getElementById('editPopup');
+        var loadStampPopup= document.getElementById("stamp-popup");
+        var exitLoadStampButton=document.getElementById("exit-load-stamp"); 
+        
+        // Hiện popup khi hình ảnh được nhấp vào
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                modal.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Tắt cuộn
+                overlay.style.display = 'block'; // Hiển thị nền mờ
+                resize_frame();
+            });
+        });
+         exitModifyButton.addEventListener('click', () => {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Bật lại cuộn
+            overlay.style.display = 'none'; // Ẩn nền mờ
+        });
+
+        //Xử lý khi nút "Chỉnh sửa" được nhấp vào
+        editButton.addEventListener('click', () => {
+             modal.style.display = 'none';
+             loadStampPopup.style.display = "block";
+             document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block'; 
+        });
+          exitLoadStampButton.addEventListener("click", function() {
+            loadStampPopup.style.display = "none";
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block';
+            resize_frame();
+        });
+        // JavaScript hiển thị edit popup tại đây
+
+        //Xử lý khi nút "Xóa" được nhấp vào
+        deleteButton.addEventListener('click', () => {
+            // Thực hiện hành động xóa ở đây
+            deletePopup.style.display = 'block';
+            document.body.style.overflow = 'hidden'; 
+            overlay.style.display = 'block'; 
+            modal.style.display = 'none';
+        });
+    </script>
+    <!--  JavaScript điều khiển cảnh báo khi chỉnh sửa tác phẩm -->
+<script>
+    const yesButton = document.getElementById('yes-button');
+    const exitEditButton = document.getElementById('exit-edit-button');
+    const exitDeleteButton = document.getElementById('exit-delete-button');
+    const cancelEditButton = document.getElementById('cancel-edit-button');
+    const cancelDeleteButton = document.getElementById('cancel-delete-button');
+    exitEditButton.addEventListener('click', () => {
+        editPopup.style.display = 'none';
+        document.body.style.overflow = 'hidden'; 
+        overlay.style.display = 'block'; 
+        modal.style.display = 'block';
+        resize_frame();
+    });
+    exitDeleteButton.addEventListener('click', () => {
+        deletePopup.style.display = 'none';
+        document.body.style.overflow = 'hidden'; 
+        overlay.style.display = 'block'; 
+         modal.style.display = 'block';
+         resize_frame();
+    });
+    cancelEditButton.addEventListener('click', () => {
+        editPopup.style.display = 'none';
+        document.body.style.overflow = 'hidden'; 
+        overlay.style.display = 'block'; 
+         modal.style.display = 'block';
+         resize_frame();
+    });
+    cancelDeleteButton.addEventListener('click', () => {
+        deletePopup.style.display = 'none';
+        document.body.style.overflow = 'hidden'; 
+        overlay.style.display = 'block'; 
+         modal.style.display = 'block';
+         resize_frame();
+    });
+
+    //Xử lý khi nút "Chỉnh sửa" được nhấp vào
+    yesButton.addEventListener('click', () => {
+            
+        // alert ("Xử lý khi chỉnh sửa");
+    });
+</script>
+</body>
+ *@

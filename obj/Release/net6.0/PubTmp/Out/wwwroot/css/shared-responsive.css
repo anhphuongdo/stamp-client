@@ -1,0 +1,50 @@
+
+/* tablet & mobile */
+@media (max-width: 1023px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+
+    .container-fluid {
+        font-size: 60%;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    .navbar {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .navbar-box {
+        margin: 0;
+        width: 75%;
+    }
+
+    .login-box {
+        width: 20%;
+    }
+
+    .footer {
+        font-size: 70%;
+        padding-top: 30px !important;
+        /* margin: 0 !important; */
+    }
+    
+    .footer > .container {
+        padding: 0;
+        text-align: center;
+
+    }
+
+    body {
+        margin-bottom: 30px;
+    }
+
+}

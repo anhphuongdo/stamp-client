@@ -1,0 +1,201 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
+        <div class="slider carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/image/shared/banner1.jpg" />
+            </div>
+            <div class="carousel-item">
+                <img src="~/image/shared/banner2.jpg" />
+            </div>
+            <div class="carousel-item">
+                <img src="~/image/shared/banner3.jpg" />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="banner">
+        <div class="countdown-container">
+            <h2 class="time-remain">Thời gian tham gia còn</h2>
+            <div class="time-box">
+                <div class="countdown-item">
+                    <span class="blue-color countdown-value" id="day"></span>
+                    <span class="countdown-label">ngày</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="light-blue-color countdown-value" id="hour"></span>
+                    <span class="countdown-label">giờ</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="blue-color countdown-value" id="minute"></span>
+                    <span class="countdown-label">phút</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="light-blue-color countdown-value" id="second"></span>
+                    <span class="countdown-label">giây</span>
+                </div>
+            </div>
+            <a class="countdown-button" style="text-decoration:none" href="https://forms.gle/orwdQdhBkBvacweD6">THAM GIA NGAY</a>
+        </div>
+    </div>
+        
+    <!-- Add space to separate the countdown section -->
+
+    <div class="container-fluid introduce text-center">
+        <h1 class="blue-color part-margin blur-shadow">GIỚI THIỆU VỀ S.T.A.M.P</h1>
+        <img class="line" src="~/image/shared/line.png"/>
+        <div class="introduce-content">
+            <div class="introduce-text">
+                <span class=" title blue-color italic font-weight-600">Cuộc thi thiết kế và triển lãm tem thư S.T.A.M.P</span>
+                <span class="font-weight-500">
+                    hướng đến kỷ niệm ngày Quốc tế bảo vệ tầng Ozone 16/9, từ đó thể hiện tinh thần bảo vệ môi trường, bảo vệ tầng Ozone; 
+                    tăng cường nhận thức và hiểu biết của sinh viên về tầm quan trọng của môi trường đối với sức khỏe và sự phát triển của con người;
+                    đồng thời lan tỏa được tinh thần bảo vệ môi trường, bảo vệ tầng Ozone.
+                </span>
+                <br />
+                <span class="font-weight-500">
+                    Bên cạnh đó, chương trình có mong muốn sẽ kế thừa và phát huy nghệ thuật thiết kế tem thư, 
+                    tạo cơ hội quý giá cho những chiếc tem thư – một giá trị tinh thần đã không còn quen thuộc trong đời sống hàng ngày, được tiếp cận gần hơn đến thế hệ trẻ.
+                </span>
+            </div>
+            <img class="introduce-img" src="~/image/shared/stamplogo-big.png" alt="Stamp Image">
+        </div>
+    </div>
+
+    <div class="award">
+        <h1 class="blue-color part-margin blur-shadow">CƠ CẤU GIẢI THƯỞNG</h1>
+        <img class="line" src="~/image/shared/line.png"/>
+        <div class="award-container">
+            <div class="award_box row justify-content-center">
+                <div class="col-5">
+                    <div>
+                        <h2 class="blur-shadow"> 01 GIẢI NHẤT</h2>
+                        <div class="award_price_box">
+                            <p class="award_price">2.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="award_box row justify-content-center" style="padding-bottom:10px">
+                <div class="col-5">
+                    <div>
+                        <h2 class="blur-shadow"> 01 GIẢI NHÌ</h2>
+                        <div class="award_price_box">
+                            <p class="award_price">1.000.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div>
+                        <h2 class="blur-shadow">02 GIẢI BA</h2>
+                        <div class="award_price_box">
+                            <p class="award_price">500.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="award_box row" style="padding-bottom:10px">
+                <div class="col-4">
+                    <div style="min-height: 100px;">
+                        <h4 class="blur-shadow">02 GIẢI KHUYẾN KHÍCH</h4>
+                        <div class="award_price_box">
+                            <p class="award_price">300.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div style="min-height: 100px;">
+                        <h4 class="blur-shadow">03 GIẢI TÁC PHẨM TRIỂN VỌNG</h4>
+                        <div class="award_price_box">
+                            <p class="award_price">300.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div style="min-height: 100px;">
+                        <h4 class="blur-shadow"> 01 TÁC PHẨM ĐƯỢC YÊU THÍCH NHẤT</h4>
+                        <div class="award_price_box">
+                            <p class="award_price">300.000 VNĐ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="timeline">
+        <h1 class="blue-color part-margin blur-shadow">CÁC MỐC THỜI GIAN</h1>
+        <img class="line" src="~/image/shared/line.png"/>
+        <div class="">
+            <img class="timeline-img" src="~/image/index/timeline.png" alt="Timeline" />
+        </div>
+    </div>
+
+    <div class="row">
+        <a class="about-button col-5 col-md-3 col-sm-3" style="text-decoration:none" asp-controller="AboutUs" asp-action="About">TÌM HIỂU VỀ S.T.A.M.P</a>
+    </div>
+
+                
+    <div class="counterparty">
+        <h1 class="blue-color part-margin blur-shadow">ĐƠN VỊ TỔ CHỨC</h1>
+        <img class="line" src="~/image/shared/line.png" />
+        <div class="party-imgs">
+            <img class="party-img" src="~/image/Index/counterparty/large-logo.png" />
+        </div>
+
+        <h1 class="blue-color part-margin blur-shadow">ĐỐI TÁC ĐỒNG HÀNH</h1>
+        <img class="line" src="~/image/shared/line.png"/>
+        <div class="party-container">
+            <div class="party-row row">
+                <h2 class="light-blue-color">BẢO TRỢ CHUYÊN MÔN</h2>
+                <div class="party-imgs">
+                    <img class="party-img" src="~/image/logohoitem.png" />
+                </div>
+            </div>
+            @* <div class="party-row row">
+                <h2 class="light-blue-color">NHÀ TÀI TRỢ VÀNG</h2>
+                <div class="party-imgs row">
+                    <div class="col-5">
+                        <img class="party-img" src="~/image/Index/counterparty/medium-logo.png"/>
+                    </div>
+                    <div class="col-5">
+                        <img class="party-img" src="~/image/Index/counterparty/medium-logo.png"/>
+                    </div>
+                </div>
+            </div>
+            <div class="party-row row">
+                <h2 class="light-blue-color">NHÀ TÀI TRỢ ĐỒNG HÀNH</h2>
+                <div class="party-imgs row">
+                    <div class="col-5">
+                        <img class="party-img" src="~/image/Index/counterparty/small-logo.png"/>
+                    </div>
+                </div>
+            </div> *@
+            @* <div class="party-row row">
+                <h2 class="light-blue-color">ĐỐI TÁC TRUYỀN THÔNG</h2>
+                <div class="party-imgs row">
+                    <div class="col-5">
+                        <img class="party-img" src="~/image/Index/counterparty/ybox-logo.png"/>
+                    </div>
+                    <div class="col-5">
+                        <img class="party-img" src="~/image/Index/counterparty/ivolunteer-logo.png"/>
+                    </div>
+                </div>
+            </div> *@
+        </div>
+    </div>
+</div>
+
+@section Styles{
+    <link rel="stylesheet" href="~/css/Index.css" asp-append-version="true" />
+}

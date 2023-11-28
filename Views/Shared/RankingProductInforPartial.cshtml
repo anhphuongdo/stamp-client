@@ -1,0 +1,28 @@
+﻿@model BIT_STAMP.Models.Product
+@{
+    List<GroupUser> group = ViewBag.Group;
+    Layout = "_BlankLayout";
+}
+<div class="justify-content-center popup">
+    <div class="row">
+        <div class="col-6">
+            <div class="submission-box">
+                <div class="stamp-frame">
+                    <img class="stamp-img" src="data:image /jpeg;base64,@(Convert.ToBase64String(@Model.ImageUrl))" alt="product-item">
+                </div>
+            </div>
+        </div>
+        <div class="col-6 popup-info">
+            <div class="popup-title">@Model.ProductName</div>
+            @foreach (var gr in group)
+            {
+                if (gr.ProductId == Model.ProductId)
+                {
+                    <div class="popup-author">@gr.GroupName</div>
+                }
+            }
+
+            <pre class="description scroll">@Model.ProductDescription</pre>
+        </div>
+    </div>
+</div>

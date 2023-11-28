@@ -1,0 +1,311 @@
+.load-button-wrapper {
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    width: 80%;
+    ;
+    margin-left: 10%;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.load-button-container
+{
+    width:45%;
+    height:450px;
+    display:flex;
+    flex-direction: column;
+}
+.image-button-container,
+.decription-button-container
+{
+    background: #D9D9D9;
+    border-radius:44px;
+    height:350px;
+}
+.load-button
+{
+    background-color: transparent; 
+    background-size: cover; 
+    cursor: pointer;
+    width:123px;
+    height:123px;
+    margin-top:15%;
+    border:none;
+    justify-content:center;
+}
+.load-button-wrapper h4 
+{
+    font-size:24px;
+    line-height: 24px;
+    font-weight:600;
+    margin-top:8%;
+    font-family: "JosefinSans";
+}
+.load-button-wrapper h3
+{
+    font-size:32px;
+    line-height: 32px;
+    font-weight:500;
+    margin-top:5%;
+    font-family: "JosefinSans";
+}
+.saved-title
+{
+    text-align: left;
+    font-size:32px;
+    line-height: 32px;
+    font-family: "JosefinSans";
+    font-weight:500;
+    margin-left:5%;
+}
+hr {
+    border: 2px solid #E57C23;
+    margin-top:2%; 
+}
+.saved-stamp
+{
+    display:flex;
+}
+.saved-decription-container
+{
+    width:60%;
+    margin-top:10px;
+    border-radius:25px; 
+    background: #F8F1F1;
+    margin-right: 10%;
+}
+.saved-decription-container h3 
+{
+    text-align: left;
+    font-size:32px;
+    line-height:32px;
+    font-weight: 500;
+    word-wrap: break-word;
+    padding-left:3%;
+}
+.saved-decription
+{
+    margin-top:2%;
+}
+.saved-button-container
+{
+    margin-top:5%;
+    width:25%;
+    margin-left:70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:3%;
+}
+.saved-button-container button
+{
+    width:180px;
+    height:60px;
+    font-size:32px;
+    line-height:32px;
+    border-radius:30px;
+    border:none;
+    transition: opacity 0.3s ease; 
+}
+.saved-button
+{
+    background: #4285F4;
+    color:#fff;
+}
+.saved-submit-button
+{
+    background:   #34A853;
+    color:#fff;
+    right: 0;
+}
+.saved-button:hover
+{
+    opacity: 0.7;
+}
+.saved-submit-button:hover
+{
+    opacity: 0.7;
+}
+.stamp-frame {
+    background-image: url("../image/UserProfile/2024.png");
+    background-size: 100% 100%;
+    width: 288px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left:5%;
+}
+
+.stamp-img {
+    width: 80%;
+    padding: 11% 0 12% 0;
+    padding-left: 1%;
+    object-fit: cover;
+    padding-top: 2%;
+}
+/* CSS cho popup tải tác phẩm */
+.stamp-popup
+{
+    position:fixed;
+    top: 15%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    height:496px;
+    width:55%;
+    border-radius:28px;
+    background:#fff;
+    border:3px solid black;
+}
+.load-stamp-title
+{
+    font-size:40px;
+    line-height:40px;
+    margin-top:107px;
+    font-family: "JosefinSans";
+}
+.exit-load-stamp {
+    position: absolute;
+    top: 10px; 
+    right: 25px; 
+    width: 40px; 
+    height: 40px; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color:#fff;
+    transition: opacity 0.3s ease; 
+} 
+.exit-load-stamp:hover {
+    opacity: 0.7;
+}
+.stamp-popup h4 
+{
+    font-family: "JosefinSans";
+    margin-top:10%;
+    font-size:32px;
+    line-height:32px;
+}
+.load-stamp-button
+{
+    background-color: transparent; 
+    border:none;
+    margin-top:6%;
+}
+.load-stamp-button .img 
+{
+    width:74px;
+    height:74px;
+}
+/* CSS cho popup tải tác phẩm thành công */
+.success-popup
+{
+    position:fixed;
+    top: 15%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    height:496px;
+    width:55%;
+    border-radius:28px;
+    background:#fff;
+    border:3px solid black;
+}
+.success-popup h2 
+{
+    text-align: center;
+    font-family: "JosefinSans";
+    font-size:40px;
+    line-height:40px;
+    font-weight:700;
+    margin-top:20%;
+    margin-bottom:2%;
+}
+.success-popup p {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: "JosefinSans";
+    font-weight:300;
+}
+.exit-success-button {
+    position: absolute;
+    top: 10px; 
+    right: 25px; 
+    width: 40px; 
+    height: 40px; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color:#fff;
+    transition: opacity 0.3s ease; 
+} 
+.exit-success-button:hover {
+    opacity: 0.7;
+}
+/* CSS cho popup tải mô tả */
+.description-popup
+{
+    position:fixed;
+    top: 15%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    height:496px;
+    width:55%;
+    border-radius:28px;
+    background:#fff;
+    border:3px solid black;
+}
+.load-description-title
+{
+    font-size:40px;
+    line-height:40px;
+    margin-top:107px;
+    font-family: "JosefinSans";
+}
+.exit-description-stamp {
+    position: absolute;
+    top: 10px; 
+    right: 25px; 
+    width: 40px; 
+    height: 40px; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color:#fff;
+    transition: opacity 0.3s ease; 
+} 
+.exit-description-stamp:hover {
+    opacity: 0.7;
+}
+.description-popup h4 
+{
+    font-family: "JosefinSans";
+    margin-top:10%;
+    font-size:32px;
+    line-height:32px;
+}
+.load-description-button
+{
+    background-color: transparent; 
+    border:none;
+    margin-top:6%;
+}
+.load-description-button .img 
+{
+    width:74px;
+    height:74px;
+}
+@media (min-height: 800px) 
+{
+    .success-popup h2  {
+        margin-top:15%;
+    }
+}
+@media (max-width: 600px){
+    .stamplogo {
+        width: 100%;
+    }
+    .account-name{
+        display: none;
+    }
+}
+

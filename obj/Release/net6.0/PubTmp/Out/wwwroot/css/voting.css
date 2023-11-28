@@ -1,0 +1,258 @@
+/* Banner */
+.banner {
+    position: relative;
+    height: 500px;
+}
+#carouselExampleControls {
+    height: 500px !important;
+}
+.stamp-name {
+    margin: 10px auto 0px auto;
+    font-size: 36px;
+    font-weight: 600;
+    text-wrap: balance;
+}
+
+.like-btn-login {
+    justify-content: center;
+    width: 20%;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(232, 170, 66);
+    padding: 10px;
+    z-index: 1;
+}
+
+.like-btn-voted {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: var(--xanh-l, #34A853);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    min-width: fit-content;
+    height: 45px;
+}
+
+.like-btn {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    background-color: #EA4335;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    min-width: fit-content;
+    height: 45px;
+}
+
+.like-number {
+    font-size: 22px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0;
+    margin-right: 10px;
+    width: fit-content;
+
+}
+
+.link-btn {
+    background-color: #E57C23;
+    padding: 10px;
+    border-radius: 15px;
+    min-width: fit-content;
+    border: none;
+    height: 45px;
+
+}
+
+.facebook-btn {
+    background-color: #4285F4;
+    padding: 10px;
+    border-radius: 15px;
+    min-width: fit-content;
+    border: none;
+    height: 45px;
+
+}
+
+.like-icon {
+    height: 100%;
+}
+
+.link-icon {
+    height: 100%;
+}
+
+.facebook-icon {
+    height: 100%;
+}
+
+.popup {
+    background-color: white;
+    position: fixed;
+    border-radius: 30px;
+    width: 60%;
+    min-width: 600px;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup p {
+    text-align: left;
+}
+
+.popup>.row {
+    margin: 40px 20px;
+}
+
+.submission-info> * {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.submission-box:hover {
+    cursor: pointer;
+}
+
+.submission-box {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.scroll {
+    padding: 4px;
+    width: 100%;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.horizontal-scrollable > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+
+#pagination {
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.number_btns {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.number_btns > div {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 3px;
+    line-height: 45px;
+}
+
+.number_btns > div:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+    color: white;
+    border-radius: 12px;
+}
+
+.disable_btn {
+    cursor: default !important;
+}
+
+.current_btn {
+    border-radius: 12px;
+    background-color: #286AA3;
+    color: white;
+}
+
+.pag_btn {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+.pag_btn:hover {
+    cursor: pointer;
+    background-color: var(--light-blue);
+    border-color: var(--light-blue);
+    color: white;
+}
+
+
+.line-bottom {
+    border-bottom: 5px solid #6EACE3;
+    width: 60%;
+    padding-bottom: 10px;
+    margin: 60px auto 80px auto;
+}
+
+@media (max-width: 600px) {
+    .stamp-name{
+        font-size: 16px;
+    }
+
+    .blue-color{
+        font-size: 30px;
+    }
+
+    .banner {
+        height: 150px;
+    }
+
+    .popup{
+        max-width: 300px;
+        top: 28%;
+        left: 14%;
+        min-width: 300px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .author{
+        font-size: 16px;
+    }
+    .description {
+        font-size: 16px;
+    }
+    .author{
+        font-size: 16px;
+    }
+
+    .slider {
+        width: 100%;
+    }
+
+    #carouselExampleControls {
+        height: 100% !important;
+    }
+}

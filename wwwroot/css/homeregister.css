@@ -1,0 +1,219 @@
+.register-button
+{
+    color: #fff; /* Màu chữ khi di chuột qua */
+    background:#286AA3;
+}
+.content {
+    margin-top:10%;
+    display: flex;
+    justify-content: space-between;
+    width:60%;
+}
+.register-stamp, .register-talkshow
+{
+    font-weight: 500;
+    font-size: 32px;
+    line-height:32px;
+    font-family: "JosefinSans";
+    color:#286AA3;
+    position: relative;
+    text-decoration: none;
+}
+a:hover
+{
+    color:#286AA3;
+}
+/* .register-talkshow.clicked::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #286AA3; 
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 0.3s ease; 
+  }
+  
+  .register-talkshow.clicked:hover::before {
+    transform: scaleX(1); 
+  }
+  .register-stamp.clicked::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #286AA3; 
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 0.3s ease; 
+  }
+  
+  .register-stamp.clicked:hover::before {
+    transform: scaleX(1); 
+  } */
+/* CSS form đăng kí tác phẩm */
+.method-popup
+{
+    position:fixed;
+    top: 50%;
+    display:none;
+    z-index:3;
+    top:10%;
+    left:20%;
+    height:555px;
+    width:60%;
+    border-radius:28px;
+    background:#fff;
+    border:1px solid black;
+}
+h3 {
+    font-family:"JosefinSans";
+}
+.method-button-container
+{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    margin-left: 10%;
+}
+.method-title
+{
+    font-weight:500;
+    font-size:32px;
+    line-height:32px;
+    margin-top:8%;
+    margin-bottom:8%;
+}
+.invidual-method-button, .people-method-button {
+    width:350px;
+    height:256px;
+    border-radius:40px;
+}
+.invidual-method
+{
+    margin-top: 30px;
+}
+.exit-method-button {
+    position: absolute;
+    top: 10px; 
+    right: 20px; 
+    width: 52px; 
+    height: 52px; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color:#fff;
+    transition: opacity 0.3s ease; 
+} 
+.exit-method-button:hover {
+    opacity: 0.7;
+}
+.body
+{
+    overflow: hidden;
+}
+.invidual-form
+{
+    position:fixed;
+    top: 10%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    left:25%;
+    height:555px;
+    width:50%;
+    border-radius:28px;
+    background:#fff;
+    border:1px solid black;
+}
+.invidual-form-title
+{
+    font-weight: 500;
+    font-size:32px;
+    line-height:32px;
+    text-align: center;
+}
+.invidual-form .input-box label 
+{
+    height:3%;
+}
+.invidual-form button {
+    width:188px;
+    height: 58px;
+    border-radius:10px;
+    transition: opacity 0.3s ease; 
+}
+.invidual-form button:hover {
+    opacity: 0.7;
+}
+.save-invidual-button {
+    background: #6EACE3;
+    color:#fff;
+    border:none;
+    margin-right:20px;
+}
+.invidual-button-container
+{
+    margin-top:60px;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.people-form
+{
+    position:fixed;
+    top: 5%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    left:25%;
+    height:80%;
+    width:50%;
+    border-radius:28px;
+    background:#fff;
+    border:1px solid black;
+    overflow: auto; /* Bật thanh cuộn khi cần thiết */
+}
+.people-form .input-box label 
+{
+    height:2%;
+}
+.people-form-title
+{
+    font-weight: 500;
+    font-size:32px;
+    line-height:32px;
+    text-align: center;
+    margin-top:3%;
+}
+.people-form button {
+    width:188px;
+    height: 58px;
+    border-radius:10px;
+    transition: opacity 0.3s ease; 
+}
+.people-form button:hover {
+    opacity: 0.7;
+}
+.save-people-button {
+    background: #6EACE3;
+    color:#fff;
+    border:none;
+    margin-right:20px;
+}
+.people-button-container
+{
+    margin-top:40px;
+    width:100%;
+    display:flex;
+    justify-content: flex-end;
+}
+.people-form .member h3 
+{
+    margin-top:5%;
+    text-align: left;
+    font-weight: 600;
+}

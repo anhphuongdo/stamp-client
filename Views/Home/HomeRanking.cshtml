@@ -1,0 +1,399 @@
+@* @{
+    ViewData["Title"] = "Bảng xếp hạng";
+}
+<head>
+<link rel="stylesheet" href="~/css/userprofile.css" asp-append-version="true"/>
+<link rel="stylesheet" href="~/css/homeranking.css" asp-append-version="true"/>
+</head>
+<body>
+<script src="~/js/common.js" asp-append-version="true"></script>
+    <!-- Banner -->
+    <div class="banner-container">
+        <img class="" src="~/image/shared/stamplogo-big.png" alt="">
+    </div>
+    <!-- Avatar người dùng -->
+    <div class="profile-container">
+        <div class="avatar-frame">
+             <!-- Sử dụng thẻ img để hiển thị hình ảnh avatar -->
+            <img src="~/image/UserProfile/user-square.png" alt="" class="avatar-img">
+                <button class="setting-button" id="setting-button">
+                    <img src="~/image/UserProfile/setting.png">
+                </button>
+        </div>
+        <span class="account-name">
+            Tên người dùng
+        </span>
+    </div>
+    <!-- Các nút trang chủ,đăng kí, bảng xếp hạng -->
+    <div class="button-container">
+        <button class="home-button" id="home-button">
+            Trang chủ
+        </button>
+        <button class="ranking-button" id="ranking-button">
+            Bảng xếp hạng
+        </button>
+        <button class="register-button" id="register-button">
+            Đăng kí
+        </button>
+    </div>
+    <!-- Tác phẩm cá nhân -->
+    <div class="container-fluid stamp-wrapper">
+        <div class="row mb-5">
+            <div class="col-6 mx-auto d-flex justify-content-center">
+                <div class="stamp-container">
+                    <div class="author-container">
+                        <div class="author-stamp-container">
+                            <h3 class="stamp">Tác phẩm tem </h3>
+                            <h3 class="stamp-name"> Hoàng hôn thiên văn </h3>
+                        </div>
+                        <div class="author-name-container">
+                            <h3 class="author">Tác giả </h3>
+                            <h3 class="author-name">D.P.H.My </h3>
+                        </div>
+                    </div>
+                    <div class="stamp-frame">
+                        <img src="~/image/UserProfile/image4.png" class="stamp-img">
+                    </div>
+                    <div class="d-flex justify-content-center"> 
+                        <div class="ranking-container">
+                            <h3 class="voting"> Vote </h3>
+                            <h3 class="ranking"> #Rank </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 mx-auto d-flex justify-content-center">
+                <div class="stamp-container">
+                    <div class="author-container">
+                        <div class="author-stamp-container">
+                            <h3 class="stamp">Tác phẩm tem </h3>
+                            <h3 class="stamp-name"> Dinh Độc Lập </h3>
+                        </div>
+                        <div class="author-name-container">
+                            <h3 class="author">Tác giả </h3>
+                            <h3 class="author-name">N.V.P.Yến </h3>
+                        </div>
+                    </div>
+                    <div class="stamp-frame">
+                        <img src="~/image/UserProfile/image7.png" class="stamp-img">
+                    </div>
+                    <div class="d-flex justify-content-center"> 
+                        <div class="ranking-container">
+                            <h3 class="voting"> Vote </h3>
+                            <h3 class="ranking"> #Rank </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-6 mx-auto d-flex justify-content-center">
+                <div class="stamp-container">
+                    <div class="author-container">
+                        <div class="author-stamp-container">
+                            <h3 class="stamp">Tác phẩm tem </h3>
+                            <h3 class="stamp-name"> Mừng ngày phụ nữ Việt Nam 20/10 </h3>
+                        </div>
+                        <div class="author-name-container">
+                            <h3 class="author">Tác giả </h3>
+                            <h3 class="author-name">Đ.M.Khoa </h3>
+                        </div>
+                    </div>
+                    <div class="stamp-frame">
+                        <img src="~/image/shared/stamp.png" class="stamp-img">
+                    </div>
+                    <div class="d-flex justify-content-center"> 
+                        <div class="ranking-container">
+                            <h3 class="voting"> Vote </h3>
+                            <h3 class="ranking"> #Rank </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 mx-auto d-flex justify-content-center">
+                <div class="stamp-container">
+                    <div class="author-container">
+                        <div class="author-stamp-container">
+                            <h3 class="stamp">Tác phẩm tem </h3>
+                            <h3 class="stamp-name"> Mừng ngày phụ nữ Việt Nam 20/10 </h3>
+                        </div>
+                        <div class="author-name-container">
+                            <h3 class="author">Tác giả </h3>
+                            <h3 class="author-name">Đ.M.Khoa </h3>
+                        </div>
+                    </div>
+                    <div class="stamp-frame">
+                        <img src="~/image/shared/stamp.png" class="stamp-img">
+                    </div>
+                    <div class="d-flex justify-content-center"> 
+                        <div class="ranking-container">
+                            <h3 class="voting"> Vote </h3>
+                            <h3 class="ranking"> #Rank </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay" id="overlay"></div>
+    <div id="modalOne" class="modal" id="modal" display:none>
+        <div class="modal-content">
+            <div class="contact-form" id="contact-form">
+                <form action="/" id="myForm">
+                    <h2>THÔNG TIN CÁ NHÂN</h2>
+                    <div>
+                        <div class="modify-avatar-frame">
+                            <img src="~/image/UserProfile/user-circle-add.png" class="modify-avatar-img">
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="fullName" required />
+                            <label> Họ và tên </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="school" required />
+                            <label> Trường </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="studentID"  required />
+                            <label> MSSV </label>
+                        </div>
+                        <div class="input-box">
+                            <input class="glow" type="text" name="phoneNumber" required />
+                            <label> Số điện thoại </label>
+                        </div>
+                    </div>
+                    <div class="info-button-container">
+                        <button class="save-button" id="save-button"> Lưu thông tin </button>
+                        <button class="exit-button" id="exit-button" type="button"> Thoát </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Popup hiển thị số lượng vote -->
+     <div class="voting-popup" id="votingPopup">
+            <h2>Số lượt đã vote</h2>
+        <div class="col">
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 1 </h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 2 </h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 3 </h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 4 </h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 5 </h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 6</h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 7</h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 8 </h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 9</h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+            <div class="voting-wrapper">
+                <div class="voting-container">
+                    <h3 class="voting-number"> 10</h3>
+                        <div class="voting-avatar-frame">
+                            <img src="~/image/UserProfile/user-square1.png" class="voting-avatar-img">
+                        </div>
+                    <h3 class="voting-name">Tên tài khoản </h3>
+                        <div class="voted">
+                            Đã vote
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+  window.onload = function() {
+    // Lấy danh sách tất cả các phần tử có lớp "stamp-img"
+    var stampImgs = document.querySelectorAll('.stamp-img');
+
+    // Duyệt qua từng phần tử hình ảnh và thực hiện xử lý
+    stampImgs.forEach(function(stampImg) {
+      // Tạo một đối tượng hình ảnh mới
+      var img = new Image();
+
+      // Đặt nguồn hình ảnh cho đối tượng hình ảnh từ phần tử stamp-img
+      img.src = stampImg.src;
+
+      // Kiểm tra kích thước của hình ảnh
+      img.onload = function() {
+        var stampFrame = stampImg.closest('.stamp-frame');
+        if (!stampFrame) {
+          console.log('Không tìm thấy khung cho hình ảnh có lớp "stamp-img".');
+          return;
+        }
+
+        if (img.width > img.height) {
+          // Hình ảnh ngang
+          stampFrame.style.backgroundImage = "url('../image/shared/stampframe.png')";
+          console.log(stampFrame.style.backgroundImage);
+          console.log('ngua');
+        } else {
+          // Hình ảnh dọc
+          stampFrame.style.backgroundImage = "url('../image/shared/stampframe.png')";
+          console.log('nguacac');
+          console.log(stampFrame.style.backgroundImage);
+        }
+      };
+    });
+  };
+</script>
+     <script>
+    var homeButton = document.querySelector(".home-button");
+    var registerButton = document.querySelector(".register-button");
+      homeButton.addEventListener("click", function() {
+            window.location.href = "HomeUser"; 
+        });
+      registerButton.addEventListener("click", function() {
+           window.location.href = "HomeRegisterStamp"; 
+        });
+    </script>
+ <script>
+        // JavaScript để hiển thị và điều khiển popup
+        const images = document.querySelectorAll('.stamp-container');
+        const popup = document.getElementById('votingPopup');
+        // Hiện popup khi hình ảnh được nhấp vào
+        images.forEach(image => {
+            image.addEventListener('click', () => {
+                popup.style.display = 'block';
+                document.body.style.overflow = 'hidden'; // Tắt cuộn
+                overlay.style.display = 'block'; // Hiển thị nền mờ
+            });
+        });
+       overlay.addEventListener('click', () => {
+    popup.style.display = 'none'; // Ẩn popup
+    document.body.style.overflow = 'auto'; // Bật lại cuộn
+    overlay.style.display = 'none'; // Ẩn overlay
+    });
+    </script>
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const customRow = document.getElementById("row");
+  const stampContainers = document.querySelectorAll(".stamp-container");
+  // Kiểm tra số lượng cột con
+  const cols = customRow.querySelectorAll(".col-6");
+  if (cols.length === 1) {
+    customRow.style.paddingLeft = "35%";
+    cols[0].style.width = "70%";
+  }
+  else if(cols.length === 2)
+  {
+    customRow.style.paddingLeft = "10%";
+  }
+   else  {
+    customRow.style.paddingLeft = "2%";
+  }
+});
+    </script>
+
+     <!-- JavaScript điều khiển popup thay đổi thông tin cá nhân -->
+    <script>
+        const modalOne = document.getElementById('modalOne');
+        const settingButton = document.getElementById('setting-button');
+        const exitModifyButton = document.querySelector(".exit-button");
+            settingButton.addEventListener('click', () => {
+                modalOne.style.display = 'block';
+                 document.body.style.overflow = 'hidden'; // Tắt cuộn
+                overlay.style.display = 'block'; // Hiển thị nền mờ
+            });
+               exitModifyButton.addEventListener('click', () => {
+                modalOne.style.display = 'none';
+                 document.body.style.overflow = 'auto'; // Tắt cuộn
+                overlay.style.display = 'none'; // Hiển thị nền mờ
+            });
+    </script>
+</body> *@

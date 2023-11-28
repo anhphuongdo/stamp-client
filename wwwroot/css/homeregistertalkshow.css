@@ -1,0 +1,82 @@
+.talkshow-wrapper
+{
+    overflow-x: auto; 
+    white-space: nowrap;
+    margin-top:2%;
+    margin-bottom:5%;
+    padding-left: 2%;
+}
+.talkshow-container
+{
+    margin-top:10%;
+    position: relative;
+    height:90%;
+    width: 93%;
+    background:  #D4D7D8;
+    border-radius:30px;
+    border:1.5px solid black;
+    margin-bottom:15%;
+}
+.info-container
+{
+    margin-top:50%;
+    position: relative;
+    margin-top:2%;
+}
+.info-name
+{
+    font-size:32px;
+    line-height:32px;
+    color: #4285F4;
+    font-style: italic;
+    width:80%;
+    font-weight: 700;
+}
+.info-content
+{
+    text-align:center;
+    width:100%;
+    font-size:26px;
+    line-height:26px;
+    font-weight:500;
+    margin-top:10px;
+}
+.info-content1
+{
+    font-size:26px;
+    line-height:26px;
+    font-weight:500;
+    margin-top:10px;
+}
+.info-content-container
+{
+    margin-left:2%;
+}
+.stamp-frame 
+{
+    background-image: url("../image/shared/2025.png");
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.stamp-img {
+    width: 80%;
+    padding: 11% 0 12% 0;
+    object-fit: cover;
+    padding-top: 2%;
+}
+.register-talkshow-button
+{
+    width:334px;
+    height:110px;
+    border-radius:50px;
+    border:3px solid #286AA3;
+    font-family: "JosefinSans";
+    color:#286AA3;
+    font-weight:700;
+    font-size:40px;
+    line-height:40px;
+    margin-top:5%;
+}
+

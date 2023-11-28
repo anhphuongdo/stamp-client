@@ -1,0 +1,336 @@
+/* CSS cho trang chủ */
+.contest-wrapper
+{
+    margin-top:150px;
+}
+.contest-container {
+    display :flex;
+    flex-direction: row;
+    margin-left:40px;
+    width:70%;
+    height: 559px;
+    margin-bottom:40px;
+}
+
+.stamp-frame {
+    background-image: url('../image/shared/stampframe.png');
+    height:559x;
+    width:449px;
+}
+.popup-container .stamp-frame {
+    background-image: url('../image/shared/stampframe.png');
+    height:408x;
+    width:357px;
+}
+.contest-info-container
+{
+    margin-top:10px;
+    display :flex;
+    flex-direction: column;
+    width:80%;
+}
+.contest-name-container {
+    margin-left:40px;
+    display :flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.contest-ranking-info {
+    display: flex;
+    flex-direction: row;
+    margin-right:100px;
+}
+.contest-ranking-container
+{
+    margin-left:40px;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+.contest-descritption-container
+{
+    margin-left:40px;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.contest-description
+{
+     width:100%;
+     text-align: justify;
+}
+.contest-description-content
+{
+     text-align: justify;
+}
+
+p {
+    font-family: "JosefinSans";
+    font-size:35px;
+    color:black;
+    padding-right:20px;
+    font-weight: 500;
+    padding-left: 0; 
+}
+/* CSS Popup chỉnh sửa */
+ .popup-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index:2;
+ }
+.popup-container {
+    position:relative;
+    background-color: #fff;
+    width:800px;
+    height:700px;
+    border:1px solid black;
+    margin: 0 auto; /* Để căn giữa theo chiều ngang */
+    margin-top:1.5%;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    border-radius:28px;
+}
+h4
+{
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight:600;
+    line-height:40px;
+    margin-bottom:40px;
+}
+.button-modify-container
+{
+    display:flex;
+    flex-direction: row;
+    margin-top:15px;
+    justify-content: space-between;
+    height:63px;
+    padding: 0 40px 0 40px;
+    width:90%;
+} 
+.edit-button
+{
+    width:194px;
+    height: 63px;
+    border-radius:30px;
+    font-size:32px;
+    line-height:32px;
+    font-weight:500;
+    color:#fff;
+    background:#4285F4;
+    border:none;
+}
+ .delete-button
+{
+    width:194px;
+    height: 63px;
+    border-radius:30px;
+    font-size:32px;
+    line-height:32px;
+    font-weight:500;
+    color:#fff;
+    background:#EA4335;
+    border:none;
+}
+.edit-button,.delete-button
+{
+    transition: opacity 0.3s ease; 
+}
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.7;
+}
+.exit-modify-button {
+    position: absolute;
+    top: 10px; /* Đặt vị trí top tùy ý để đặt nút "X" ở góc trên cùng bên phải của form */
+    right: 15px; /* Đặt vị trí right tùy ý để đặt nút "X" ở góc trên cùng bên phải của form */
+    width: 55px; /* Đặt chiều rộng của nút "X" */
+    height: 55px; /* Đặt chiều cao của nút "X" */
+    background-color: transparent; /* Loại bỏ màu nền của nút "X" */
+    border: none; /* Loại bỏ đường viền của nút "X" */
+    cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút "X" */
+    color:#fff;
+}
+.exit-modify-button:hover {
+    opacity: 0.7;
+}
+.exit-caution-button {
+    position:absolute;
+    top: 5px; /* Đặt vị trí top tùy ý để đặt nút "X" ở góc trên cùng bên phải của form */
+    right:-10px; /* Đặt vị trí right tùy ý để đặt nút "X" ở góc trên cùng bên phải của form */
+    width: 15px; /* Đặt chiều rộng của nút "X" */
+    height: 15px; /* Đặt chiều cao của nút "X" */
+    background-color: transparent; /* Loại bỏ màu nền của nút "X" */
+    border: none; /* Loại bỏ đường viền của nút "X" */
+    cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút "X" */
+    color:#fff;
+} 
+.exit-caution-button:hover {
+    opacity: 0.7;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Màu nền mờ với độ mờ 70% */
+    z-index: 1; /* Độ ưu tiên thấp của lớp mờ */
+}
+    .delete-popup
+{
+    position:fixed;
+    top: 50%;
+    display:none;
+    z-index:3;
+    top:30%;
+    left:25%;
+    height:250px;
+    width: 50%;
+    border-radius:28px;
+    background:#fff;
+    border:1px solid black;
+}
+.edit-popup
+{
+    position:fixed;
+    top: 50%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    top:30%;
+    left:25%;
+    height:250px;
+    width: 50%;
+    border-radius:28px;
+    background:#fff;
+    border:1px solid black;
+}
+.notify
+{
+    margin-top:-15px;
+    font-size:24px;
+    line-height:24px;
+    font-weight:300;
+}
+.edit-popup button,
+.delete-popup button 
+{
+    width:99px;
+    height:45px;
+    border-radius:10px;
+    transition: opacity 0.3s ease; 
+}
+.edit-popup button:hover,
+.delete-popup button:hover {
+    opacity: 0.7;
+}
+.caution
+{
+margin-top:40px;
+font-size:40px;
+line-height:40px;
+font-weight:600;
+}
+    .button-caution-container
+{
+    width:30%;
+    margin-top:30px;
+    display: flex;
+    justify-content: space-between; 
+
+}
+.yes-button
+{
+    background:#4285F4;
+    color:#fff;
+    border:none;
+    margin-right:10%;
+}
+.cancel-button
+{
+    border:none;
+}
+.home-button
+{
+    background: #286AA3;
+    color: #fff;
+}
+/* CSS cho popup tải tác phẩm */
+.stamp-popup
+{
+    position:fixed;
+    top: 15%;
+    display:none;
+    z-index:3;/* Độ ưu tiên lớn hơn so với popup chỉnh sửa tác phẩm  */
+    height:496px;
+    width:55%;
+    border-radius:28px;
+    background:#fff;
+    border:3px solid black;
+}
+.load-stamp-title
+{
+    font-size:40px;
+    line-height:40px;
+    margin-top:107px;
+    font-family: "JosefinSans";
+    font-weight: 500;
+}
+.exit-load-stamp {
+    position: absolute;
+    top: 10px; 
+    right: 20px; 
+    width: 52px; 
+    height: 52px; 
+    background-color: transparent; 
+    border: none; 
+    cursor: pointer; 
+    color:#fff;
+    transition: opacity 0.3s ease; 
+} 
+.exit-load-stamp:hover {
+    opacity: 0.7;
+}
+.stamp-popup h4 
+{
+    font-family: "JosefinSans";
+    margin-top:10%;
+    font-size:32px;
+    line-height:32px;
+    font-weight: 400;
+}
+.load-stamp-button
+{
+    background-color: transparent; 
+    border:none;
+    margin-top:6%;
+}
+.load-stamp-button .img 
+{
+    width:74px;
+    height:74px;
+}
+@media (min-height: 800px) 
+{
+    .popup-container {
+        margin-top:4%;
+    }
+}
+@media (max-width: 1700px)
+{
+    .delete-popup
+    {
+        width:60%;
+        left:20%;
+    }
+    .edit-popup
+    {
+        width:60%;
+        left:20%;
+    }
+} 

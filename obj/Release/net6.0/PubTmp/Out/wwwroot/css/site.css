@@ -1,0 +1,62 @@
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.75;
+  }
+}
+
+.navbar-nav {
+    width: 80%;
+}
+
+.header {
+    background-color: white;
+}
+
+.navbar {
+    padding: 10px;
+    height: 100px;
+}
+
+.navbar-brand {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.logo {
+    height: 86%;
+}
+
+.navbar-box {
+    margin: 0 3%;
+    width: 70%;
+}
+
+.header-item {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.item {
+    color: rgba(0, 0, 0, 0.60);
+}
+
+.login-box {
+    width: 10%;
+    margin-right: 0;
+}
+
+.login {
+    color: #EA4335;
+    border-radius: 50.12px;
+    border: 0.50px #EA4335 solid;
+}
+
+.login-button {
+    border: none; 
+    font-family: Josefin Sans;
+}

@@ -1,0 +1,139 @@
+﻿
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - STAMP2023</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/login.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/base.css" asp-append-version="true" />
+    @* <link rel="stylesheet" href="~/STAMP2023.styles.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/about.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/about-responsive.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/shared-responsive.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/searchbar-style.css" asp-append-version="true" />
+    <style>
+        body {
+            /* Set the background image */
+            background-image: url('../image/shared/bg.png');
+            /* Set background size to a smaller value */
+            background-size: 1000px auto; /* Adjust the values as needed */
+            /* Set background to repeat */
+            background-repeat: repeat;
+            /* Center the background image */
+            background-position: center center;
+            /* Set a fixed background attachment */
+            background-attachment: fixed;
+        }
+
+    </style>
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body>
+    <!-- Phần thông tin đăng nhập tài khoản -->
+    @* <div id="custom-form" class="custom-form">
+    <form>
+    <div class="login-form">
+    <h3 class="login-notice">Đăng nhập tài khoản</h3>
+    <p class="notice">Bạn cần đăng nhập tài khoản Google của mình để tiếp tục tính năng này<p>
+    </div>
+    <button class="google-button">
+    <span class="google-icon" >Đăng nhập với Google</span>
+    </button>
+    </form>
+    <button class="close-button" id="close-button" >
+    <img src="~/image/Index/icons/close.png" class="close-img">
+    </button>
+    </div> *@
+    <!-- Popup thông báo trang cá nhân người dùng -->
+    @* <div class="notify-popup" id="notify-popup" style="display:none">
+    <h3 class="notify-title"> Thông báo </h3>
+    <div class="notify-content"> Hello Stamp </div>
+    <div class="notify-content"> Hello Stamp </div>
+    <div class="notify-content"> Hello Stamp </div>
+    <div class="notify-content"> Hello Stamp </div>
+    <div class="notify-content"> Hello Stamp </div>
+    <div class="notify-content"> Hello Stamp </div>
+    </div> *@
+    <div class="container-fluid" style="padding: 0px">
+        <partial name="Nofitication" />
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- JavaScript thay đổi button đăng nhập thành các nút chức năng khi người dùng đã đăng nhập -->
+    @* <script>
+        var loginButton = document.getElementById("login-button");
+        var notifyButton = document.getElementById("notification-button");
+        var userButton = document.getElementById("user-button");
+        // Lấy đường dẫn URL từ cửa sổ trình duyệt
+        var currentURL = window.location.href;
+        // Tạo đối tượng URL từ đường dẫn URL hiện tại
+        var url = new URL(currentURL);
+        // Lấy phần path của URL (bao gồm "/HomeUser")
+        var path = url.pathname;
+        // Tách phần cuối của đường dẫn
+        var pathSegments = path.split('/');
+        // Lấy phần cuối của mảng
+        var userURL = pathSegments[pathSegments.length - 1];
+        if (userURL === "HomeUser" || userURL === "HomeRanking" || userURL === "HomeRegisterStamp" || userURL === "HomeRegisterTalkshow") {
+            loginButton.style.display = "none";
+            notifyButton.style.display = "block";
+            userButton.style.display = "block";
+        }
+        else {
+            loginButton.style.display = "block";
+            notifyButton.style.display = "none";
+            userButton.style.display = "none";
+        }
+    </script> *@
+    <!-- JavaScript điều khiển form đăng nhập -->
+    @* <script>
+        var loginForm = document.getElementById('custom-form');
+        var closeButton = document.getElementById('close-button');
+        loginButton.addEventListener("click", function () {
+            loginForm.style.display = "block";
+            document.body.style.overflow = 'hidden';
+        });
+        closeButton.addEventListener("click", function () {
+            loginForm.style.display = "none";
+            document.body.style.overflow = 'auto';
+        });
+    </script> *@
+    <!-- JavaScript điều khiển popup thông báo -->
+    @* <script>
+        var notifyPopup = document.getElementById("notify-popup");
+        var isPopupVisible = false;
+        var notifyButton = document.getElementById("notification-button");
+        notifyButton.addEventListener("click", function () {
+            notifyPopup.style.display = "block";
+            isPopupVisible = true;
+            document.body.style.overflow = 'hidden';
+        });
+        document.addEventListener("click", function (event) {
+            if (isPopupVisible && event.target !== notifyPopup && event.target !== notifyButton) {
+                notifyPopup.style.display = "none";
+                isPopupVisible = false;
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script> *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @* <script src="~/js/site.js" asp-append-version="true"></script> *@
+    <script src="~/js/navbar.js" asp-append-version="true"></script>
+    <script src="~/js/common.js" asp-append-version="true"></script>
+    <script src="~/js/timing.js" asp-append-version="true"></script>
+    <script src="https://kit.fontawesome.com/7871494614.js" crossorigin="anonymous"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

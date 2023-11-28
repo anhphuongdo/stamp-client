@@ -1,0 +1,392 @@
+.custom-form {
+  margin-top:120px;
+    /* margin-top:70px; */
+    /* width: 500px;
+  height: 300px; */
+  width:974px;
+  height:616px;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  display:none;
+  z-index: 900;
+}
+.login-form {
+    position: absolute;
+    /* height: 200px; */
+    height :422px;
+    width:971px;
+    background-color: rgba(110, 172, 227, 0.30); 
+  border-radius: 8px;
+}
+
+
+.close-button {
+  position: absolute;
+  top: 10px; /* Đặt vị trí top tùy ý để đặt nút "X" ở góc trên cùng bên phải của form */
+  right: 10px; /* Đặt vị trí right tùy ý để đặt nút "X" ở góc trên cùng bên phải của form */
+  width: 55px; /* Đặt chiều rộng của nút "X" */
+  height: 55px; /* Đặt chiều cao của nút "X" */
+  background-color: transparent; /* Loại bỏ màu nền của nút "X" */
+  border: none; /* Loại bỏ đường viền của nút "X" */
+  cursor: pointer; /* Biểu tượng con trỏ khi di chuột qua nút "X" */
+  color:#fff;
+  /* width:30px;
+  height:30px; */ 
+  transition: opacity 0.3s ease; 
+}
+.close-button:hover {
+  opacity: 0.7; 
+}
+.close-button:hover .close-icon {
+  background:#EA4335; /* Màu chữ đỏ khi di chuột vào */
+}
+.google-button {
+  /* margin-top:250px; */
+  margin-top:520px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #fff; /* Đặt màu nền của nút */
+  /* border: 2px solid #4285f4;  */
+  border:2px solid black;/* Đặt viền màu den */
+  color: black; /* Đặt màu chữ là xanh */
+  cursor: pointer;
+  padding: 10px 20px; /* Đặt khoảng cách bên trong nút */
+  /* font-size: 18px; */
+  font-size:40px ;/* Đặt kích thước chữ */
+  border-radius: 4px; /* Đặt bán kính viền */
+  font-family:'JosefinSans';
+  /* width:280px; */
+  width:642px;
+  height:112px;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.login-notice
+{
+  font-family: 'JosefinSans';
+  margin-top: 80px; /* Đặt giá trị margin-top là 20px */
+  /* font-size: 28px; */
+  line-height: 48px;
+  font-size: 48px;
+  font-weight:700;
+}
+.notice
+{
+    font-family: 'JosefinSans';
+  /* margin-top: 40px;  */
+  margin-top: 60px;    /*Đặt giá trị margin-top là 120px */
+  /* font-weight: 500; */
+  /* margin-top: 35px; */
+  font-size:39px;
+  font-weight: 600;
+  padding: 0 10px 0 10px;
+}
+.google-icon {
+  font-weight: bold; /* Tạo chữ đậm */
+}
+.login-button {
+  font-family: 'JosefinSans';
+  width:200px;
+  border-radius: 30px; /* Đặt bán kính viền */
+  border: 2px solid #286AA3; 
+  background: #fff;  
+  color:#286AA3;
+  padding:5px;
+  transition: color 0.3s ease-in-out; /* Hiệu ứng chuyển đổi màu chữ */
+}
+.login-button:hover {
+  /* Thiết lập màu nền và màu chữ khi hover */
+  background-color:#286AA3; /* Màu nền khi hover */
+  color:#fff;  /* Màu chữ khi hover*/
+}
+/* Reponsive */
+/* @media (min-width:281px) and (max-width: 500px) {
+  .custom-form {
+    margin-top:30px;
+     width:300px;
+     height:260px;
+  }
+  .login-notice
+  {
+    font-size:20px;
+  }
+  .notice
+  {
+    font-size:18px;
+    margin-top:35px;
+  }
+  .google-button
+  {
+    font-size:15px;
+    margin-top:220px;
+    width:200px;
+  }
+  .login-form
+  {
+    height:180px;
+    width:300px;
+  }
+  .close-button
+  {
+    width: 20px; 
+    height: 20px; 
+  }
+  .close-icon {
+    line-height: 17px;
+    font-size:12px;
+  }
+  .login-button
+  {
+    width: 80px;
+  }
+
+}
+
+@media (max-width:280px) {
+  .custom-form {
+    margin-top:30px;
+     width:240px;
+     height:220px;
+  }
+  .login-notice
+  {
+    font-size:18px;
+  }
+  .notice
+  {
+    font-size:16px;
+    margin-top:30px;
+  }
+  .google-button
+  {
+    font-size:12px;
+    margin-top:190px;
+    width:160px;
+  }
+  .login-form
+  {
+    height:160px;
+  }
+  .close-button
+  {
+    width: 15px; 
+    height: 15px; 
+  }
+  .close-icon {
+    line-height: 13px;
+    font-size:10px;
+  }
+  .login-button
+  {
+    width: 60px;
+  }
+
+} */
+@media (min-width:541px) and (max-width: 974px) {
+  .custom-form {
+    margin-top:-120px;
+     width: 540px;;
+     height:340px;
+  }
+  .login-notice
+  {
+    margin-top:32px;
+    font-size:25px;
+  }
+  .notice
+  {
+    font-size:25px;
+    margin-top:20px;
+  }
+  .google-button
+  {
+    height:55px;
+    font-size:20px;
+    margin-top:275px;
+    width:280px;
+  }
+  .login-form
+  {
+    height:220px;
+    width:537px;
+  }
+  .close-button
+  {
+    width: 25px; 
+    height: 25px; 
+  }
+  .close-icon {
+    line-height: 25px;
+    font-size:13px;
+  }
+  .login-button
+  {
+    width: 80px;
+  }
+
+}
+
+@media (min-width:281px) and (max-width: 540px) {
+  .custom-form {
+    margin-top:30px;
+     width:300px;
+     height:265px;
+  }
+  .login-notice
+  {
+    margin-top:30px;
+    font-size:20px;
+  }
+  .notice
+  {
+    font-size:18px;
+    margin-top:10px;
+  }
+  .google-button
+  {
+    height:45px;
+    font-size:16px;
+    margin-top:220px;
+    width:220px;
+    padding:5px;
+  }
+  .login-form
+  {
+    height:180px;
+    width:297px;
+  }
+  .close-button
+  {
+    width: 20px; 
+    height: 20px; 
+  }
+  .close-icon {
+    line-height: 20px;
+    font-size:12px;
+  }
+  .login-button
+  {
+    width: 80px;
+  }
+
+}
+
+@media (max-width:280px) {
+  .custom-form {
+    margin-top:30px;
+     width:240px;
+     height:230px;
+  }
+  .login-notice
+  {
+    font-size:16px;
+    margin-top:20px;
+  }
+  .notice
+  {
+    font-size:15px;
+    margin-top:7px;
+  }
+  .google-button
+  {
+    font-size:13px;
+    margin-top:190px;
+    width:180px;
+    height:40px;
+    padding :2px;
+    text-align:center;
+  }
+  .login-form
+  {
+    width:237px;
+    height:160px;
+  }
+  .close-button
+  {
+    width: 15px; 
+    height: 15px; 
+  }
+  .close-icon {
+    line-height: 16px;
+    font-size:8px;
+  }
+  .login-button
+  {
+    width: 60px;
+  }
+
+}
+/* CSS cho nút thông báo và nút người dùng */
+.notification-button
+{
+  background-color: transparent; 
+  width: 57px;
+  height: 57px;
+  border:none;
+  margin-left:5px;
+}
+.user-button
+{
+  background-color: transparent; 
+  width: 57px;
+  height: 57px;
+  border:none;
+  pointer-events: none;
+}
+.notify-img
+{
+  width:45px;
+  height:45px;
+  pointer-events: none;
+}
+.user-img
+{
+  width:45px;
+  height:45px;
+  pointer-events: none;
+}
+.personal-button
+{
+  display: flex;
+}
+.notify-popup
+{
+  position:fixed;
+  z-index:100;
+  right: 30px; 
+  height:495px;
+  width:378px;
+  background: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-top:15px;
+  overflow: auto; 
+}
+.notify-title
+{
+  margin-top:8%;
+  font-family: "JosefinSans";
+  font-weight:500;
+  font-size:32px;
+  line-height:32px;
+  text-align: left;
+  padding-left: 8%;
+}
+.notify-content
+{
+  border-radius:15px;
+  height:91px;
+  width:378px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-left: 10%;
+}
+.notify-content:hover {
+  background: #D4D7D8;
+}

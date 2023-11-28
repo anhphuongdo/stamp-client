@@ -1,0 +1,73 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@model BIT_STAMP.Models.Product
+@{
+    List<GroupUser> group = ViewBag.Group;
+    List<Vote> votes = ViewBag.Vote;
+    Layout = "_BlankLayout";
+}
+<div class="popup">
+    <div class="row ">
+        <div class="col-md-6 col-lg-6 col-sm-12 submission-info">
+            <p class="title">Tên tác phẩm: @Model.ProductName</p>
+            @foreach (var gr in group)
+            {
+                if (gr.ProductId == Model.ProductId)
+                {
+                    <p class="author">Tên tác giả: @gr.GroupName</p>
+                }
+            }
+
+            <p class="description"> Mô tả tác phẩm:</p>
+            <pre class="description scroll">@Model.ProductDescription</pre>
+        </div>
+        <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="stamp-frame">
+                <img class="stamp-img" src="data:image /jpeg;base64,@(Convert.ToBase64String(Model.ImageUrl))" alt="product-item">
+            </div>
+            <div class="container">
+                <div class="row justify-content-evenly" style="padding-left: 1%">
+                    @{
+                        var user = await UserManager.GetUserAsync(User);
+                        @if (user != null)
+                        {
+                            var voted = votes.FirstOrDefault(m => m.ProductId == Model.ProductId && m.UserId.Equals(user.Id));
+                            @if (voted != null)
+                            {
+                                <button class="like-btn-voted col-3">
+                                    @Html.AntiForgeryToken()
+                                    <p class="like-number">@Model.VoteAmount</p>
+                                    <img src="~/icon/like.png" alt="" class="like-icon">
+                                </button>
+                            }
+                            else
+                            {
+                                <button class="like-btn col-3" onclick="like_action(@Model.ProductId)">
+                                    @Html.AntiForgeryToken()
+                                    <p id="@Model.ProductId" class="like-number">@Model.VoteAmount</p>
+                                    <img src="~/icon/like.png" alt="" class="like-icon">
+                                </button>
+                            }
+                        }
+                        else
+                        {
+                            <button class="like-btn col-3" onclick="loginRequired()">
+                                @Html.AntiForgeryToken()
+                                <p id="@Model.ProductId" class="like-number">@Model.VoteAmount</p>
+                                <img src="~/icon/like.png" alt="" class="like-icon">
+                            </button>
+                        }
+                    }
+
+                    @* <div class="col-3 link-btn">
+                    <img src="~/icon/link.png" alt="" class="link-icon">
+                    </div>
+                    <div class="col-3 facebook-btn">
+                    <img src="~/icon/f4.png" alt="" class="facebook-icon">
+                    </div> *@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

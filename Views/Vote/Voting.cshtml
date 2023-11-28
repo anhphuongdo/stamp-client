@@ -1,0 +1,162 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@using BIT_STAMP.ViewModel
+@model PageViewModel<Product>
+@{
+    ViewData["Title"] = "Bình Chọn";
+    List<Product> listProduct = ViewBag.SearchProduct;
+    List<GroupUser> group = ViewBag.Group;
+    List<Vote> votes = ViewBag.Vote;
+    List<Product> top20 = ViewBag.Top20;
+}
+@section Scripts {
+    <script src="~/js/vote.js" asp-append-version="true"></script>
+}
+@section Styles{
+    <link rel="stylesheet" href="~/css/voting.css" asp-append-version="true" />
+}
+
+<div class="banner">
+    <!-- Slideshow container -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
+        <div class="slider carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="~/image/shared/banner1.jpg" />
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/image/shared/banner2.jpg" />
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/image/shared/banner3.jpg" />
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="page-title">
+        BÌNH CHỌN
+    </div>
+</div>
+
+@* Popup product infor *@
+<div id="product-info" class="container"></div>
+<div id="overlay" class="display-none"></div>
+
+
+@* Search box *@
+<form asp-controller="Vote" asp-action="Voting" method="get">
+    <div class="search-box">
+        <div class="search">
+            <button class="search-btn">
+                <img class="search-img" src="~/icon/search.png" />
+            </button>
+            <input type="search" id="trigger" class="search-input" placeholder="Tìm kiếm" name="searchString"/>
+        </div>
+    </div>
+</form>
+@if(listProduct.Count > 0)
+{
+    <br />
+    <div>Kết quả tìm kiếm: @listProduct.Count tác phẩm</div>
+    <div class="container-fluid horizontal-scrollable">
+        <div class="row flex-nowrap">
+            @foreach (var item in listProduct)
+            {
+                <div class="col-4">
+                    <div class="row" style="margin-bottom: 40px;">
+                        <div class="submission-box" onclick="showInforVoting(@item.ProductId)">
+                            <div class="stamp-frame">
+                                <img class="stamp-img" src="data:image /jpeg;base64,@(Convert.ToBase64String(item.ImageUrl))" alt="product-item">
+                            </div>
+                            <h2 class="stamp-name">@item.ProductName</h2>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@* Top 20 *@
+<div class="line-bottom">
+    <h1 class="blue-color">Top 20</h1>
+</div>
+<div class="container-fluid horizontal-scrollable">
+    <div class="row flex-nowrap">
+        @foreach(var item in top20)
+        {
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <div class="row" style="margin-bottom: 40px;">
+                    <div class="submission-box" onclick="showInforVoting(@item.ProductId)">
+                        <div class="stamp-frame">
+                            <img class="stamp-img" src="data:image /jpeg;base64,@(Convert.ToBase64String(item.ImageUrl))" alt="product-item">
+                        </div>
+                        <h2 class="stamp-name">@item.ProductName</h2>
+                    </div>
+                </div>
+            </div> 
+        }                                  
+    </div>
+</div>  
+
+@* BIT_STAMP 2023 *@
+<div class="line-bottom">
+    <h1 class="blue-color">S.T.A.M.P 2023</h1>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        @foreach (var item in Model.Items)
+        {
+            <div class="col-md-4 col-lg-4 col-sm-12">
+                <div class="row" style="margin-bottom: 40px;">
+                    <div class="submission-box" onclick="showInforVoting(@item.ProductId)">
+                        <div class="stamp-frame">
+                            <img class="stamp-img" src="data:image /jpeg;base64,@(Convert.ToBase64String(item.ImageUrl))" alt="product-item">
+                        </div>
+                        <h2 class="stamp-name">@item.ProductName</h2>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    @* Phân trang *@
+    <div id="pagination">
+        <div class="row row-page">
+            <div class="col-md-12 col-page">
+                <nav aria-label="Page navigation nav-page">
+                    <div class="d-flex flex-row justify-content-center ">
+                        <ul class="pagination">
+                            <li class="prev">
+                                <a class="page-link pag_btn" style="@(Model.PageIndex != 1  ? "" : "pointer-events: none;") color:black;" asp-controller="Vote" asp-action="Voting" asp-route-page="@(Model.PageIndex - 1)"><img src="~/icon/arrow-left.svg" /></a>
+                            </li>
+                            @for (var i = 1; i <= Model.TotalPages; i++)
+                            {
+                                <li class="number_btns @(i == Model.PageIndex ? "active" : "") text-black">
+                                    <div>
+                                        <a class="page-link" asp-controller="Vote" asp-action="Voting" asp-route-page="@i">@i</a>
+                                    </div>                                        
+                                </li>
+                            }
+
+                            <li class="next">
+                                <a class="page-link pag_btn" style="@(Model.PageIndex != Model.TotalPages ? "" : "pointer-events: none;") color:black;" asp-controller="Vote" asp-action="Voting" asp-route-page="@(Model.PageIndex + 1)"><img src="~/icon/arrow-right.svg" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>        
+</div>
+
+
+@* Pop up login required *@
+<partial name="LoginRequired" />
+

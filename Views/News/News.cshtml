@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Tin Tức";
+}
+
+<header>
+    <link rel="stylesheet" href="~/css/searchbar-style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/js/common.js" asp-append-version="true"/>
+    <link rel="stylesheet" href="~/css/news.css" asp-append-version="true" />
+</header>
+<body>
+    <script src="~/js/navbar.js" asp-append-version="true"></script>
+    @* Search box *@
+    <div class="search-box">
+        <div class="search">
+            <button class="search-btn" onclick="">
+                <img class="search-img" src="~/icon/search.png" />
+            </button>
+            <input type="text" id="trigger" class="search-input" placeholder="Tìm kiếm" />
+        </div>
+    </div>
+
+    <!-- Các tin mới -->
+     <div class="container-fluid news-container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-6 ">
+                <div class="row">
+                    <div class="news-box ">
+                        <div class="stamp-frame">
+                            <img src="~/image/News/news.png" alt="" class="stamp-img">
+                        </div> 
+                        <h2 class="title mx-auto">Title</h2>
+                        <p class="dated mx-auto"> Ngày đăng </p>
+                        <p class="sapo mx-auto"> 1 đoạn sapo ngắn</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-box">
+                        <div class="stamp-frame">
+                            <img src="~/image/News/news.png" alt="" class="stamp-img">
+                        </div>
+                        <h2 class="title mx-auto">Title</h2>
+                        <p class="dated mx-auto"> Ngày đăng </p>
+                        <p class="sapo mx-auto">1 đoạn sapo ngắn </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 ">
+                <div class="row">
+                    <div class="news-box">
+                        <div class="stamp-frame">
+                            <img src="~/image/News/news.png" alt="" class="stamp-img">
+                        </div>
+                       <h2 class="title mx-auto">Title</h2>
+                        <p class="dated mx-auto"> Ngày đăng </p>
+                        <p class="sapo mx-auto"> 1 đoạn sapo ngắn</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="news-box">
+                        <div class="stamp-frame">
+                            <img src="~/image/News/news.png" alt="" class="stamp-img">
+                        </div>
+                        <h2 class="title mx-auto">Title</h2>
+                        <p class="dated mx-auto"> Ngày đăng </p>
+                        <p class="sapo mx-auto"> 1 đoạn sapo ngắn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+</body>
+
