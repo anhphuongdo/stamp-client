@@ -92,10 +92,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUmVnaXN0ZXJTdGFtcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Home/HomeRegisterTalkshow.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUmVnaXN0ZXJUYWxrc2hvdy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ASP.NET/BIT_STAMP/Views/Home/HomeUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -150,6 +146,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.NET/BIT_STAMP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/BIT_STAMP/Views/Talkshow/HomeRegisterTalkshow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFsa3Nob3dcSG9tZVJlZ2lzdGVyVGFsa3Nob3cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/BIT_STAMP/Views/User/Info.cshtml]

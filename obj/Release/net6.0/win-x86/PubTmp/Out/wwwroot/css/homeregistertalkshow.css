@@ -66,17 +66,42 @@
     object-fit: cover;
     padding-top: 2%;
 }
-.register-talkshow-button
-{
-    width:334px;
-    height:110px;
-    border-radius:50px;
-    border:3px solid #286AA3;
+.register-talkshow-button {
+    width: 334px;
+    height: 110px;
+    border-radius: 50px;
+    border: 3px solid #286AA3;
     font-family: "JosefinSans";
-    color:#286AA3;
-    font-weight:700;
-    font-size:40px;
-    line-height:40px;
-    margin-top:5%;
+    color: #286AA3;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 5% 0 5% 0;
+}
+
+@media (max-width:600px) {
+    .info-name {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .info-content {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+
+    .info-content1 {
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+
+    .register-talkshow-button {
+        width: auto;
+        height: auto;
+        font-size: 20px !important;
+        padding: 5px;
+    }
 }
 

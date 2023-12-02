@@ -12,13 +12,6 @@
     int rankings = ViewBag.Rankings;
 }
 
-@section Styles{
-    <link rel="stylesheet" href="~/css/ranking-style.css" asp-append-version="true" />
-}
-@section Scripts {
-    <script src="~/js/vote.js" asp-append-version="true"></script>
-}
-
     <div class="banner">
         <!-- Slideshow container -->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="3000">
@@ -87,15 +80,15 @@
                                     var voted = votes.FirstOrDefault(m => m.ProductId == item.ProductId && m.UserId.Equals(user.Id));
                                     @if (voted != null)
                                     {
-                                        <button default-color="rgb(66, 133, 244)" class="like-btn">
-                                        @Html.AntiForgeryToken()
-                                        <p style="color:white" class="like-number number">@item.VoteAmount</p>
-                                        <img style="color:white" class="like-image" src="~/image/Ranking/like_bold.svg" />
+                                        <button style="background: rgb(66, 133, 244)" class="like-btn">
+                                            @Html.AntiForgeryToken()
+                                            <p style="color:white" class="like-number number">@item.VoteAmount</p>
+                                            <img style="color:white" class="like-image" src="~/image/Ranking/like_bold.svg" />
                                         </button>
                                     }
                                     else
                                     {
-                                    <button default-color="rgb(232, 170, 66)" class="like-btn" onclick="like_action_ranking(@item.ProductId)">
+                                        <button default-color="rgb(232, 170, 66)" class="like-btn" onclick="like_action_ranking(@item.ProductId)">
                                             @Html.AntiForgeryToken()
                                             <p class="like-number number">@item.VoteAmount</p>
                                             <img class="like-image" src="~/image/Ranking/like.svg" />
@@ -105,9 +98,8 @@
                                 }else
                                 {
                                     <button default-color="rgb(232, 170, 66)" class="like-btn" onclick="loginRequired()">
-
                                         @Html.AntiForgeryToken()
-                                    <p class="like-number number">@item.VoteAmount</p>
+                                        <p class="like-number number">@item.VoteAmount</p>
                                         <img class="like-image" src="~/image/Ranking/like.svg" />
                                     </button>
                                 }                                                                
@@ -170,7 +162,7 @@
                             }
                             else
                             {
-                            <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="like_action_ranking(@listProduct[i].ProductId)">
+                                <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="like_action_ranking(@listProduct[i].ProductId)">
                                     @Html.AntiForgeryToken()
                                     <p class="contest-like-number like-number number">@listProduct[i].VoteAmount</p>
                                     <img class="like-image" src="~/image/Ranking/like.svg" />
@@ -226,7 +218,7 @@
                             }
                             else
                             {
-                            <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="like_action_ranking(@item.ProductId)">
+                                <button default-color="rgb(217, 217, 217)" class="contest-like-box like-btn" onclick="like_action_ranking(@item.ProductId)">
                                     @Html.AntiForgeryToken()
                                     <p class="contest-like-number like-number number">@item.VoteAmount</p>
                                     <img class="like-image" src="~/image/Ranking/like.svg" />
@@ -282,59 +274,48 @@
 @* Pop up login required *@
 <partial name="LoginRequired" />
 
-@* @section Scripts {
-    <script src="~/js/vote.js" asp-append-version="true"></script> *@
-    @* <script>
-        function like_action(val) {
-            event.stopPropagation();
-            var current = event.currentTarget
-            const default_color = current.getAttribute("default-color");
+@section Styles{
+    <link rel="stylesheet" href="~/css/ranking-style.css" asp-append-version="true" />
+}
+@section Scripts {
+    <script src="~/js/vote.js" asp-append-version="true"></script>
+    <script>
+        function like_action_ranking(val) {
+            @*event.stopPropagation();
+            var current = event.currentTarget;
+            //const default_color = current.getAttribute("default-color");
             let current_style = window.getComputedStyle(current);
             var like_number = current.getElementsByClassName("like-number")[0];
             const parent = current.parentElement;
             const name = parent.getElementsByClassName("contest-name");
-            if (current_style.backgroundColor === default_color) {
-                current.style.backgroundColor = "rgb(66, 133, 244)";
-                current.children[1].src = "../image/Ranking/like_bold.svg";
-                like_number.style.color = "white";
-                like_number.textContent = parseInt(like_number.textContent) + 1;
-                if (like_number.textContent < 10) {
-                    like_number.textContent = like_number.textContent;
-                }
-                if (name.length > 0) {
-                    name[0].style.color = "#6EACE3";
-                }
+            //window.location.reload();
 
-                var csrfToken = $('input[name="__RequestVerificationToken"]').val();
-                $.ajax({
-                    type: "POST",
-                    url: "/Ranking/Voting",
-                    data: {
-                        id: val,
-                        __RequestVerificationToken: csrfToken
-                    },
-                    success: function (response) {
-                        //window.location.reload();
-                    },
-                    error: function (response) {
-                        console.log(response);
-                    }
-                });
-            }
-            /*else {
-                current.style.backgroundColor = default_color;
-                current.children[1].src = "../image/Ranking/like.svg";
-                like_number.style.color = "black";
-                like_number.textContent = parseInt(like_number.textContent) - 1;
-                if (like_number.textContent<10) {
-                    like_number.textContent = "0" + like_number.textContent;
+            var csrfToken = $('input[name="__RequestVerificationToken"]').val();
+            $.ajax({
+                type: "POST",
+                url: "/Ranking/Voting",
+                data: {
+                    id: val,
+                    __RequestVerificationToken: csrfToken
+                },
+                success: function (response) {
+                    current.style.backgroundColor = "rgb(66, 133, 244)";
+                    current.children[1].src = "../image/Ranking/like_bold.svg";
+                    like_number.style.color = "white";
+                    like_number.textContent = parseInt(like_number.textContent) + 1;
+                    if (like_number.textContent < 10) {
+                        like_number.textContent = like_number.textContent;
+                    };
+                    if (name.length > 0) {
+                        name[0].style.color = "#6EACE3";
+                    };
+                    alert("Bạn đã bình chọn cho tác phẩm số " + val + " thành công!")
+                },
+                error: function (response) {
+                    alert("Mỗi tác phẩm chỉ được bình chọn 01 lần.")
                 }
-                if (name.length>0) {
-                    name[0].style.color = "#000";
-                }
-
-        @* Code request dislike ở đây *@
-            @* }*/
-        }
-    </script> *@
-@* } *@
+            });*@
+            alert("Thời gian bình chọn cho tác phẩm đã hết");
+        };
+    </script>
+}

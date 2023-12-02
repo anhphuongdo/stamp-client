@@ -128,20 +128,17 @@ hr {
 .stamp-frame {
     background-image: url("../image/UserProfile/2024.png");
     background-size: 100% 100%;
-    width: 288px;
-    height: 180px;
+    width: 50%;
+    height: 90%;
     display: flex;
     justify-content: center;
     align-items: center; 
-    margin-left:5%;
 }
 
 .stamp-img {
     width: 80%;
-    padding: 11% 0 12% 0;
-    padding-left: 1%;
+    padding: 12% 0 12% 1%;
     object-fit: cover;
-    padding-top: 2%;
 }
 /* CSS cho popup tải tác phẩm */
 .stamp-popup
@@ -305,7 +302,15 @@ hr {
         width: 100%;
     }
     .account-name{
-        display: none;
+        font-size: 15px;
+        padding-left: unset;
+        margin-left: -100px;
+    }
+    .profile-container{
+        height: auto;
+        width: auto;
+        display: block;
+        margin-left: 25%;
     }
 }
 

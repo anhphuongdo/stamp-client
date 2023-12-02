@@ -1,13 +1,9 @@
-.register-button
-{
+.register-button:hover {
     color: #fff; /* Màu chữ khi di chuột qua */
-    background:#286AA3;
+    background: #286AA3;
 }
 .content {
-    margin-top:10%;
-    display: flex;
-    justify-content: space-between;
-    width:60%;
+    margin-top:5%;
 }
 .register-stamp, .register-talkshow
 {
@@ -216,4 +212,17 @@ h3 {
     margin-top:5%;
     text-align: left;
     font-weight: 600;
+}
+
+
+@media (max-width:600px) {
+    .nav-link.item {
+        font-size: 15px;
+    }
+    .register-talkshow {
+        font-size: 15px;
+    }
+    .talkshow-container{
+        width: 100%;
+    }
 }

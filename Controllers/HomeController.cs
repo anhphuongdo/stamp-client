@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BIT_STAMP.Models;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using BIT_STAMP.Data;
 
 namespace BIT_STAMP.Controllers
 {
@@ -8,8 +10,11 @@ namespace BIT_STAMP.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ApplicationDbContext _context;
+
+        public HomeController(ApplicationDbContext context, ILogger<HomeController> logger)
         {
+            _context = context;
             _logger = logger;
         }
 
@@ -20,6 +25,7 @@ namespace BIT_STAMP.Controllers
 
         public IActionResult HomeRegisterStamp()
         {
+            ViewData["School"] = new SelectList(_context.Schools, "SchoolId", "SchoolName");
             return View();
         }
         /*public IActionResult HomeRegisterTalkshow()

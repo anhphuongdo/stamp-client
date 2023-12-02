@@ -11,10 +11,11 @@ namespace BIT_STAMP.Models
         [Display(Name = "Số thứ tự")]
         public int STT { get; set; }
 
-        [Required]
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Họ và Tên không được để trống")]
         [Display(Name = "Họ và tên")]
         public string FullName { get; set; }
 
+        [Required(AllowEmptyStrings = false, ErrorMessage = "MSSV không được để trống")]
         [Display(Name = "MSSV")]
         public string UsMssv { get; set; }
 

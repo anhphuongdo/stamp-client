@@ -301,4 +301,24 @@ pre {
         font-size: 30px;
         width: 100%;
     }
+    .pagination {
+        justify-content: center;
+        align-items: center;
+        overflow: clip;
+    }
+
+    .number_btns {
+        width: 5%;
+        margin: 0 5px 0 5px;
+        border: none;
+        border-radius: unset;
+        overflow: unset;
+    }
+
+    .page-link {
+        font-size: 16px;
+        border: 2px solid #000000 !important;
+        border-radius: 15px;
+        overflow: unset;
+    }
 }

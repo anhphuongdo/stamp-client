@@ -56,7 +56,7 @@ namespace BIT_STAMP.Controllers
             return View(mymodel);
         }
 
-        [HttpPost]
+        /*[HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Voting(int? id)
         {
@@ -72,13 +72,13 @@ namespace BIT_STAMP.Controllers
             var product = _context.Products.FirstOrDefault(m => m.ProductId == id);
             if(product == null)
             {
-                /*TempData["error"] = "Tác phẩm không tồn tại";*/
+                *//*TempData["error"] = "Tác phẩm không tồn tại";*//*
                 return NotFound();
             }
             var vote = _context.Votes.FirstOrDefault(m => m.ProductId == id && m.UserId.Equals(user.Id));
             if(vote != null)
             {
-                /*TempData["error"] = "Bạn đã bình chọn cho tác phẩm này rồi";*/
+                *//*TempData["error"] = "Bạn đã bình chọn cho tác phẩm này rồi";*//*
                 return NotFound();
             }
 
@@ -86,16 +86,16 @@ namespace BIT_STAMP.Controllers
             newVote.ProductId = (int)id;
             newVote.UserId = user.Id;
             _context.Votes.Add(newVote);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
 
             product.VoteAmount += 1;
             _context.Products.Update(product);
-            await _context.SaveChangesAsync();
+            _context.SaveChanges();
 
-            /*TempData["success"] = "Bạn đã vote thành công cho tác phẩm: " + product.ProductName;*/
+            *//*TempData["success"] = "Bạn đã vote thành công cho tác phẩm: " + product.ProductName;*//*
 
             return Ok();
-        }
+        }*/
 
         public async Task<IActionResult> Details(int? id)
         {

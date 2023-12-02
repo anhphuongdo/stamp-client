@@ -110,6 +110,13 @@ form {
     width:90%;
     text-align: left;
 }
+.logout {
+    padding: 0 0 0 25px;
+    margin: 0 0 0 25px;
+    position: inherit;
+    height: auto;
+    width: auto;
+}
 .modify-avatar-frame
 {
     width:147px;
@@ -200,5 +207,11 @@ input:-webkit-autofill {
     .banner-container {
         padding-left: 0;
         height: 250px;
+    }
+    .home-button, .ranking-button, .register-button {
+        height: 50px;
+    }
+    .button-container{
+        margin-top: 5%;
     }
 }

@@ -3,55 +3,57 @@
 
 @{
     ViewData["Title"] = "Đăng kí";
+    var user = await UserManager.GetUserAsync(User);
 }
-<div>
+@* <div> *@
     <!-- Banner -->
     <div class="banner-container">
         <img class="stamplogo" src="~/image/shared/stamplogo-big.png" alt="">
     </div>
     <!-- Avatar người dùng -->
-    <div class="profile-container">
+    <div class="row profile-container">
         <div class="avatar-frame">
              <!-- Sử dụng thẻ img để hiển thị hình ảnh avatar -->
             <img src="~/image/UserProfile/user-square.png" alt="">
                 <button class="setting-button" id="setting-button">
                     <img src="~/image/UserProfile/setting.png">
                 </button>
-        </div>
-        <span class="account-name">
+        </div>@* 
+        <span class="col-sm-12 col-md-12 account-name">
+            @User.Identity.Name
+        </span> *@
+        <span class="col-sm-12 col-md-12 col-lg-3 account-name">
             @User.Identity.Name
         </span>
-    </div>
-
-    <div class="row">
-        <form class="form-inline" asp-area="" asp-controller="User" asp-action="Logout" method="post" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            @* <button id="login-button" class="login-button" type="submit">Đăng xuất</button> *@
-            <button id="login-button" class="login-button" type="submit">Đăng xuất</button>
-        </form>
     </div>
     
     <!-- Các nút trang chủ,đăng kí, bảng xếp hạng -->
     <div class="button-container row">
-
-        <button class="home-button" id="home-button">
+        <button class="col-3 home-button" id="home-button">
             <a class="nav-link item" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
         </button>
-        <button class="ranking-button" id="ranking-button">
+        <button class="col-3 ranking-button" id="ranking-button">
             <a class="nav-link item" asp-area="" asp-controller="Ranking" asp-action="Ranking">Bảng xếp hạng</a>
         </button>
-        @* <button class="col-3 register-button" id="register-button">
-            Đăng kí
-        </button> *@
+        <button class="col-3 register-button" id="register-button">
+            <a class="nav-link item" asp-area="" asp-controller="Talkshow" asp-action="HomeRegisterTalkshow">Đăng ký Talkshow</a>
+        </button>
     </div>
-    
-    
+
+    <hr />
+    <br />
+    <br />
+    <form class="logout" asp-area="" asp-controller="User" asp-action="Logout" method="post" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+        @* <button id="login-button" class="login-button" type="submit">Đăng xuất</button> *@
+        <button id="login-button" class="login-button" type="submit">Đăng xuất</button>
+    </form>    
 
      <!-- Popup thay đổi thông tin cá nhân -->
-    @* <div class="overlay" id="overlay" style="display:none"></div>
+    <div class="overlay" id="overlay" style="display:none"></div>
     <div id="modalOne" class="modal" id="modal" display:none>
         <div class="modal-content">
             <div class="contact-form" id="contact-form">
-                <form action="/" id="myForm">
+                <form action="/" id="myForm" method="post">
                     <h2>THÔNG TIN CÁ NHÂN</h2>
                     <div>
                         <div class="modify-avatar-frame">
@@ -81,21 +83,22 @@
                 </form>
             </div>
         </div>
-    </div> *@
+    </div>
+
     <!-- 2 thẻ đăng kí tác phẩm hay talkshow -->
-    <div class="content-container d-flex justify-content-center">
+    @* <div class="content-container d-flex justify-content-center">
         <div class="content">
-            @* <div>
+            <div>
                 <a class="register-stamp"  asp-page="/HomeRegisterStamp">Đăng kí tác phẩm</a>
-            </div> *@@* 
+            </div>
             <div>
                 <a class="register-talkshow" asp-area="" asp-page="/HomeRegisterTalkshow">Đăng kí Talkshow</a>
-            </div> *@
+            </div>
         </div>
-    </div>
+    </div> *@
     <!-- 2 nút load ảnh và nội dung -->
-    <div class="load-button-wrapper">
-        @* <div class="load-button-container">
+    @* <div class="load-button-wrapper">
+        <div class="load-button-container">
             <div class="image-button-container">
                 <div style ="margin-top: 10%">
                     <a  href="https://forms.gle/orwdQdhBkBvacweD6"><img style="width:20%" src="~/image/userprofile/loadbutton.png" /></a>
@@ -103,19 +106,19 @@
                 <h4> Nhấn vào đây để tải tác phẩm lên </h4>
             </div>
             <h3> Tác phẩm dự thi </h3>
-        </div> *@
-        @* <div class="load-button-container">
+        </div>
+        <div class="load-button-container">
             <div class="decription-button-container" id="load-stamp-description" >
                 <div>
                 <button class="load-button" id="load-stamp-description"> 
                 </div>
                 <h4> Nhấn vào đây để tải nội dung lên </h4>
             </div>
-        <h3> Mô tả tác phẩm <h3> *@
+        <h3> Mô tả tác phẩm <h3>
         </div>
-    </div>
+    </div> *@
     @* <h3 class="saved-title"> Tác phẩm đã lưu </h3> *@
-     <hr>
+     @* <hr> *@
     @* <div class="saved-stamp">
         <div class="stamp-frame">
             <img src="~/image/shared/emptystamp.png" class="stamp-img">
@@ -332,7 +335,7 @@
         });
     </script> *@
      <!-- JavaScript điều khiển popup thay đổi thông tin cá nhân -->
-    @* <script>
+    <script>
         const modalOne = document.getElementById('modalOne');
         const settingButton = document.getElementById('setting-button');
         const exitButton = document.querySelector(".exit-button");
@@ -346,7 +349,7 @@
                  document.body.style.overflow = 'auto'; // Tắt cuộn
                 overlay.style.display = 'none'; // Hiển thị nền mờ
             });
-    </script> *@
+    </script>
     @* <script>
     // JavaScript chuyển trang
     var rankingButton = document.querySelector(".ranking-button");

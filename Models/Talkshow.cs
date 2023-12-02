@@ -17,10 +17,10 @@ namespace BIT_STAMP.Models
         public Us? User { get; set; }
 
         [Display(Name = "Confirm")]
-        public bool? IsConfirm { get; set; }
+        public bool? IsConfirm { get; set; } = false;
 
         [Display(Name = "Check in")]
-        public bool? IsCheckIn { get; set; }
+        public bool? IsCheckIn { get; set; } = false;
 
         [Required]
         public bool IsDeleted { get; set; } = false;

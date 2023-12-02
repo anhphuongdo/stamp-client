@@ -1,0 +1,185 @@
+@model BIT_STAMP.Models.Us
+@{
+    ViewData["Title"] = "Đăng ki";
+    Us atd = ViewBag.atd;
+}
+    <!-- Banner -->
+    <div class="banner-container">
+        <img class="stamplogo" src="~/image/shared/stamplogo-big.png" alt="">
+    </div>
+    <!-- Avatar người dùng -->
+    <div class="profile-container">
+        <div class="avatar-frame">
+             <!-- Sử dụng thẻ img để hiển thị hình ảnh avatar -->
+            <img src="~/image/UserProfile/user-square.png" alt="">
+                <button class="setting-button" onclick="showProfilePopup()">
+                    <img src="~/image/UserProfile/setting.png">
+                </button>
+        </div>
+        <span class="account-name">
+            @User.Identity.Name
+        </span>
+    </div>
+
+    <!-- Các nút trang chủ,đăng kí, bảng xếp hạng -->
+    <div class="button-container row">
+        <button class="col-3 home-button" id="home-button">
+            <a class="nav-link item" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+        </button>
+        <button class="col-3 ranking-button" id="ranking-button">
+            <a class="nav-link item" asp-area="" asp-controller="Ranking" asp-action="Ranking">Bảng xếp hạng</a>
+        </button>
+        <button class="col-3 register-button" id="register-button">
+            <a class="nav-link item" href="#register">Đăng ký Talkshow</a>
+        </button>
+    </div>
+
+     <!-- Popup thay đổi thông tin cá nhân -->
+    <div class="overlay" id="overlay" style="display:none"></div>
+    <div id="modalOne" class="modal" style="display:none">
+        <div class="modal-content">
+            <div class="contact-form" id="contact-form">
+                <form class="change-profile" asp-controller="Talkshow" asp-action="ChangeInfor" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <h2>THÔNG TIN CÁ NHÂN</h2>
+                    <div>
+                        @* <div class="modify-avatar-frame">
+                            <img src="~/image/UserProfile/user-circle-add.png" class="modify-avatar-img">
+                        </div> *@
+                    <div class="input-box">
+                            <label> Họ và tên </label>
+                            <input asp-for="FullName" class="glow" value="" />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="input-box">
+                            <label> Trường </label>
+                            <select asp-for="SchoolId" class="glow" asp-items="ViewBag.School"></select>
+                            <span asp-validation-for="SchoolId" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="input-box">
+                            <label> MSSV </label>
+                            <input asp-for="UsMssv" class="glow" value="" />
+                            <span asp-validation-for="UsMssv" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="input-box">
+                            <label> Số điện thoại </label>
+                            <input type="number" inputmode="numeric" pattern="[0-9]*" asp-for="PhoneNumber" class="glow" value="" type="number" required/>
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            
+                        </div>
+                    </div>
+                    <div class="info-button-container">
+                        <button class="save-button" id="save-button" type="submit"> Lưu thông tin </button>
+                        <button class="exit-button" id="exit-button" type="button" onclick="hideProfilePopup()"> Thoát </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="content-container">
+        <div class="content justify-content-center">
+            <a class="register-talkshow" href="#register">Đăng kí Talkshow</a>
+        </div>
+</div>
+<form asp-controller="Talkshow" asp-action="RegisterTalkshow" method="post">
+    <div id ="register" class="col-lg-6 col-md-12 col-sm-12 mx-auto d-flex">
+        <div class="talkshow-container justify-content-center">
+            <div class="stamp-frame">
+                <img src="~/image/UserProfile/image3.png" class="stamp-img">
+            </div>
+            <div  class="info-container">
+                <div class=info-content-container>
+                    <span class="info-name">S.T.A.M.P 2023 - Stand Together And Make Protection</span>
+                        <h3 class="info-content">là cuộc thi về thiết kế và triển lãm tem thư được tổ chức bởi Đoàn - Hội khoa Công nghệ thông tin kinh doanh</h3>
+                </div>
+            </div>
+            <div class="talkshow-button-container">
+                
+                    @if(atd == null)
+                    {
+                        <button class="register-talkshow-button" onclick="showProfilePopup()" type="button">Đăng kí</button>
+                    }
+                    else
+                    {
+                        <button class="register-talkshow-button" type="submit">Đăng kí</button>
+                    }
+                              
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @* <script>
+        // Lấy tất cả các thẻ <a> có class "register-stamp" và "register-talkshow"
+        var stampLink = document.querySelector('.register-stamp');
+        var talkshowLink = document.querySelector('.register-talkshow');
+
+        // Thêm sự kiện click cho thẻ "Register Stamp"
+        stampLink.addEventListener('click', function (event) {
+            stampLink.style.textDecoration = 'underline'; // Thêm gạch chân
+            talkshowLink.style.textDecoration = 'none'; // Loại bỏ gạch chân ở thẻ "Register Talkshow"
+        });
+
+        // Thêm sự kiện click cho thẻ "Register Talkshow"
+        talkshowLink.addEventListener('click', function (event) {
+            talkshowLink.style.textDecoration = 'underline'; // Thêm gạch chân
+            stampLink.style.textDecoration = 'none'; // Loại bỏ gạch chân ở thẻ "Register Stamp"
+        });
+    </script> *@
+    <!-- JavaScript điều khiển popup thay đổi thông tin cá nhân -->
+    <script>
+        function showProfilePopup(){
+            const modalOne = document.getElementById('modalOne');
+            var body = document.querySelector("body");
+            var overlay = document.getElementById("overlay");
+
+            modalOne.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Tắt cuộn
+            overlay.style.display = 'block'; // Hiển thị nền mờ
+        }
+        function hideProfilePopup(){
+            const modalOne = document.getElementById('modalOne');
+            var body = document.querySelector("body");
+            var overlay = document.getElementById("overlay");
+
+            modalOne.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Tắt cuộn
+            overlay.style.display = 'none'; // Hiển thị nền mờ
+        }
+        @*const modalOne = document.getElementById('modalOne');
+        const settingButton = document.getElementById('setting-button');
+        const exitButton = document.querySelector(".exit-button");
+        settingButton.addEventListener('click', () => {
+            modalOne.style.display = 'block';
+            document.body.style.overflow = 'hidden'; // Tắt cuộn
+            overlay.style.display = 'block'; // Hiển thị nền mờ
+        });
+        exitButton.addEventListener('click', () => {
+            modalOne.style.display = 'none';
+            document.body.style.overflow = 'auto'; // Tắt cuộn
+            overlay.style.display = 'none'; // Hiển thị nền mờ
+        });*@
+    </script>
+    @* <script>
+        // JavaScript chuyển trang
+        var rankingButton = document.querySelector(".ranking-button");
+        rankingButton.addEventListener("click", function () {
+            window.location.href = "HomeRanking";
+        });
+        var homeButton = document.querySelector(".home-button");
+        homeButton.addEventListener("click", function () {
+            window.location.href = "HomeUser";
+        });
+    </script> *@
+}
+@section Styles{
+    <link rel="stylesheet" href="~/css/homeregister.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/homeregistertalkshow.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/userprofile.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/homeregisterstamp.css" asp-append-version="true" />
+}

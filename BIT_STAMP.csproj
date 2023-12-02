@@ -74,8 +74,4 @@
     <PackageReference Include="SendGrid.Extensions.DependencyInjection" Version="1.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Talkshow\" />
-  </ItemGroup>
-
 </Project>

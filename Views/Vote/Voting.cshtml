@@ -126,34 +126,35 @@
             </div>
         }
     </div>
-    @* Phân trang *@
-    <div id="pagination">
-        <div class="row row-page">
-            <div class="col-md-12 col-page">
-                <nav aria-label="Page navigation nav-page">
-                    <div class="d-flex flex-row justify-content-center ">
-                        <ul class="pagination">
-                            <li class="prev">
-                                <a class="page-link pag_btn" style="@(Model.PageIndex != 1  ? "" : "pointer-events: none;") color:black;" asp-controller="Vote" asp-action="Voting" asp-route-page="@(Model.PageIndex - 1)"><img src="~/icon/arrow-left.svg" /></a>
+            
+</div>
+@* Phân trang *@
+<div id="pagination">
+    <div class="row row-page">
+        <div class="col-md-12 col-page">
+            <nav aria-label="Page navigation nav-page">
+                <div class="d-flex flex-row justify-content-center ">
+                    <ul class="pagination">
+                        <li class="prev">
+                            <a class="page-link pag_btn" style="@(Model.PageIndex != 1  ? "" : "pointer-events: none;") color:black;" asp-controller="Vote" asp-action="Voting" asp-route-page="@(Model.PageIndex - 1)"><img src="~/icon/arrow-left.svg" /></a>
+                        </li>
+                        @for (var i = 1; i <= Model.TotalPages; i++)
+                        {
+                            <li class="number_btns @(i == Model.PageIndex ? "active" : "") text-black">
+                                <div>
+                                    <a class="page-link" asp-controller="Vote" asp-action="Voting" asp-route-page="@i">@i</a>
+                                </div>
                             </li>
-                            @for (var i = 1; i <= Model.TotalPages; i++)
-                            {
-                                <li class="number_btns @(i == Model.PageIndex ? "active" : "") text-black">
-                                    <div>
-                                        <a class="page-link" asp-controller="Vote" asp-action="Voting" asp-route-page="@i">@i</a>
-                                    </div>                                        
-                                </li>
-                            }
+                        }
 
-                            <li class="next">
-                                <a class="page-link pag_btn" style="@(Model.PageIndex != Model.TotalPages ? "" : "pointer-events: none;") color:black;" asp-controller="Vote" asp-action="Voting" asp-route-page="@(Model.PageIndex + 1)"><img src="~/icon/arrow-right.svg" /></a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+                        <li class="next">
+                            <a class="page-link pag_btn" style="@(Model.PageIndex != Model.TotalPages ? "" : "pointer-events: none;") color:black;" asp-controller="Vote" asp-action="Voting" asp-route-page="@(Model.PageIndex + 1)"><img src="~/icon/arrow-right.svg" /></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </div>        
+    </div>
 </div>
 
 
