@@ -78,6 +78,33 @@ namespace BIT_STAMP.Data.Migrations
                     b.ToTable("News");
                 });
 
+            modelBuilder.Entity("BIT_STAMP.Models.OfflineVoting", b =>
+                {
+                    b.Property<int>("VoteId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("VoteId"), 1L, 1);
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("VoteId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("OfflineVoting");
+                });
+
             modelBuilder.Entity("BIT_STAMP.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
@@ -115,6 +142,30 @@ namespace BIT_STAMP.Data.Migrations
                     b.HasKey("ProductId");
 
                     b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("BIT_STAMP.Models.Proof", b =>
+                {
+                    b.Property<int>("ProofId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProofId"), 1L, 1);
+
+                    b.Property<byte[]>("FanpageImg")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<byte[]>("StoryImg")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<int>("VoteId")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProofId");
+
+                    b.HasIndex("VoteId");
+
+                    b.ToTable("Proofs");
                 });
 
             modelBuilder.Entity("BIT_STAMP.Models.School", b =>
@@ -459,6 +510,36 @@ namespace BIT_STAMP.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("BIT_STAMP.Models.OfflineVoting", b =>
+                {
+                    b.HasOne("BIT_STAMP.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BIT_STAMP.Models.Us", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("BIT_STAMP.Models.Proof", b =>
+                {
+                    b.HasOne("BIT_STAMP.Models.OfflineVoting", "OfflineVoting")
+                        .WithMany()
+                        .HasForeignKey("VoteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("OfflineVoting");
                 });
 
             modelBuilder.Entity("BIT_STAMP.Models.Talkshow", b =>

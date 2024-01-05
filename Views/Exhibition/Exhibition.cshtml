@@ -1,0 +1,80 @@
+﻿@model IEnumerable<BIT_STAMP.Models.Product>
+<div class="row exhibition justify-content-center">
+    @* <div class="col-lg-6 col-md-12 col-sm-12">
+
+    </div> *@
+    <div class="goto-ex col-lg-6 col-md-12 col-sm-12">
+        <a class="countdown-button" style="text-decoration:none" href="https://forms.gle/orwdQdhBkBvacweD6">TỚI KHU TRIỂN LÃM</a>
+    </div>
+    <br />
+
+    <h2 class="blue-color part-margin blur-shadow">BÌNH CHỌN TÁC PHẨM TRIỂN LÃM TẠI SẢNH B1</h2>
+    <img class="line" src="~/image/shared/line.png" />
+    <br/>
+    @if (ViewBag.atd != null)
+    {
+        @if (ViewBag.RegisterUser != null)
+        {
+            <h3>Bạn đã bình chọn thành công, cảm ơn bạn đã quan tâm chương trình.</h3>
+        }
+        else
+        {
+            <div class="offline-voting">
+                <form method="post" asp-controller="Exhibition" asp-action="Exhibition" enctype="multipart/form-data">
+                    <div class="row form-group justify-content-center">
+                        <div class="col-4 text-align-left">
+                            <div class="label-information">Minh chứng đã Like fanpage Đoàn - Hội khoa Công nghệ thông tin kinh doanh</div>
+                        </div>
+                        <div class="col-3">
+                            <input accept="image/*" type="file" name="likefanpageImg" class="form-control" required />
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row form-group justify-content-center">
+                        <div class="col-4 text-align-left">
+                            <h4 class="label-information">Minh chứng đã up Story kèm Hashtag #BIT #STAMP2023 #ARTSTEPSSTAMP</h4>
+                        </div>
+                        <div class="col-3">
+                            <input accept="image/*" type="file" name="upstoryImg" class="form-control" required />
+                        </div>
+                    </div>
+                    <br/>
+                    <h4><b>Hãy cho chúng mình biết tác phẩm bạn yêu thích là gì nhé!</b></h4>
+                    <div class="row justify-content-center">
+                        <div class="col-7 text-align-left">
+                            @foreach (var item in Model)
+                            {
+                                <input class="vote-check-box" id="cb" type="checkbox" name="@item.ProductId" style="accent-color:black;width:20px;" value="@item.ProductName" />
+                                <label for="cb">@item.ProductName</label>
+                                <br />
+
+                                <input class="vote-check-box" id="cb" type="checkbox" name="@item.ProductId" style="accent-color:black;width:20px;" value="@item.ProductName" />
+                                <label for="cb">Save the environment, Save the world</label>
+                                <br />
+                            }
+                        </div>
+                        
+                    </div>
+
+                    <input class="save-button" type="submit" value="Xác nhận" />
+                </form>
+
+
+                @* <input type="checkbox" name="checkmua" style="accent-color:black;width:20px;" value="true2" checked="checked" onchange="this.form.submit()" />
+                <input type="checkbox" name="checkmua" style="accent-color:black;width:20px;" value="true3" checked="checked" onchange="this.form.submit()" /> *@
+                @* <input type="checkbox" name="checkmua" style="accent-color:black;width:20px;" value="@((!gio.check).ToString())" checked="@(gio.check)" onchange="this.form.submit()" /> *@
+
+            </div>
+        }
+
+    }
+    else
+    {
+        <h3>Để tham gia bình chọn, bạn cần điền thông tin cá nhân trước tại <a class="nav-link item" asp-area="" asp-controller="Talkshow" asp-action="HomeRegisterTalkshow">ĐÂY</a></h3>
+    }
+
+    
+</div>
+@section Styles{
+    <link rel="stylesheet" href="~/css/exhibition.css" asp-append-version="true" />
+}

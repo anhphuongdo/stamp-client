@@ -3,7 +3,4 @@
   <parameter name="IIS Web Application Name" description="" value="youthbit-001-site1" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\ASP\.NET\\BIT_STAMP\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
   </parameter>
-  <parameter name="BIT_STAMP.Data.ApplicationDbContext" description="" value="Data Source=SQL5085.site4now.net;Initial Catalog=db_aa0dad_stamp;User Id=db_aa0dad_stamp_admin;Password=Youthbit@0123" tags="dbfullsql">
-    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\ASP\.NET\\BIT_STAMP\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\EFSQLScripts\\BIT_STAMP\.Data\.ApplicationDbContext\.sql$" />
-  </parameter>
 </parameters>

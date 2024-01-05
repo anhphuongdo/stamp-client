@@ -1,0 +1,29 @@
+﻿.exhibition {
+    margin-top: 3%;
+}
+.vote-check-box {
+    height: 20px;
+    width: 20px;
+    margin: 3px 7px 3px 0;
+}
+.save-button {
+    width: 200px;
+    height: 53px;
+    background: #2371a0;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    margin-right: 30px;
+}
+.save-button {
+    transition: opacity 0.3s ease;
+}
+
+    .save-button:hover {
+        opacity: 0.7;
+    }
+@media only screen and (max-width: 600px) {
+    .exhibition {
+        margin-top: 10%;
+    }
+}

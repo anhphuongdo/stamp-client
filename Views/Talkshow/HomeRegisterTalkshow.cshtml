@@ -1,7 +1,7 @@
+@using BIT_STAMP.Models
 @model BIT_STAMP.Models.Us
 @{
     ViewData["Title"] = "Đăng ki";
-    Us atd = ViewBag.atd;
 }
     <!-- Banner -->
     <div class="banner-container">
@@ -39,7 +39,9 @@
     <div id="modalOne" class="modal" style="display:none">
         <div class="modal-content">
             <div class="contact-form" id="contact-form">
-                <form class="change-profile" asp-controller="Talkshow" asp-action="ChangeInfor" method="post">
+            @if (ViewBag.atd == null)
+            {
+                <form class="change-profile" asp-controller="Talkshow" asp-action="RegisterInfor" method="post">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <h2>THÔNG TIN CÁ NHÂN</h2>
                     <div>
@@ -73,9 +75,52 @@
                     </div>
                     <div class="info-button-container">
                         <button class="save-button" id="save-button" type="submit"> Lưu thông tin </button>
-                        <button class="exit-button" id="exit-button" type="button" onclick="hideProfilePopup()"> Thoát </button>
+                        <button class="exit-button" id="exit-button" type="button" onclick="hideProfilePopup()"> Thoát </button>                                              
                     </div>
                 </form>
+            }
+            else
+            {
+                Us atd = ViewBag.atd;                
+                <form class="change-profile" asp-controller="Talkshow" asp-action="ChangeInfor" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <h2>THAY ĐỔI THÔNG TIN CÁ NHÂN</h2>
+                    <div>
+                        @* <div class="modify-avatar-frame">
+                            <img src="~/image/UserProfile/user-circle-add.png" class="modify-avatar-img">
+                        </div> *@
+                    <div class="input-box">
+                            <label> Họ và tên </label>
+                            <input asp-for="FullName" class="glow" value="@atd.FullName" />
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="input-box">
+                            <label> Trường </label>
+                            <select asp-for="SchoolId" class="glow" asp-items="ViewBag.SelectedSchool"></select>
+                            <span asp-validation-for="SchoolId" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="input-box">
+                            <label> MSSV </label>
+                            <input asp-for="UsMssv" class="glow" value="@atd.UsMssv" />
+                            <span asp-validation-for="UsMssv" class="text-danger"></span>
+                            
+                        </div>
+                        <div class="input-box">
+                            <label> Số điện thoại </label>
+                            <input type="number" inputmode="numeric" pattern="[0-9]*" asp-for="PhoneNumber" class="glow" value="@atd.PhoneNumber" type="number" required/>
+                            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                            
+                        </div>
+                    </div>
+                    <div class="info-button-container">
+                        <button class="save-button" id="save-button" type="submit"> Lưu thông tin mới </button>
+                        <button class="exit-button" id="exit-button" type="button" onclick="hideProfilePopup()"> Thoát </button>                                  
+                    </div>
+                </form>
+            }
+                
             </div>
         </div>
     </div>
@@ -97,8 +142,8 @@
                 </div>
             </div>
             <div class="talkshow-button-container">
-                
-                    @if(atd == null)
+
+                    @if (ViewBag.atd == null)
                     {
                         <button class="register-talkshow-button" onclick="showProfilePopup()" type="button">Đăng kí</button>
                     }

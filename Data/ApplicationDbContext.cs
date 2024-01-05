@@ -21,6 +21,8 @@ namespace BIT_STAMP.Data
         public DbSet<Vote> Votes { get; set; }
         public DbSet<News> News { get; set; }
         public DbSet<School> Schools { get; set; }
+        public DbSet<OfflineVoting> OfflineVotings { get; set; }
+        public DbSet<Proof> Proofs { get; set; }
         public DbSet<UserGroupRelationship> Relationships { get; set; }
 
 

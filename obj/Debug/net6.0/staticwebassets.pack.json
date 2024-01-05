@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\base.css"
     },
     {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\exhibition.css",
+      "PackagePath": "staticwebassets\\css\\exhibition.css"
+    },
+    {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeranking.css",
       "PackagePath": "staticwebassets\\css\\homeranking.css"
     },
