@@ -108,7 +108,7 @@ namespace BIT_STAMP.Controllers
             {
                 TempData["error"] = "Bạn cần chọn ít nhất 01 tác phẩm.";
             }
-            return View();
+            return RedirectToAction("Exhibition", "Exhibition");
         }
     }
 }
