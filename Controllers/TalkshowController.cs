@@ -133,7 +133,9 @@ namespace BIT_STAMP.Controllers
             {
                 return Redirect("/Identity/Account/Login");
             }
-            var atd = _context.Us.FirstOrDefault(m => m.Id.Equals(user.Id));
+
+            var atd = _context.Us.FirstOrDefault(u => u.Email.Equals(user.Email) && u.UsMssv != null);
+            /*var atd = _context.Us.FirstOrDefault(m => m.Id.Equals(user.Id));*/
             if (atd == null)
             {
                 TempData["error"] = "Bạn phải thêm thông tin cá nhân trước";

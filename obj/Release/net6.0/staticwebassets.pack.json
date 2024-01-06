@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\css\\base.css"
     },
     {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\exhibition.css",
+      "PackagePath": "staticwebassets\\css\\exhibition.css"
+    },
+    {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeranking.css",
       "PackagePath": "staticwebassets\\css\\homeranking.css"
     },
@@ -431,6 +435,14 @@
     {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\submission.png",
       "PackagePath": "staticwebassets\\image\\About\\submission.png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\info-popup.png",
+      "PackagePath": "staticwebassets\\image\\Exhi\\info-popup.png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\setting-button.png",
+      "PackagePath": "staticwebassets\\image\\Exhi\\setting-button.png"
     },
     {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\counterparty.png",

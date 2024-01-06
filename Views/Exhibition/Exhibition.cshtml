@@ -7,6 +7,10 @@
         <a class="countdown-button" style="text-decoration:none" href="https://forms.gle/orwdQdhBkBvacweD6">TỚI KHU TRIỂN LÃM</a>
     </div>
     <br />
+    <br />
+    <br />
+    <br />
+    <br />
 
     <h2 class="blue-color part-margin blur-shadow">BÌNH CHỌN TÁC PHẨM TRIỂN LÃM TẠI SẢNH B1</h2>
     <img class="line" src="~/image/shared/line.png" />
@@ -16,6 +20,13 @@
         @if (ViewBag.RegisterUser != null)
         {
             <h3>Bạn đã bình chọn thành công, cảm ơn bạn đã quan tâm chương trình.</h3>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         }
         else
         {
@@ -47,10 +58,6 @@
                                 <input class="vote-check-box" id="cb" type="checkbox" name="@item.ProductId" style="accent-color:black;width:20px;" value="@item.ProductName" />
                                 <label for="cb">@item.ProductName</label>
                                 <br />
-
-                                <input class="vote-check-box" id="cb" type="checkbox" name="@item.ProductId" style="accent-color:black;width:20px;" value="@item.ProductName" />
-                                <label for="cb">Save the environment, Save the world</label>
-                                <br />
                             }
                         </div>
                         
@@ -70,7 +77,18 @@
     }
     else
     {
-        <h3>Để tham gia bình chọn, bạn cần điền thông tin cá nhân trước tại <a class="nav-link item" asp-area="" asp-controller="Talkshow" asp-action="HomeRegisterTalkshow">ĐÂY</a></h3>
+        <br />
+        <h3>Để tham gia bình chọn, bạn cần điền thông tin cá nhân trước tại <a class="goto-link item" asp-area="" asp-controller="Talkshow" asp-action="HomeRegisterTalkshow">ĐÂY</a> theo hướng dẫn sau:</h3>
+        <br/>
+        <div>
+            <h4>Bước 1: Ấn vào nút hình bánh răng để mở giao diện bổ sung thông tin cá nhân.</h4>
+            <img src="~/image/exhi/setting-button.png" />
+            <br/>
+            <h4>Bước 2: Điền thông tin cá nhân nếu các trường thông tin trống.</h4>
+            <img src="~/image/exhi/info-popup.png" />
+            <br/>
+            <h4>Bước 3: Nhấn Lưu thông tin để hoàn tất.</h4>
+        </div>
     }
 
     

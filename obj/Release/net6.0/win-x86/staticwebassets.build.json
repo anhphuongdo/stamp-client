@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sbUY3PNUZlLeh/AcjlS0ta1TuDmd+XzSmnevSxiMYf8=",
+  "Hash": "GQmaL/qwmvOIRk6GEO7qm+l585RTSLMB97eJG2F/zaI=",
   "Source": "BIT_STAMP",
   "BasePath": "_content/BIT_STAMP",
   "Mode": "Default",
@@ -1205,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\base-responsive.css"
+    },
+    {
+      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\exhibition.css",
+      "SourceId": "BIT_STAMP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "BasePath": "_content/BIT_STAMP",
+      "RelativePath": "css/exhibition.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\exhibition.css"
     },
     {
       "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeranking.css",
@@ -2888,6 +2905,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\About\\submission.png"
+    },
+    {
+      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\info-popup.png",
+      "SourceId": "BIT_STAMP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "BasePath": "_content/BIT_STAMP",
+      "RelativePath": "image/Exhi/info-popup.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Exhi\\info-popup.png"
+    },
+    {
+      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\setting-button.png",
+      "SourceId": "BIT_STAMP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "BasePath": "_content/BIT_STAMP",
+      "RelativePath": "image/Exhi/setting-button.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Exhi\\setting-button.png"
     },
     {
       "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\favicon.ico",

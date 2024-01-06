@@ -18,23 +18,23 @@ namespace BIT_STAMP.Models
         public Product? Product { get; set; }
 
         [Required]
-        [Display(Name = "User ID")]
-        public string UserId { get; set; }
-        [ForeignKey("UserId")]
-        public Us? User { get; set; }
+        [Display(Name = "Offline Voting ID")]
+        public int ProofId { get; set; }
+        [ForeignKey("ProofId")]
+        public Proof? Proof { get; set; }
 
         [Required]
         public bool IsDeleted { get; set; } = false;
 
         public OfflineVoting() { }
-        public OfflineVoting(int voteId, int productId, Product? product, string userId, Us? user, bool isDeleted)
+        public OfflineVoting(int voteId, int productId, Product? product, bool isDeleted, int proofId, Proof? proof)
         {
             VoteId = voteId;
             ProductId = productId;
             Product = product;
-            UserId = userId;
-            User = user;
             IsDeleted = isDeleted;
+            ProofId = proofId;
+            Proof = proof;
         }
     }
 }

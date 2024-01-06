@@ -23,11 +23,14 @@ namespace BIT_STAMP.Controllers
             if (user != null)
             {
                 var product = _context.Products.OrderByDescending(m => m.VoteAmount).ToList();
-                var registerUser = _context.OfflineVotings.FirstOrDefault(m => m.UserId.Equals(user.Id));
-                ViewBag.RegisterUser = registerUser;
-
                 var atd = _context.Us.FirstOrDefault(u => u.Email.Equals(user.Email) && u.UsMssv != null);
                 ViewBag.atd = atd;
+
+                if(atd != null)
+                {
+                    var registerUser = _context.Proofs.FirstOrDefault(m => m.UserId.Equals(atd.Id));
+                    ViewBag.RegisterUser = registerUser;
+                }                
 
                 return View(product);
             }
@@ -47,14 +50,16 @@ namespace BIT_STAMP.Controllers
             {
                 return Redirect("/Identity/Account/Login");
             }
-            var atd = _context.Us.FirstOrDefault(m => m.Id.Equals(user.Id));
+            var atd = _context.Us.FirstOrDefault(u => u.Email.Equals(user.Email) && u.UsMssv != null);
+
+            /*var atd = _context.Us.FirstOrDefault(m => m.Id.Equals(user.Id));*/
             if (atd == null)
             {
                 TempData["error"] = "Bạn phải thêm thông tin cá nhân trước";
                 return LocalRedirect("~/Talkshow/HomeRegisterTalkshow");
             }
 
-            var registerUser = _context.OfflineVotings.FirstOrDefault(m => m.UserId.Equals(user.Id));
+            var registerUser = _context.Proofs.FirstOrDefault(m => m.UserId.Equals(atd.Id));
             if (registerUser != null)
             {
                 TempData["error"] = "Bạn chỉ được bình chọn 01 lần";
@@ -62,10 +67,10 @@ namespace BIT_STAMP.Controllers
             }
 
             if (col.Count > 3 && likefanpageImg != null && upstoryImg != null)
-            {
-                OfflineVoting p = new OfflineVoting();
+            {              
+                Proof p = new Proof();
 
-                /*using (var memoryStream = new MemoryStream())
+                using (var memoryStream = new MemoryStream())
                 {
                     likefanpageImg.CopyTo(memoryStream);
                     p.FanpageImg = memoryStream.ToArray();
@@ -74,18 +79,30 @@ namespace BIT_STAMP.Controllers
                 {
                     upstoryImg.CopyTo(memoryStream);
                     p.StoryImg = memoryStream.ToArray();
-                }*/
+                }
 
+                p.UserId = atd.Id;
+
+                _context.Proofs.Add(p);
+                await _context.SaveChangesAsync();
+              
                 int count = 0;
                 foreach(var item in col)
                 {
                     if(count < col.Count - 1)
                     {
-                        string key = item.Key;
-                        string value = item.Value;
+                        OfflineVoting offVote = new OfflineVoting();
+                        offVote.ProductId = int.Parse(item.Key);
+                        offVote.ProofId = p.ProofId;
                         count++;
+
+                        _context.OfflineVotings.Add(offVote);
+                        await _context.SaveChangesAsync();
                     }         
                 }
+
+                TempData["success"] = "Bạn đã bình chọn thành công.";
+
             }
             else
             {

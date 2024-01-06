@@ -437,6 +437,14 @@
       "PackagePath": "staticwebassets\\image\\About\\submission.png"
     },
     {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\info-popup.png",
+      "PackagePath": "staticwebassets\\image\\Exhi\\info-popup.png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\setting-button.png",
+      "PackagePath": "staticwebassets\\image\\Exhi\\setting-button.png"
+    },
+    {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\counterparty.png",
       "PackagePath": "staticwebassets\\image\\Index\\backgrounds\\counterparty.png"
     },

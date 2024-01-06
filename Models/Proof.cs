@@ -9,12 +9,6 @@ namespace BIT_STAMP.Models
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int ProofId { get; set; }
 
-        [Required]
-        [Display(Name = "Offline Voting ID")]
-        public int VoteId { get; set; }
-        [ForeignKey("VoteId")]
-        public OfflineVoting? OfflineVoting { get; set; }
-
         [Display(Name = "Like Fanpage Image")]
         [BindNever]
         public byte[]? FanpageImg { get; set; }
@@ -23,14 +17,20 @@ namespace BIT_STAMP.Models
         [BindNever]
         public byte[]? StoryImg { get; set; }
 
+        [Required]
+        [Display(Name = "User ID")]
+        public string UserId { get; set; }
+        [ForeignKey("UserId")]
+        public Us? User { get; set; }
+
         public Proof() { }
-        public Proof(int proofId, int voteId, OfflineVoting? offlineVoting, byte[]? fanpageImg, byte[]? storyImg)
+        public Proof(int proofId, byte[]? fanpageImg, byte[]? storyImg, string userId, Us? user)
         {
             ProofId = proofId;
-            VoteId = voteId;
-            OfflineVoting = offlineVoting;
             FanpageImg = fanpageImg;
             StoryImg = storyImg;
+            UserId = userId;
+            User = user;
         }
     }
 }
