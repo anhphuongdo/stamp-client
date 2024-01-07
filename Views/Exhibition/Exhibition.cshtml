@@ -1,14 +1,17 @@
 ﻿@model IEnumerable<BIT_STAMP.Models.Product>
+@{
+    ViewData["Title"] = "Triển lãm tại sảnh";
+}
 <div class="row exhibition justify-content-center">
     @* <div class="col-lg-6 col-md-12 col-sm-12">
 
     </div> *@
-    <div class="goto-ex col-lg-6 col-md-12 col-sm-12">
+    @* <div class="goto-ex col-lg-6 col-md-12 col-sm-12">
         <a class="countdown-button" style="text-decoration:none" href="https://forms.gle/orwdQdhBkBvacweD6">TỚI KHU TRIỂN LÃM</a>
-    </div>
+    </div> *@@* 
     <br />
     <br />
-    <br />
+    <br /> *@
 
     <h2 class="blue-color part-margin blur-shadow">BÌNH CHỌN TÁC PHẨM TRIỂN LÃM TẠI SẢNH B1</h2>
     <img class="line" src="~/image/shared/line.png" />
@@ -18,6 +21,10 @@
         @if (ViewBag.RegisterUser != null)
         {
             <h3>Bạn đã bình chọn thành công, cảm ơn bạn đã quan tâm chương trình.</h3>
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />
@@ -49,10 +56,10 @@
                     </div>
                     <br/>
                     <h4><b>Hãy cho chúng mình biết tác phẩm bạn yêu thích là gì nhé!</b></h4>
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center add-info">
                         @foreach (var item in Model)
                         {
-                            <div class="col-5 text-align-left">                            
+                            <div class="col-lg-4 col-md-12 col-sm-12 text-align-left align-self-center">
                                 <div class="row">
                                     <div class="col-1 align-self-center">
                                         <input class="vote-check-box" id="@item.ProductId" type="checkbox" name="@item.ProductId" style="accent-color:black;width:20px;" value="@item.ProductName" />
@@ -85,17 +92,17 @@
     }
     else
     {
-        <br />
-        <h3>Để tham gia bình chọn, bạn cần điền thông tin cá nhân trước tại <a class="goto-link item" asp-area="" asp-controller="Talkshow" asp-action="HomeRegisterTalkshow">ĐÂY</a> theo hướng dẫn sau:</h3>
-        <br/>
-        <div>
+        <div class="add-info">
+            <br />
+            <h3>Để tham gia bình chọn, bạn cần điền thông tin cá nhân trước tại <a class="goto-link item" asp-area="" asp-controller="Talkshow" asp-action="HomeRegisterTalkshow">ĐÂY</a> theo hướng dẫn sau:</h3>
+            <br />
             <h4>Bước 1: Ấn vào nút hình bánh răng để mở giao diện bổ sung thông tin cá nhân.</h4>
-            <img src="~/image/exhi/setting-button.png" />
+            <img class="settings-img" src="~/image/exhi/setting-button.png" />
             <br/>
             <h4>Bước 2: Điền thông tin cá nhân nếu các trường thông tin trống.</h4>
-            <img src="~/image/exhi/info-popup.png" />
+            <img class="popup-img" src="~/image/exhi/info-popup.png" />
             <br/>
-            <h4>Bước 3: Nhấn Lưu thông tin để hoàn tất.</h4>
+            <h4>Bước 3: Nhấn Lưu thông tin để hoàn tất và quay lại trang này để tiếp tục bình chọn.</h4>
         </div>
     }
 

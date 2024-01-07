@@ -1,7 +1,7 @@
 @using BIT_STAMP.Models
 @model BIT_STAMP.Models.Us
 @{
-    ViewData["Title"] = "Đăng ki";
+    ViewData["Title"] = "Trang cá nhân";
 }
     <!-- Banner -->
     <div class="banner-container">
@@ -20,6 +20,10 @@
             @User.Identity.Name
         </span>
     </div>
+    <form class="logout" asp-area="" asp-controller="User" asp-action="Logout" method="post" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+        @* <button id="login-button" class="login-button" type="submit">Đăng xuất</button> *@
+        <button id="login-button" class="login-button" type="submit">Đăng xuất</button>
+    </form>
 
     <!-- Các nút trang chủ,đăng kí, bảng xếp hạng -->
     <div class="button-container row">
@@ -34,7 +38,9 @@
         </button>
     </div>
 
-     <!-- Popup thay đổi thông tin cá nhân -->
+    
+
+<!-- Popup thay đổi thông tin cá nhân -->
     <div class="overlay" id="overlay" style="display:none"></div>
     <div id="modalOne" class="modal" style="display:none">
         <div class="modal-content">
