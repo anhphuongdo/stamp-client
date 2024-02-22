@@ -461,6 +461,10 @@
       "PackagePath": "staticwebassets\\image\\Index\\bìa web.png"
     },
     {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png",
+      "PackagePath": "staticwebassets\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png"
+    },
+    {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ivolunteer-logo.png",
       "PackagePath": "staticwebassets\\image\\Index\\counterparty\\ivolunteer-logo.png"
     },
@@ -579,6 +583,10 @@
     {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square1.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\user-square1.png"
+    },
+    {
+      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png",
+      "PackagePath": "staticwebassets\\image\\UserProfile\\ấn phẩm tọa đàm.png"
     },
     {
       "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\favicon.ico",

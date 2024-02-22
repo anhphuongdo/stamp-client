@@ -2,6 +2,8 @@
 @model BIT_STAMP.Models.Us
 @{
     ViewData["Title"] = "Trang cá nhân";
+    var now = DateTime.Now;
+    var end = new DateTime(2024, 1, 22, 17, 59, 59);
 }
     <!-- Banner -->
     <div class="banner-container">
@@ -20,10 +22,6 @@
             @User.Identity.Name
         </span>
     </div>
-    <form class="logout" asp-area="" asp-controller="User" asp-action="Logout" method="post" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-        @* <button id="login-button" class="login-button" type="submit">Đăng xuất</button> *@
-        <button id="login-button" class="login-button" type="submit">Đăng xuất</button>
-    </form>
 
     <!-- Các nút trang chủ,đăng kí, bảng xếp hạng -->
     <div class="button-container row">
@@ -135,32 +133,54 @@
             <a class="register-talkshow" href="#register">Đăng kí Talkshow</a>
         </div>
 </div>
-<form asp-controller="Talkshow" asp-action="RegisterTalkshow" method="post">
-    <div id ="register" class="col-lg-6 col-md-12 col-sm-12 mx-auto d-flex">
-        <div class="talkshow-container justify-content-center">
-            <div class="stamp-frame">
-                <img src="~/image/UserProfile/image3.png" class="stamp-img">
-            </div>
-            <div  class="info-container">
-                <div class=info-content-container>
-                    <span class="info-name">S.T.A.M.P 2023 - Stand Together And Make Protection</span>
-                        <h3 class="info-content">là cuộc thi về thiết kế và triển lãm tem thư được tổ chức bởi Đoàn - Hội khoa Công nghệ thông tin kinh doanh</h3>
+@if (now <= end && ViewBag.talkshow < 320)
+{
+   <form asp-controller="Talkshow" asp-action="RegisterTalkshow" method="post">
+        <div id ="register" class="col-lg-6 col-md-12 col-sm-12 mx-auto d-flex">
+            <div class="talkshow-container justify-content-center">
+                <div class="stamp-frame">
+                    @* <img src="~/image/UserProfile/image3.png" class="stamp-img"> *@
+                    <img src="~/image/userprofile/ấn phẩm tọa đàm.png" class="stamp-img" />
+                </div>
+                <div  class="info-container">
+                    <div class=info-content-container>
+                        <span class="info-name">S.T.A.M.P 2023 - Stand Together And Make Protection</span>
+                            <h3 class="info-content">là cuộc thi về thiết kế và triển lãm tem thư được tổ chức bởi Đoàn - Hội khoa Công nghệ thông tin kinh doanh</h3>
+                    </div>
+                </div>
+                <div class="talkshow-button-container">
+
+                        @if (ViewBag.atd == null)
+                        {
+                            <button class="register-talkshow-button" onclick="showProfilePopup()" type="button">Đăng kí</button>
+                        }
+                        else
+                        {
+                            <button class="register-talkshow-button" type="submit">Đăng kí</button>
+                        }
+                              
                 </div>
             </div>
-            <div class="talkshow-button-container">
-
-                    @if (ViewBag.atd == null)
-                    {
-                        <button class="register-talkshow-button" onclick="showProfilePopup()" type="button">Đăng kí</button>
-                    }
-                    else
-                    {
-                        <button class="register-talkshow-button" type="submit">Đăng kí</button>
-                    }
-                              
-            </div>
         </div>
-    </div>
+    </form>
+}
+else
+{
+    <br />
+    <br />
+    <br />
+    <h3 class="container">Form đăng ký tham gia Talkshow đóng do quá hạn hoặc đủ số lượng tham gia, cảm ơn các bạn đã quan tâm chương trình và hẹn gặp lại ở các hoạt động khác của BIT.</h3>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+}
+
+<form class="logout" asp-area="" asp-controller="User" asp-action="Logout" method="post" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+    @* <button id="login-button" class="login-button" type="submit">Đăng xuất</button> *@
+    <button id="login-button" class="login-button" type="submit">Đăng xuất</button>
 </form>
 
 @section Scripts {

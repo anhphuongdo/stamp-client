@@ -12385,11 +12385,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.NET\\BIT_STAMP\\BIT_STAMP.csproj",
+      "projectUniqueName": "D:\\ASP.NET MVC\\BIT_STAMP\\BIT_STAMP.csproj",
       "projectName": "BIT_STAMP",
-      "projectPath": "D:\\ASP.NET\\BIT_STAMP\\BIT_STAMP.csproj",
+      "projectPath": "D:\\ASP.NET MVC\\BIT_STAMP\\BIT_STAMP.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "D:\\ASP.NET\\BIT_STAMP\\obj\\",
+      "outputPath": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",

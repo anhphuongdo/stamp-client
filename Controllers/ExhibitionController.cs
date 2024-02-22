@@ -22,7 +22,7 @@ namespace BIT_STAMP.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user != null)
             {
-                var product = _context.Products.OrderByDescending(m => m.VoteAmount).ToList();
+                var product = _context.Products.OrderByDescending(m => m.VoteAmount).Take(21).ToList();
                 var atd = _context.Us.FirstOrDefault(u => u.Email.Equals(user.Email) && u.UsMssv != null);
                 ViewBag.atd = atd;
 
@@ -66,8 +66,8 @@ namespace BIT_STAMP.Controllers
                 return View();
             }
 
-            if (col.Count > 3 && likefanpageImg != null && upstoryImg != null)
-            {              
+            if (col.Count > 1 && likefanpageImg != null && upstoryImg != null)
+            {
                 Proof p = new Proof();
 
                 using (var memoryStream = new MemoryStream())
@@ -85,11 +85,11 @@ namespace BIT_STAMP.Controllers
 
                 _context.Proofs.Add(p);
                 await _context.SaveChangesAsync();
-              
+
                 int count = 0;
-                foreach(var item in col)
+                foreach (var item in col)
                 {
-                    if(count < col.Count - 1)
+                    if (count < col.Count - 1)
                     {
                         OfflineVoting offVote = new OfflineVoting();
                         offVote.ProductId = int.Parse(item.Key);
@@ -98,7 +98,7 @@ namespace BIT_STAMP.Controllers
 
                         _context.OfflineVotings.Add(offVote);
                         await _context.SaveChangesAsync();
-                    }         
+                    }
                 }
 
                 TempData["success"] = "Bạn đã bình chọn thành công.";

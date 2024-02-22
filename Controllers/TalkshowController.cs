@@ -34,6 +34,9 @@ namespace BIT_STAMP.Controllers
                     ViewData["SelectedSchool"] = new SelectList(_context.Schools, "SchoolId", "SchoolName", atd.SchoolId);
                 }
 
+                var talkshow = _context.Talkshows.Count();
+                ViewBag.talkshow = talkshow;
+
                 return View();
             }
             else
@@ -134,32 +137,43 @@ namespace BIT_STAMP.Controllers
                 return Redirect("/Identity/Account/Login");
             }
 
+            var now = DateTime.Now;
+            var end = new DateTime(2024, 1, 22, 17, 59, 59);
+
+            if (now > end || _context.Talkshows.Count() >= 320)
+            {
+                TempData["error"] = "Form đăng ký tham gia đã đóng do quá hạn hoặc đủ số lượng tham gia.";
+                return LocalRedirect("~/Talkshow/HomeRegisterTalkshow");
+            }
+
             var atd = _context.Us.FirstOrDefault(u => u.Email.Equals(user.Email) && u.UsMssv != null);
             /*var atd = _context.Us.FirstOrDefault(m => m.Id.Equals(user.Id));*/
             if (atd == null)
             {
-                TempData["error"] = "Bạn phải thêm thông tin cá nhân trước";
-                return LocalRedirect("~/Talkshow/HomeRegisterTalkshow");
+                TempData["error"] = "Bạn phải thêm thông tin cá nhân trước.";
             }
-            var registerUser = _context.Talkshows.FirstOrDefault(m => m.UserId.Equals(user.Id));
-            if (registerUser != null)
+            else
             {
-                TempData["error"] = "Bạn chỉ được đăng ký 01 lần";
-                return View();
-            }
+                var registerUser = _context.Talkshows.FirstOrDefault(m => m.UserId.Equals(atd.Id));
+                if (registerUser != null)
+                {
+                    TempData["error"] = "Bạn đã đăng ký tham gia Talkshow thành công, không thể đăng ký thêm.";
+                }
+                else
+                {
+                    Talkshow register = new Talkshow();
+                    register.UserId = atd.Id;
 
-            Talkshow register = new Talkshow();
-            register.UserId = user.Id;
+                    _context.Talkshows.Add(register);
+                    await _context.SaveChangesAsync();
+                    TempData["success"] = "Bạn đã đăng ký tham gia Talkshow thành công!";
 
-            _context.Talkshows.Add(register);
-            await _context.SaveChangesAsync();
-            TempData["success"] = "Bạn đã đăng ký tham gia Talkshow thành công";
-
-            await _emailSender.SendEmailAsync(
-                user.Email,
-                "[NO-REPLY] Đăng ký tham gia Talkshow S.T.A.M.P 2023",
-                $"Bạn đã đăng ký tham gia Talkshow S.T.A.M.P 2023 thành công. Nếu đây không phải hoạt động của bạn, vui lòng xóa email này.");
-
+                    /*await _emailSender.SendEmailAsync(
+                        user.Email,
+                        "[NO-REPLY] Đăng ký tham gia Talkshow S.T.A.M.P 2023",
+                        $"Bạn đã đăng ký tham gia Talkshow S.T.A.M.P 2023 thành công. Nếu đây không phải hoạt động của bạn, vui lòng xóa email này.");*/
+                }
+            }          
             return LocalRedirect("~/Talkshow/HomeRegisterTalkshow");
         }
     }

@@ -56,7 +56,7 @@ namespace BIT_STAMP.Controllers
             return View(mymodel);
         }
 
-        /*[HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Voting(int? id)
         {
@@ -70,15 +70,15 @@ namespace BIT_STAMP.Controllers
                 return NotFound();
             }
             var product = _context.Products.FirstOrDefault(m => m.ProductId == id);
-            if(product == null)
+            if (product == null)
             {
-                *//*TempData["error"] = "Tác phẩm không tồn tại";*//*
+                TempData["error"] = "Tác phẩm không tồn tại";
                 return NotFound();
             }
             var vote = _context.Votes.FirstOrDefault(m => m.ProductId == id && m.UserId.Equals(user.Id));
-            if(vote != null)
+            if (vote != null)
             {
-                *//*TempData["error"] = "Bạn đã bình chọn cho tác phẩm này rồi";*//*
+                TempData["error"] = "Bạn đã bình chọn cho tác phẩm này rồi";
                 return NotFound();
             }
 
@@ -92,10 +92,10 @@ namespace BIT_STAMP.Controllers
             _context.Products.Update(product);
             _context.SaveChanges();
 
-            *//*TempData["success"] = "Bạn đã vote thành công cho tác phẩm: " + product.ProductName;*//*
+            TempData["success"] = "Bạn đã vote thành công cho tác phẩm: " + product.ProductName;
 
             return Ok();
-        }*/
+        }
 
         public async Task<IActionResult> Details(int? id)
         {

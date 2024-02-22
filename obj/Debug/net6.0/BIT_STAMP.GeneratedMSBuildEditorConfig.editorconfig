@@ -9,169 +9,169 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BIT_STAMP
 build_property.RootNamespace = BIT_STAMP
-build_property.ProjectDir = D:\ASP.NET\BIT_STAMP\
+build_property.ProjectDir = D:\ASP.NET MVC\BIT_STAMP\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ASP.NET\BIT_STAMP
+build_property.MSBuildProjectDirectory = D:\ASP.NET MVC\BIT_STAMP
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/Error.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/AboutUs/About.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/AboutUs/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRVc1xBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Exhibition/Exhibition.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Exhibition/Exhibition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhoaWJpdGlvblxFeGhpYml0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Home/HomeRanking.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Home/HomeRanking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUmFua2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Home/HomeRegisterStamp.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Home/HomeRegisterStamp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUmVnaXN0ZXJTdGFtcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Home/HomeUser.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Home/HomeUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Home/Index.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Home/Privacy.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/News/News.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/News/News.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/News/NewsDetail.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/News/NewsDetail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Ranking/Ranking.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Ranking/Ranking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmFua2luZ1xSYW5raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/Error.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/LoginRequired.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/LoginRequired.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luUmVxdWlyZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/Nofitication.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/Nofitication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vZml0aWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/RankingProductInforPartial.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/RankingProductInforPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFJhbmtpbmdQcm9kdWN0SW5mb3JQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/VotingProductInforPartial.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/VotingProductInforPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFZvdGluZ1Byb2R1Y3RJbmZvclBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/_BlankLayout.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/_BlankLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbGFua0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/_LoginPartial.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Talkshow/HomeRegisterTalkshow.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Talkshow/HomeRegisterTalkshow.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFsa3Nob3dcSG9tZVJlZ2lzdGVyVGFsa3Nob3cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/User/Info.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/User/Info.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Vote/Voting.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Vote/Voting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVm90ZVxWb3RpbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/_ViewImports.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/_ViewStart.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/BIT_STAMP/Views/Shared/_Layout.cshtml]
+[D:/ASP.NET MVC/BIT_STAMP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-nhka716c6y

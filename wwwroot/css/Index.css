@@ -185,6 +185,11 @@
     object-fit: contain;
     aspect-ratio: 2/1;
 }
+.tai-tro {
+    width: 75%;
+    object-fit: contain;
+    aspect-ratio: 2/1;
+}
 
 .award-container {
     width: 80%;
@@ -257,7 +262,10 @@
         font-size: 13px;
     }
     h3{
-        font-size: 9px;
+        font-size: 10px;
+    }
+    h4{
+        font-size: 8px;
     }
     .award_box{
         margin: 0 0 20px 0;
@@ -273,7 +281,7 @@
     .timeline{
         margin-top: 0;
     }
-    .party-img{
+    .party-img, tai-tro {
         width: 50%;
     }
     .party-row{

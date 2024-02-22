@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GQmaL/qwmvOIRk6GEO7qm+l585RTSLMB97eJG2F/zaI=",
+  "Hash": "uDl8rkeLCAQy6YbbIRng4FSWLsFz2OJeGGOqo7/Lzoo=",
   "Source": "BIT_STAMP",
   "BasePath": "_content/BIT_STAMP",
   "Mode": "Default",
@@ -3026,6 +3026,23 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\bìa web.png"
     },
     {
+      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png",
+      "SourceId": "BIT_STAMP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "BasePath": "_content/BIT_STAMP",
+      "RelativePath": "image/Index/counterparty/[STAMP 2023] SLIDE  (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png"
+    },
+    {
       "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ivolunteer-logo.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
@@ -3534,6 +3551,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\2024.png"
+    },
+    {
+      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png",
+      "SourceId": "BIT_STAMP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "BasePath": "_content/BIT_STAMP",
+      "RelativePath": "image/UserProfile/ấn phẩm tọa đàm.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png"
     },
     {
       "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\arrow.png",

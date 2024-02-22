@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ET0QQ4G7B9GEedp2Pp9smFg2U6VtlwAw9pWps8kDt77Zpg4NeCgUOH0CxM2IT9zcw7QgPBLvWJV4LXFsrjoZtg==",
+  "dgSpecHash": "06Mg76HpW28JDsj8NJwdUXV3cXm4e9SdWrzGPlGMCTFqku0qJ7Oy49ZO6XhngDrxlvh+NVoJA+w6piI8ulwfEA==",
   "success": true,
-  "projectFilePath": "D:\\ASP.NET\\BIT_STAMP\\BIT_STAMP.csproj",
+  "projectFilePath": "D:\\ASP.NET MVC\\BIT_STAMP\\BIT_STAMP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

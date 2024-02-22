@@ -3,17 +3,18 @@
     ViewData["Title"] = "Error";
 }
 
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+<h1 class="text-danger">Lỗi.</h1>
+<h2 class="text-danger">Đã có lỗi trong quá trình xử lý yêu cầu của bạn.</h2>
 
-@if (Model.ShowRequestId)
+@* @if (Model.ShowRequestId)
 {
     <p>
         <strong>Request ID:</strong> <code>@Model.RequestId</code>
     </p>
-}
+} *@
 
-<h3>Development Mode</h3>
+<p>Bạn đã gặp lỗi gì đó trong quá trình thao tác, vui lòng liên hệ Fanpage Đoàn - Hội khoa Công nghệ thông tin kinh doanh thông báo cho chúng mình với nhé. Chúng mình xin cảm ơn. </p>
+@* <h3>Development Mode</h3>
 <p>
     Swapping to <strong>Development</strong> environment will display more detailed information about the error that occurred.
 </p>
@@ -22,4 +23,4 @@
     It can result in displaying sensitive information from exceptions to end users.
     For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
     and restarting the app.
-</p>
+</p> *@
