@@ -1,911 +1,911 @@
 {
   "Files": [
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\BIT_STAMP.bundle.scp.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\Release\\net6.0\\win-x86\\scopedcss\\projectbundle\\BIT_STAMP.bundle.scp.css",
       "PackagePath": "staticwebassets\\BIT_STAMP.bundle.scp.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\android-chrome-192x192.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\android-chrome-192x192.png",
       "PackagePath": "staticwebassets\\android-chrome-192x192.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\android-chrome-512x512.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\android-chrome-512x512.png",
       "PackagePath": "staticwebassets\\android-chrome-512x512.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\apple-touch-icon.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\apple-touch-icon.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\Index.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\Index.css",
       "PackagePath": "staticwebassets\\css\\Index.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\about-responsive.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\about-responsive.css",
       "PackagePath": "staticwebassets\\css\\about-responsive.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\about.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\about.css",
       "PackagePath": "staticwebassets\\css\\about.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\base-animation.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\base-animation.css",
       "PackagePath": "staticwebassets\\css\\base-animation.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\base-responsive.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\base-responsive.css",
       "PackagePath": "staticwebassets\\css\\base-responsive.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\base.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\base.css",
       "PackagePath": "staticwebassets\\css\\base.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\exhibition.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\exhibition.css",
       "PackagePath": "staticwebassets\\css\\exhibition.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeranking.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeranking.css",
       "PackagePath": "staticwebassets\\css\\homeranking.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeregister.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeregister.css",
       "PackagePath": "staticwebassets\\css\\homeregister.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeregisterstamp.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeregisterstamp.css",
       "PackagePath": "staticwebassets\\css\\homeregisterstamp.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeregistertalkshow.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeregistertalkshow.css",
       "PackagePath": "staticwebassets\\css\\homeregistertalkshow.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeuser.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeuser.css",
       "PackagePath": "staticwebassets\\css\\homeuser.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\login.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\login.css",
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\navbar.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\navbar.css",
       "PackagePath": "staticwebassets\\css\\navbar.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\news.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\news.css",
       "PackagePath": "staticwebassets\\css\\news.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\newsdetail.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\newsdetail.css",
       "PackagePath": "staticwebassets\\css\\newsdetail.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\ranking-style.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\ranking-style.css",
       "PackagePath": "staticwebassets\\css\\ranking-style.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\searchbar-style.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\searchbar-style.css",
       "PackagePath": "staticwebassets\\css\\searchbar-style.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\searchbar-style.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\searchbar-style.min.css",
       "PackagePath": "staticwebassets\\css\\searchbar-style.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\searchbar-style.scss",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\searchbar-style.scss",
       "PackagePath": "staticwebassets\\css\\searchbar-style.scss"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\shared-responsive.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\shared-responsive.css",
       "PackagePath": "staticwebassets\\css\\shared-responsive.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\site.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\userprofile.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\userprofile.css",
       "PackagePath": "staticwebassets\\css\\userprofile.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\voting.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\voting.css",
       "PackagePath": "staticwebassets\\css\\voting.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon-16x16.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon-16x16.png",
       "PackagePath": "staticwebassets\\favicon-16x16.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon-32x32.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon-32x32.png",
       "PackagePath": "staticwebassets\\favicon-32x32.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon.ico",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-192x192.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-192x192.png",
       "PackagePath": "staticwebassets\\favicon_io\\android-chrome-192x192.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-512x512.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-512x512.png",
       "PackagePath": "staticwebassets\\favicon_io\\android-chrome-512x512.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\apple-touch-icon.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\apple-touch-icon.png",
       "PackagePath": "staticwebassets\\favicon_io\\apple-touch-icon.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-16x16.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-16x16.png",
       "PackagePath": "staticwebassets\\favicon_io\\favicon-16x16.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-32x32.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-32x32.png",
       "PackagePath": "staticwebassets\\favicon_io\\favicon-32x32.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\favicon.ico",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon_io\\favicon.ico"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\site.webmanifest",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\site.webmanifest",
       "PackagePath": "staticwebassets\\favicon_io\\site.webmanifest"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\fonts\\JosefinSans-VariableFont_wght.ttf",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\fonts\\JosefinSans-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\fonts\\JosefinSans-VariableFont_wght.ttf"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\fonts\\Syne-VariableFont_wght.ttf",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\fonts\\Syne-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\fonts\\Syne-VariableFont_wght.ttf"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\arrow-left.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\arrow-left.svg",
       "PackagePath": "staticwebassets\\icon\\arrow-left.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\arrow-right.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\arrow-right.svg",
       "PackagePath": "staticwebassets\\icon\\arrow-right.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\f4.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\f4.png",
       "PackagePath": "staticwebassets\\icon\\f4.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\like-b.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\like-b.png",
       "PackagePath": "staticwebassets\\icon\\like-b.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\like.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\like.png",
       "PackagePath": "staticwebassets\\icon\\like.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\like.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\like.svg",
       "PackagePath": "staticwebassets\\icon\\like.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\link.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\link.png",
       "PackagePath": "staticwebassets\\icon\\link.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\search.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\search.png",
       "PackagePath": "staticwebassets\\icon\\search.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\1.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\1.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\1.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\10.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\10.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\10.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\12.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\12.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\12.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\13.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\13.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\13.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\15.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\15.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\15.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\17.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\17.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\17.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\18.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\18.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\18.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\19.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\19.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\19.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\2.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\2.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\2.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\20.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\20.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\20.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\21.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\21.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\21.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\3.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\3.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\3.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\4.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\4.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\4.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\5.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\5.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\5.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\6.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\6.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\6.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\7.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\7.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\7.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\9.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\9.png",
       "PackagePath": "staticwebassets\\image\\About\\2021\\9.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\01.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\01.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\01.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\02.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\02.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\02.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\03.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\03.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\03.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\04.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\04.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\04.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\05.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\05.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\05.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\06.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\06.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\06.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\07.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\07.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\07.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\08.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\08.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\08.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\09.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\09.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\09.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\10.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\10.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\10.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\11.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\11.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\11.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\12.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\12.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\12.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\13.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\13.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\13.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\14.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\14.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\14.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\15.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\15.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\15.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\16.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\16.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\16.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\17.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\17.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\17.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\18.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\18.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\18.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\19.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\19.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\19.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\20.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\20.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\20.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\21.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\21.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\21.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\22.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\22.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\22.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\23.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\23.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\23.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\24.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\24.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\24.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\25.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\25.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\25.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\26.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\26.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\26.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\27.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\27.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\27.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\28.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\28.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\28.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\29.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\29.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\29.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\30.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\30.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\30.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\31.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\31.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\31.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\32.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\32.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\32.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\33.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\33.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\33.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\34.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\34.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\34.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\35.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\35.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\35.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\36.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\36.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\36.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\37.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\37.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\37.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\38.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\38.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\38.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\39.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\39.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\39.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\40.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\40.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\40.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\41.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\41.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\41.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\42.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\42.jpg",
       "PackagePath": "staticwebassets\\image\\About\\2022\\42.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\mark.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\mark.png",
       "PackagePath": "staticwebassets\\image\\About\\mark.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\submission.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\submission.png",
       "PackagePath": "staticwebassets\\image\\About\\submission.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\info-popup.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Exhi\\info-popup.png",
       "PackagePath": "staticwebassets\\image\\Exhi\\info-popup.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\setting-button.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Exhi\\setting-button.png",
       "PackagePath": "staticwebassets\\image\\Exhi\\setting-button.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\counterparty.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\counterparty.png",
       "PackagePath": "staticwebassets\\image\\Index\\backgrounds\\counterparty.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\introduce.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\introduce.svg",
       "PackagePath": "staticwebassets\\image\\Index\\backgrounds\\introduce.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\timeline.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\timeline.png",
       "PackagePath": "staticwebassets\\image\\Index\\backgrounds\\timeline.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\bìa web.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\bìa web.png",
       "PackagePath": "staticwebassets\\image\\Index\\bìa web.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png",
       "PackagePath": "staticwebassets\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ivolunteer-logo.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ivolunteer-logo.png",
       "PackagePath": "staticwebassets\\image\\Index\\counterparty\\ivolunteer-logo.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\large-logo.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\large-logo.png",
       "PackagePath": "staticwebassets\\image\\Index\\counterparty\\large-logo.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\medium-logo.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\medium-logo.png",
       "PackagePath": "staticwebassets\\image\\Index\\counterparty\\medium-logo.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\small-logo.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\small-logo.png",
       "PackagePath": "staticwebassets\\image\\Index\\counterparty\\small-logo.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ybox-logo.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ybox-logo.png",
       "PackagePath": "staticwebassets\\image\\Index\\counterparty\\ybox-logo.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\close.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\close.png",
       "PackagePath": "staticwebassets\\image\\Index\\icons\\close.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\notify.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\notify.png",
       "PackagePath": "staticwebassets\\image\\Index\\icons\\notify.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\user.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\user.png",
       "PackagePath": "staticwebassets\\image\\Index\\icons\\user.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\timeline.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\timeline.png",
       "PackagePath": "staticwebassets\\image\\Index\\timeline.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\News\\Rectangle.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\News\\Rectangle.png",
       "PackagePath": "staticwebassets\\image\\News\\Rectangle.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\News\\news.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\News\\news.png",
       "PackagePath": "staticwebassets\\image\\News\\news.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\News\\othernews.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\News\\othernews.png",
       "PackagePath": "staticwebassets\\image\\News\\othernews.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Ranking\\like.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Ranking\\like.svg",
       "PackagePath": "staticwebassets\\image\\Ranking\\like.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Ranking\\like_bold.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Ranking\\like_bold.svg",
       "PackagePath": "staticwebassets\\image\\Ranking\\like_bold.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\2024.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\2024.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\2024.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\arrow.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\arrow.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\arrow.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\greentick.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\greentick.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\greentick.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image3.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image3.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\image3.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image4.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image4.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\image4.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image5.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image5.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\image5.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image7.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image7.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\image7.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\images.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\images.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\images.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\loadbutton.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\loadbutton.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\loadbutton.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\people.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\people.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\people.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\profile.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\profile.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\profile.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\setting.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\setting.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\setting.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\stampframe.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\stampframe.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\stampframe.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-circle-add.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-circle-add.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\user-circle-add.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\user-square.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square1.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square1.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\user-square1.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png",
       "PackagePath": "staticwebassets\\image\\UserProfile\\ấn phẩm tọa đàm.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\favicon.ico",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\favicon.ico",
       "PackagePath": "staticwebassets\\image\\favicon.ico"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\logohoitem.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\logohoitem.png",
       "PackagePath": "staticwebassets\\image\\logohoitem.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\2025.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\2025.png",
       "PackagePath": "staticwebassets\\image\\shared\\2025.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\BG.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\BG.png",
       "PackagePath": "staticwebassets\\image\\shared\\BG.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\BG.psd",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\BG.psd",
       "PackagePath": "staticwebassets\\image\\shared\\BG.psd"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\banner1.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\banner1.jpg",
       "PackagePath": "staticwebassets\\image\\shared\\banner1.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\banner2.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\banner2.jpg",
       "PackagePath": "staticwebassets\\image\\shared\\banner2.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\banner3.jpg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\banner3.jpg",
       "PackagePath": "staticwebassets\\image\\shared\\banner3.jpg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\emptystamp.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\emptystamp.png",
       "PackagePath": "staticwebassets\\image\\shared\\emptystamp.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\horizontalstampframe.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\horizontalstampframe.svg",
       "PackagePath": "staticwebassets\\image\\shared\\horizontalstampframe.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\line.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\line.png",
       "PackagePath": "staticwebassets\\image\\shared\\line.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stamp.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stamp.png",
       "PackagePath": "staticwebassets\\image\\shared\\stamp.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stampframe.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stampframe.png",
       "PackagePath": "staticwebassets\\image\\shared\\stampframe.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo-big.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo-big.png",
       "PackagePath": "staticwebassets\\image\\shared\\stamplogo-big.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo.png",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo.png",
       "PackagePath": "staticwebassets\\image\\shared\\stamplogo.png"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\verticalstampframe.svg",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\verticalstampframe.svg",
       "PackagePath": "staticwebassets\\image\\shared\\verticalstampframe.svg"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\common.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\common.js",
       "PackagePath": "staticwebassets\\js\\common.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\navbar.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\navbar.js",
       "PackagePath": "staticwebassets\\js\\navbar.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\timing.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\timing.js",
       "PackagePath": "staticwebassets\\js\\timing.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\vote.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\vote.js",
       "PackagePath": "staticwebassets\\js\\vote.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\favicon.ico",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\favicon.ico",
       "PackagePath": "staticwebassets\\lib\\favicon.ico"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\fontawesome\\7871494614.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\fontawesome\\7871494614.js",
       "PackagePath": "staticwebassets\\lib\\fontawesome\\7871494614.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\site.webmanifest",
+      "Id": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\site.webmanifest",
       "PackagePath": "staticwebassets\\site.webmanifest"
     },
     {

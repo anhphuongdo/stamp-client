@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k6C20W1dnZyHkJ69j/EQ55N00o36aEBh4v6NNC0eggo=",
+  "Hash": "fMc6poJbf3m/M0vUCGXqbg8xuDKR8KBCq9ttgUdETD4=",
   "Source": "BIT_STAMP",
   "BasePath": "_content/BIT_STAMP",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BIT_STAMP\\wwwroot",
       "Source": "BIT_STAMP",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.24\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\bundle\\BIT_STAMP.styles.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\bundle\\BIT_STAMP.styles.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "BIT_STAMP.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ASP.NET\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\bundle\\BIT_STAMP.styles.css"
+      "OriginalItemSpec": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\bundle\\BIT_STAMP.styles.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\BIT_STAMP.bundle.scp.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\BIT_STAMP.bundle.scp.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "BIT_STAMP.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ASP.NET\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\BIT_STAMP.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ASP.NET MVC\\BIT_STAMP\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\BIT_STAMP.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\android-chrome-192x192.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\android-chrome-192x192.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "android-chrome-192x192.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\android-chrome-192x192.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\android-chrome-512x512.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\android-chrome-512x512.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "android-chrome-512x512.png",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\android-chrome-512x512.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\apple-touch-icon.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\apple-touch-icon.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "apple-touch-icon.png",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\apple-touch-icon.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\about.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\about.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/about.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\about.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\about-responsive.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\about-responsive.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/about-responsive.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\about-responsive.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\base.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\base.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/base.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\css\\base.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\base-animation.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\base-animation.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/base-animation.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\base-animation.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\base-responsive.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\base-responsive.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/base-responsive.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\base-responsive.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\exhibition.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\exhibition.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/exhibition.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\css\\exhibition.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeranking.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeranking.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/homeranking.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homeranking.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeregister.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeregister.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/homeregister.css",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homeregister.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeregisterstamp.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeregisterstamp.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/homeregisterstamp.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homeregisterstamp.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeregistertalkshow.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeregistertalkshow.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/homeregistertalkshow.css",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homeregistertalkshow.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\homeuser.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\homeuser.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/homeuser.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\css\\homeuser.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\Index.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\Index.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/Index.css",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Index.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\login.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\login.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/login.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\navbar.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\navbar.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/navbar.css",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\css\\navbar.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\news.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\news.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/news.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\css\\news.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\newsdetail.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\newsdetail.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/newsdetail.css",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\css\\newsdetail.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\ranking-style.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\ranking-style.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/ranking-style.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\css\\ranking-style.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\searchbar-style.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\searchbar-style.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/searchbar-style.css",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\css\\searchbar-style.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\searchbar-style.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\searchbar-style.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/searchbar-style.min.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\css\\searchbar-style.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\searchbar-style.scss",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\searchbar-style.scss",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/searchbar-style.scss",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\css\\searchbar-style.scss"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\shared-responsive.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\shared-responsive.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/shared-responsive.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\css\\shared-responsive.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\site.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\userprofile.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\userprofile.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/userprofile.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\css\\userprofile.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\css\\voting.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\css\\voting.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "css/voting.css",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\css\\voting.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon.ico",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-192x192.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-192x192.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon_io/android-chrome-192x192.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\favicon_io\\android-chrome-192x192.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-512x512.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\android-chrome-512x512.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon_io/android-chrome-512x512.png",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\favicon_io\\android-chrome-512x512.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\apple-touch-icon.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\apple-touch-icon.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon_io/apple-touch-icon.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\favicon_io\\apple-touch-icon.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\favicon.ico",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\favicon.ico",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon_io/favicon.ico",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\favicon_io\\favicon.ico"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-16x16.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-16x16.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon_io/favicon-16x16.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\favicon_io\\favicon-16x16.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-32x32.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\favicon-32x32.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon_io/favicon-32x32.png",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\favicon_io\\favicon-32x32.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon_io\\site.webmanifest",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon_io\\site.webmanifest",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon_io/site.webmanifest",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\favicon_io\\site.webmanifest"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon-16x16.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon-16x16.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon-16x16.png",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\favicon-16x16.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\favicon-32x32.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\favicon-32x32.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "favicon-32x32.png",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\favicon-32x32.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\fonts\\JosefinSans-VariableFont_wght.ttf",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\fonts\\JosefinSans-VariableFont_wght.ttf",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "fonts/JosefinSans-VariableFont_wght.ttf",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\JosefinSans-VariableFont_wght.ttf"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\fonts\\Syne-VariableFont_wght.ttf",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\fonts\\Syne-VariableFont_wght.ttf",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "fonts/Syne-VariableFont_wght.ttf",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\fonts\\Syne-VariableFont_wght.ttf"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\arrow-left.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\arrow-left.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/arrow-left.svg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\arrow-left.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\arrow-right.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\arrow-right.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/arrow-right.svg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\arrow-right.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\f4.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\f4.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/f4.png",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\f4.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\like.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\like.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/like.png",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\like.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\like.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\like.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/like.svg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\like.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\like-b.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\like-b.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/like-b.png",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\like-b.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\link.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\link.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/link.png",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\link.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\icon\\search.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\icon\\search.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "icon/search.png",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\icon\\search.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\1.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\1.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/1.png",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\1.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\10.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\10.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/10.png",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\10.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\12.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\12.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/12.png",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\12.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\13.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\13.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/13.png",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\13.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\15.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\15.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/15.png",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\15.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\17.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\17.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/17.png",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\17.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\18.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\18.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/18.png",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\18.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\19.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\19.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/19.png",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\19.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\2.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\2.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/2.png",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\2.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\20.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\20.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/20.png",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\20.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\21.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\21.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/21.png",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\21.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\3.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\3.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/3.png",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\3.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\4.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\4.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/4.png",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\4.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\5.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\5.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/5.png",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\5.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\6.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\6.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/6.png",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\6.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\7.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\7.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/7.png",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\7.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2021\\9.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2021\\9.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2021/9.png",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2021\\9.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\01.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\01.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/01.jpg",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\01.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\02.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\02.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/02.jpg",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\02.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\03.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\03.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/03.jpg",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\03.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\04.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\04.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/04.jpg",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\04.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\05.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\05.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/05.jpg",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\05.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\06.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\06.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/06.jpg",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\06.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\07.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\07.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/07.jpg",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\07.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\08.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\08.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/08.jpg",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\08.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\09.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\09.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/09.jpg",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\09.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\10.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\10.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/10.jpg",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\10.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\11.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\11.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/11.jpg",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\11.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\12.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\12.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/12.jpg",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\12.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\13.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\13.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/13.jpg",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\13.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\14.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\14.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/14.jpg",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\14.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\15.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\15.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/15.jpg",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\15.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\16.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\16.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/16.jpg",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\16.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\17.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\17.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/17.jpg",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\17.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\18.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\18.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/18.jpg",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\18.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\19.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\19.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/19.jpg",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\19.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\20.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\20.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/20.jpg",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\20.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\21.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\21.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/21.jpg",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\21.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\22.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\22.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/22.jpg",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\22.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\23.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\23.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/23.jpg",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\23.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\24.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\24.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/24.jpg",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\24.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\25.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\25.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/25.jpg",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\25.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\26.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\26.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/26.jpg",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\26.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\27.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\27.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/27.jpg",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\27.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\28.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\28.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/28.jpg",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\28.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\29.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\29.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/29.jpg",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\29.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\30.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\30.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/30.jpg",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\30.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\31.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\31.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/31.jpg",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\31.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\32.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\32.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/32.jpg",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\32.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\33.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\33.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/33.jpg",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\33.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\34.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\34.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/34.jpg",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\34.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\35.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\35.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/35.jpg",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\35.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\36.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\36.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/36.jpg",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\36.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\37.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\37.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/37.jpg",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\37.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\38.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\38.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/38.jpg",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\38.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\39.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\39.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/39.jpg",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\39.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\40.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\40.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/40.jpg",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\40.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\41.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\41.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/41.jpg",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\41.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\2022\\42.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\2022\\42.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/2022/42.jpg",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\2022\\42.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\mark.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\mark.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/mark.png",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\mark.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\About\\submission.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\About\\submission.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/About/submission.png",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\image\\About\\submission.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\info-popup.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Exhi\\info-popup.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Exhi/info-popup.png",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Exhi\\info-popup.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Exhi\\setting-button.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Exhi\\setting-button.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Exhi/setting-button.png",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Exhi\\setting-button.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\favicon.ico",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\favicon.ico",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/favicon.ico",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\image\\favicon.ico"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\counterparty.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\counterparty.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/backgrounds/counterparty.png",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\backgrounds\\counterparty.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\introduce.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\introduce.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/backgrounds/introduce.svg",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\backgrounds\\introduce.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\timeline.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\backgrounds\\timeline.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/backgrounds/timeline.png",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\backgrounds\\timeline.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\bìa web.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\bìa web.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/bìa web.png",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\bìa web.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/counterparty/[STAMP 2023] SLIDE  (1).png",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\counterparty\\[STAMP 2023] SLIDE  (1).png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ivolunteer-logo.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ivolunteer-logo.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/counterparty/ivolunteer-logo.png",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\counterparty\\ivolunteer-logo.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\large-logo.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\large-logo.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/counterparty/large-logo.png",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\counterparty\\large-logo.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\medium-logo.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\medium-logo.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/counterparty/medium-logo.png",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\counterparty\\medium-logo.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\small-logo.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\small-logo.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/counterparty/small-logo.png",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\counterparty\\small-logo.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ybox-logo.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\counterparty\\ybox-logo.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/counterparty/ybox-logo.png",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\counterparty\\ybox-logo.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\close.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\close.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/icons/close.png",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\icons\\close.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\notify.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\notify.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/icons/notify.png",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\icons\\notify.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\user.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\icons\\user.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/icons/user.png",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\icons\\user.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Index\\timeline.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Index\\timeline.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Index/timeline.png",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Index\\timeline.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\logohoitem.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\logohoitem.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/logohoitem.png",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\image\\logohoitem.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\News\\news.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\News\\news.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/News/news.png",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\image\\News\\news.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\News\\othernews.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\News\\othernews.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/News/othernews.png",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\image\\News\\othernews.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\News\\Rectangle.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\News\\Rectangle.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/News/Rectangle.png",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\image\\News\\Rectangle.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Ranking\\like.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Ranking\\like.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Ranking/like.svg",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Ranking\\like.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\Ranking\\like_bold.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\Ranking\\like_bold.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/Ranking/like_bold.svg",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\image\\Ranking\\like_bold.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\2025.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\2025.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/2025.png",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\2025.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\banner1.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\banner1.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/banner1.jpg",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\banner1.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\banner2.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\banner2.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/banner2.jpg",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\banner2.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\banner3.jpg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\banner3.jpg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/banner3.jpg",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\banner3.jpg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\BG.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\BG.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/BG.png",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\BG.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\BG.psd",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\BG.psd",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/BG.psd",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\BG.psd"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\emptystamp.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\emptystamp.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/emptystamp.png",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\emptystamp.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\horizontalstampframe.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\horizontalstampframe.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/horizontalstampframe.svg",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\horizontalstampframe.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\line.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\line.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/line.png",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\line.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stamp.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stamp.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/stamp.png",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\stamp.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stampframe.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stampframe.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/stampframe.png",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\stampframe.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/stamplogo.png",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\stamplogo.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo-big.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\stamplogo-big.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/stamplogo-big.png",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\stamplogo-big.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\shared\\verticalstampframe.svg",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\shared\\verticalstampframe.svg",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/shared/verticalstampframe.svg",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\image\\shared\\verticalstampframe.svg"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\2024.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\2024.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/2024.png",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\2024.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/ấn phẩm tọa đàm.png",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\ấn phẩm tọa đàm.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\arrow.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\arrow.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/arrow.png",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\arrow.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\greentick.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\greentick.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/greentick.png",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\greentick.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image3.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image3.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/image3.png",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\image3.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image4.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image4.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/image4.png",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\image4.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image5.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image5.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/image5.png",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\image5.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image7.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\image7.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/image7.png",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\image7.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\images.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\images.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/images.png",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\images.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\loadbutton.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\loadbutton.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/loadbutton.png",
       "AssetKind": "All",
@@ -3706,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\loadbutton.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\people.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\people.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/people.png",
       "AssetKind": "All",
@@ -3723,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\people.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\profile.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\profile.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/profile.png",
       "AssetKind": "All",
@@ -3740,10 +3740,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\profile.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\setting.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\setting.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/setting.png",
       "AssetKind": "All",
@@ -3757,10 +3757,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\setting.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\stampframe.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\stampframe.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/stampframe.png",
       "AssetKind": "All",
@@ -3774,10 +3774,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\stampframe.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-circle-add.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-circle-add.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/user-circle-add.png",
       "AssetKind": "All",
@@ -3791,10 +3791,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\user-circle-add.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/user-square.png",
       "AssetKind": "All",
@@ -3808,10 +3808,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\user-square.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square1.png",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\image\\UserProfile\\user-square1.png",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "image/UserProfile/user-square1.png",
       "AssetKind": "All",
@@ -3825,10 +3825,10 @@
       "OriginalItemSpec": "wwwroot\\image\\UserProfile\\user-square1.png"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\common.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\common.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "js/common.js",
       "AssetKind": "All",
@@ -3842,10 +3842,10 @@
       "OriginalItemSpec": "wwwroot\\js\\common.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\navbar.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\navbar.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "js/navbar.js",
       "AssetKind": "All",
@@ -3859,10 +3859,10 @@
       "OriginalItemSpec": "wwwroot\\js\\navbar.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\timing.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\timing.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "js/timing.js",
       "AssetKind": "All",
@@ -3876,10 +3876,10 @@
       "OriginalItemSpec": "wwwroot\\js\\timing.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\js\\vote.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\js\\vote.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "js/vote.js",
       "AssetKind": "All",
@@ -3893,10 +3893,10 @@
       "OriginalItemSpec": "wwwroot\\js\\vote.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -3910,10 +3910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -3927,10 +3927,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -3944,10 +3944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -3961,10 +3961,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -3978,10 +3978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -3995,10 +3995,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -4012,10 +4012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -4029,10 +4029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -4046,10 +4046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -4063,10 +4063,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -4080,10 +4080,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -4097,10 +4097,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -4114,10 +4114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -4131,10 +4131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -4148,10 +4148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -4165,10 +4165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -4182,10 +4182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -4199,10 +4199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -4216,10 +4216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -4233,10 +4233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -4250,10 +4250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -4267,10 +4267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -4284,10 +4284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -4301,10 +4301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -4318,10 +4318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -4335,10 +4335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -4352,10 +4352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -4369,10 +4369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -4386,10 +4386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -4403,10 +4403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -4420,10 +4420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -4437,10 +4437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -4454,10 +4454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -4471,10 +4471,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -4488,10 +4488,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -4505,10 +4505,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -4522,10 +4522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -4539,10 +4539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -4556,10 +4556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -4573,10 +4573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -4590,10 +4590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -4607,10 +4607,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -4624,10 +4624,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -4641,10 +4641,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -4658,10 +4658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\favicon.ico",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\favicon.ico",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/favicon.ico",
       "AssetKind": "All",
@@ -4675,10 +4675,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\favicon.ico"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\fontawesome\\7871494614.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\fontawesome\\7871494614.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/fontawesome/7871494614.js",
       "AssetKind": "All",
@@ -4692,10 +4692,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\fontawesome\\7871494614.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -4709,10 +4709,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -4726,10 +4726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -4743,10 +4743,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -4760,10 +4760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -4777,10 +4777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -4794,10 +4794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -4811,10 +4811,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -4828,10 +4828,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -4845,10 +4845,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -4862,10 +4862,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -4879,10 +4879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -4896,10 +4896,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\site.webmanifest",
+      "Identity": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\site.webmanifest",
       "SourceId": "BIT_STAMP",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ASP.NET\\BIT_STAMP\\wwwroot\\",
+      "ContentRoot": "D:\\ASP.NET MVC\\BIT_STAMP\\wwwroot\\",
       "BasePath": "_content/BIT_STAMP",
       "RelativePath": "site.webmanifest",
       "AssetKind": "All",

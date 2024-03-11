@@ -151,10 +151,11 @@ namespace BIT_STAMP.Areas.Identity.Pages.Account
                         if (res.Succeeded)
                         {
                             _logger.LogInformation("User created an account using {Name} provider.", info.LoginProvider);
-                            var userId = await _userManager.GetUserIdAsync(userLogin);
-                            await _signInManager.SignInAsync(user, isPersistent: false, info.LoginProvider);
+                            /*var userId = await _userManager.GetUserIdAsync(userLogin);*/
+                            var newUser = await _userManager.FindByEmailAsync(info.Principal.FindFirstValue(ClaimTypes.Email));
+                            await _signInManager.SignInAsync(newUser, isPersistent: false, info.LoginProvider);
+                        }
                     }
-                }
                 }
                 else
                 {
